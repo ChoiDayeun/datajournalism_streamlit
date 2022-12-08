@@ -7,6 +7,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import plotly.express as px #일단 이거 이용해 기본 그래프 그림
+import nltk
 
 st.set_page_config(page_icon="🗽", page_title="데이터저널리즘 2조")
 
