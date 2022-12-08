@@ -427,7 +427,7 @@ state_crime_df_2019 = pd.DataFrame(state_crime_2019)
 fig_crime_2019 = px.choropleth(state_crime_df_2019, geojson= states, locations='State', 
                     color = 'Crimes',
                     color_continuous_scale="Blues",
-                    range_color=(0, state_crime_df_2019.Crimes.max()),
+                    range_color=(0, state_crime_df_2020.Crimes.max()),
                     featureidkey='properties.State',
                     scope="usa",
                     labels={'case':'Crimes'},
