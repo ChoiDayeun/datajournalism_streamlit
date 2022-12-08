@@ -1,0 +1,3246 @@
+﻿date,county,state,cases,deaths
+2020-12-31,Autauga,Alabama,4190,48
+2020-12-31,Baldwin,Alabama,13601,161
+2020-12-31,Barbour,Alabama,1514,32
+2020-12-31,Bibb,Alabama,1834,46
+2020-12-31,Blount,Alabama,4641,63
+2020-12-31,Bullock,Alabama,859,22
+2020-12-31,Butler,Alabama,1508,45
+2020-12-31,Calhoun,Alabama,9494,156
+2020-12-31,Chambers,Alabama,2341,63
+2020-12-31,Cherokee,Alabama,1414,22
+2020-12-31,Chilton,Alabama,2970,54
+2020-12-31,Choctaw,Alabama,490,22
+2020-12-31,Clarke,Alabama,2390,25
+2020-12-31,Clay,Alabama,1141,34
+2020-12-31,Cleburne,Alabama,1026,16
+2020-12-31,Coffee,Alabama,3594,38
+2020-12-31,Colbert,Alabama,4660,60
+2020-12-31,Conecuh,Alabama,837,17
+2020-12-31,Coosa,Alabama,517,7
+2020-12-31,Covington,Alabama,2913,40
+2020-12-31,Crenshaw,Alabama,954,36
+2020-12-31,Cullman,Alabama,7079,78
+2020-12-31,Dale,Alabama,3325,63
+2020-12-31,Dallas,Alabama,2769,43
+2020-12-31,DeKalb,Alabama,6900,61
+2020-12-31,Elmore,Alabama,6435,83
+2020-12-31,Escambia,Alabama,2661,34
+2020-12-31,Etowah,Alabama,10031,94
+2020-12-31,Fayette,Alabama,1430,19
+2020-12-31,Franklin,Alabama,3270,37
+2020-12-31,Geneva,Alabama,1677,20
+2020-12-31,Greene,Alabama,672,20
+2020-12-31,Hale,Alabama,1440,33
+2020-12-31,Henry,Alabama,1247,8
+2020-12-31,Houston,Alabama,7279,64
+2020-12-31,Jackson,Alabama,5097,34
+2020-12-31,Jefferson,Alabama,52339,697
+2020-12-31,Lamar,Alabama,1056,15
+2020-12-31,Lauderdale,Alabama,6478,70
+2020-12-31,Lawrence,Alabama,2044,42
+2020-12-31,Lee,Alabama,10320,75
+2020-12-31,Limestone,Alabama,6822,58
+2020-12-31,Lowndes,Alabama,945,32
+2020-12-31,Macon,Alabama,999,30
+2020-12-31,Madison,Alabama,22197,178
+2020-12-31,Marengo,Alabama,1793,26
+2020-12-31,Marion,Alabama,2087,43
+2020-12-31,Marshall,Alabama,9189,86
+2020-12-31,Mobile,Alabama,25858,506
+2020-12-31,Monroe,Alabama,1215,11
+2020-12-31,Montgomery,Alabama,16116,276
+2020-12-31,Morgan,Alabama,10627,87
+2020-12-31,Perry,Alabama,867,10
+2020-12-31,Pickens,Alabama,1734,26
+2020-12-31,Pike,Alabama,2023,23
+2020-12-31,Randolph,Alabama,1245,30
+2020-12-31,Russell,Alabama,2793,6
+2020-12-31,Shelby,Alabama,15668,103
+2020-12-31,St. Clair,Alabama,6467,73
+2020-12-31,Sumter,Alabama,849,24
+2020-12-31,Talladega,Alabama,5165,75
+2020-12-31,Tallapoosa,Alabama,2368,98
+2020-12-31,Tuscaloosa,Alabama,18468,218
+2020-12-31,Walker,Alabama,5259,138
+2020-12-31,Washington,Alabama,1184,24
+2020-12-31,Wilcox,Alabama,883,19
+2020-12-31,Winston,Alabama,1968,30
+2020-12-31,Aleutians East Borough,Alaska,38,0
+2020-12-31,Aleutians West Census Area,Alaska,197,0
+2020-12-31,Anchorage,Alaska,22820,118
+2020-12-31,Bethel Census Area,Alaska,2427,9
+2020-12-31,Bristol Bay plus Lake and Peninsula,Alaska,157,0
+2020-12-31,Denali Borough,Alaska,59,0
+2020-12-31,Dillingham Census Area,Alaska,121,1
+2020-12-31,Fairbanks North Star Borough,Alaska,4900,19
+2020-12-31,Haines Borough,Alaska,20,0
+2020-12-31,Juneau City and Borough,Alaska,1030,3
+2020-12-31,Kenai Peninsula Borough,Alaska,3604,15
+2020-12-31,Ketchikan Gateway Borough,Alaska,236,0
+2020-12-31,Kodiak Island Borough,Alaska,912,2
+2020-12-31,Kusilvak Census Area,Alaska,767,2
+2020-12-31,Matanuska-Susitna Borough,Alaska,6353,16
+2020-12-31,Nome Census Area,Alaska,275,0
+2020-12-31,North Slope Borough,Alaska,798,2
+2020-12-31,Northwest Arctic Borough,Alaska,401,0
+2020-12-31,Petersburg Borough,Alaska,27,0
+2020-12-31,Prince of Wales-Hyder Census Area,Alaska,67,1
+2020-12-31,Sitka City and Borough,Alaska,266,0
+2020-12-31,Skagway Municipality,Alaska,16,0
+2020-12-31,Southeast Fairbanks Census Area,Alaska,406,3
+2020-12-31,Unknown,Alaska,218,0
+2020-12-31,Valdez-Cordova Census Area,Alaska,341,2
+2020-12-31,Wrangell City and Borough,Alaska,24,0
+2020-12-31,Yakutat plus Hoonah-Angoon,Alaska,51,1
+2020-12-31,Yukon-Koyukuk Census Area,Alaska,209,4
+2020-12-31,Apache,Arizona,7438,237
+2020-12-31,Cochise,Arizona,7480,130
+2020-12-31,Coconino,Arizona,11126,210
+2020-12-31,Gila,Arizona,4517,135
+2020-12-31,Graham,Arizona,3228,51
+2020-12-31,Greenlee,Arizona,400,4
+2020-12-31,La Paz,Arizona,1464,35
+2020-12-31,Maricopa,Arizona,322449,5125
+2020-12-31,Mohave,Arizona,12573,344
+2020-12-31,Navajo,Arizona,11296,342
+2020-12-31,Pima,Arizona,69522,1064
+2020-12-31,Pinal,Arizona,27649,367
+2020-12-31,Santa Cruz,Arizona,6002,98
+2020-12-31,Yavapai,Arizona,11319,218
+2020-12-31,Yuma,Arizona,27366,519
+2020-12-31,Arkansas,Arkansas,1314,30
+2020-12-31,Ashley,Arkansas,1273,21
+2020-12-31,Baxter,Arkansas,2065,71
+2020-12-31,Benton,Arkansas,17758,264
+2020-12-31,Boone,Arkansas,2571,68
+2020-12-31,Bradley,Arkansas,940,11
+2020-12-31,Calhoun,Arkansas,234,1
+2020-12-31,Carroll,Arkansas,2073,30
+2020-12-31,Chicot,Arkansas,1410,30
+2020-12-31,Clark,Arkansas,1371,21
+2020-12-31,Clay,Arkansas,1317,30
+2020-12-31,Cleburne,Arkansas,1236,38
+2020-12-31,Cleveland,Arkansas,571,17
+2020-12-31,Columbia,Arkansas,1567,41
+2020-12-31,Conway,Arkansas,1306,16
+2020-12-31,Craighead,Arkansas,10077,136
+2020-12-31,Crawford,Arkansas,4451,58
+2020-12-31,Crittenden,Arkansas,4319,73
+2020-12-31,Cross,Arkansas,1394,36
+2020-12-31,Dallas,Arkansas,482,11
+2020-12-31,Desha,Arkansas,953,11
+2020-12-31,Drew,Arkansas,1448,19
+2020-12-31,Faulkner,Arkansas,7618,92
+2020-12-31,Franklin,Arkansas,1088,25
+2020-12-31,Fulton,Arkansas,884,36
+2020-12-31,Garland,Arkansas,5782,153
+2020-12-31,Grant,Arkansas,1071,12
+2020-12-31,Greene,Arkansas,4431,51
+2020-12-31,Hempstead,Arkansas,1220,11
+2020-12-31,Hot Spring,Arkansas,3636,55
+2020-12-31,Howard,Arkansas,1106,18
+2020-12-31,Independence,Arkansas,2751,93
+2020-12-31,Izard,Arkansas,1298,13
+2020-12-31,Jackson,Arkansas,2821,22
+2020-12-31,Jefferson,Arkansas,6718,127
+2020-12-31,Johnson,Arkansas,1823,20
+2020-12-31,Lafayette,Arkansas,342,4
+2020-12-31,Lawrence,Arkansas,1574,35
+2020-12-31,Lee,Arkansas,1430,26
+2020-12-31,Lincoln,Arkansas,2820,24
+2020-12-31,Little River,Arkansas,821,38
+2020-12-31,Logan,Arkansas,1419,11
+2020-12-31,Lonoke,Arkansas,4133,79
+2020-12-31,Madison,Arkansas,1025,12
+2020-12-31,Marion,Arkansas,629,24
+2020-12-31,Miller,Arkansas,2749,25
+2020-12-31,Mississippi,Arkansas,4393,94
+2020-12-31,Monroe,Arkansas,475,7
+2020-12-31,Montgomery,Arkansas,492,18
+2020-12-31,Nevada,Arkansas,594,20
+2020-12-31,Newton,Arkansas,553,24
+2020-12-31,Ouachita,Arkansas,1370,27
+2020-12-31,Perry,Arkansas,438,5
+2020-12-31,Phillips,Arkansas,1264,25
+2020-12-31,Pike,Arkansas,685,10
+2020-12-31,Poinsett,Arkansas,2406,62
+2020-12-31,Polk,Arkansas,1255,42
+2020-12-31,Pope,Arkansas,5448,58
+2020-12-31,Prairie,Arkansas,545,16
+2020-12-31,Pulaski,Arkansas,24662,390
+2020-12-31,Randolph,Arkansas,1455,42
+2020-12-31,Saline,Arkansas,7563,104
+2020-12-31,Scott,Arkansas,588,11
+2020-12-31,Searcy,Arkansas,503,11
+2020-12-31,Sebastian,Arkansas,9514,156
+2020-12-31,Sevier,Arkansas,2079,20
+2020-12-31,Sharp,Arkansas,1134,32
+2020-12-31,St. Francis,Arkansas,2728,20
+2020-12-31,Stone,Arkansas,765,27
+2020-12-31,Union,Arkansas,2428,73
+2020-12-31,Unknown,Arkansas,2819,0
+2020-12-31,Van Buren,Arkansas,743,8
+2020-12-31,Washington,Arkansas,21420,222
+2020-12-31,White,Arkansas,4748,69
+2020-12-31,Woodruff,Arkansas,362,2
+2020-12-31,Yell,Arkansas,2390,42
+2020-12-31,Alameda,California,51611,657
+2020-12-31,Alpine,California,65,0
+2020-12-31,Amador,California,2417,24
+2020-12-31,Butte,California,7390,96
+2020-12-31,Calaveras,California,1131,22
+2020-12-31,Colusa,California,1351,8
+2020-12-31,Contra Costa,California,40697,335
+2020-12-31,Del Norte,California,760,2
+2020-12-31,El Dorado,California,5590,22
+2020-12-31,Fresno,California,65400,646
+2020-12-31,Glenn,California,1458,14
+2020-12-31,Humboldt,California,1764,22
+2020-12-31,Imperial,California,22267,419
+2020-12-31,Inyo,California,571,20
+2020-12-31,Kern,California,68969,512
+2020-12-31,Kings,California,16114,110
+2020-12-31,Lake,California,1817,23
+2020-12-31,Lassen,California,4691,9
+2020-12-31,Los Angeles,California,770915,10345
+2020-12-31,Madera,California,10491,117
+2020-12-31,Marin,California,9800,139
+2020-12-31,Mariposa,California,252,4
+2020-12-31,Mendocino,California,2558,26
+2020-12-31,Merced,California,19444,260
+2020-12-31,Modoc,California,323,1
+2020-12-31,Mono,California,868,4
+2020-12-31,Monterey,California,27859,193
+2020-12-31,Napa,California,5742,28
+2020-12-31,Nevada,California,2609,50
+2020-12-31,Orange,California,166196,1875
+2020-12-31,Placer,California,13755,125
+2020-12-31,Plumas,California,398,1
+2020-12-31,Riverside,California,180553,1985
+2020-12-31,Sacramento,California,65540,857
+2020-12-31,San Benito,California,3673,29
+2020-12-31,San Bernardino,California,194377,1445
+2020-12-31,San Diego,California,155658,1534
+2020-12-31,San Francisco,California,23227,186
+2020-12-31,San Joaquin,California,45583,651
+2020-12-31,San Luis Obispo,California,10490,82
+2020-12-31,San Mateo,California,24589,227
+2020-12-31,Santa Barbara,California,17391,160
+2020-12-31,Santa Clara,California,69879,710
+2020-12-31,Santa Cruz,California,8749,83
+2020-12-31,Shasta,California,8060,78
+2020-12-31,Sierra,California,24,0
+2020-12-31,Siskiyou,California,1176,11
+2020-12-31,Solano,California,19216,98
+2020-12-31,Sonoma,California,19055,192
+2020-12-31,Stanislaus,California,37524,616
+2020-12-31,Sutter,California,6505,52
+2020-12-31,Tehama,California,2967,36
+2020-12-31,Trinity,California,251,4
+2020-12-31,Tulare,California,33443,406
+2020-12-31,Tuolumne,California,2962,21
+2020-12-31,Ventura,California,39559,263
+2020-12-31,Yolo,California,8238,111
+2020-12-31,Yuba,California,3898,19
+2020-12-31,Adams,Colorado,40344,529
+2020-12-31,Alamosa,Colorado,935,24
+2020-12-31,Arapahoe,Colorado,38457,590
+2020-12-31,Archuleta,Colorado,485,0
+2020-12-31,Baca,Colorado,189,1
+2020-12-31,Bent,Colorado,1037,12
+2020-12-31,Boulder,Colorado,14706,182
+2020-12-31,Broomfield,Colorado,2804,66
+2020-12-31,Chaffee,Colorado,1020,21
+2020-12-31,Cheyenne,Colorado,89,5
+2020-12-31,Clear Creek,Colorado,279,2
+2020-12-31,Conejos,Colorado,315,3
+2020-12-31,Costilla,Colorado,161,2
+2020-12-31,Crowley,Colorado,1647,12
+2020-12-31,Custer,Colorado,148,0
+2020-12-31,Delta,Colorado,1580,25
+2020-12-31,Denver,Colorado,47711,674
+2020-12-31,Dolores,Colorado,52,0
+2020-12-31,Douglas,Colorado,15981,199
+2020-12-31,Eagle,Colorado,3374,16
+2020-12-31,El Paso,Colorado,41325,555
+2020-12-31,Elbert,Colorado,987,9
+2020-12-31,Fremont,Colorado,4662,19
+2020-12-31,Garfield,Colorado,3875,28
+2020-12-31,Gilpin,Colorado,125,1
+2020-12-31,Grand,Colorado,660,4
+2020-12-31,Gunnison,Colorado,696,6
+2020-12-31,Hinsdale,Colorado,13,0
+2020-12-31,Huerfano,Colorado,276,18
+2020-12-31,Jackson,Colorado,33,0
+2020-12-31,Jefferson,Colorado,29565,612
+2020-12-31,Kiowa,Colorado,75,2
+2020-12-31,Kit Carson,Colorado,436,9
+2020-12-31,La Plata,Colorado,2226,28
+2020-12-31,Lake,Colorado,426,0
+2020-12-31,Larimer,Colorado,15099,142
+2020-12-31,Las Animas,Colorado,506,6
+2020-12-31,Lincoln,Colorado,795,3
+2020-12-31,Logan,Colorado,3238,54
+2020-12-31,Mesa,Colorado,9055,134
+2020-12-31,Mineral,Colorado,42,1
+2020-12-31,Moffat,Colorado,541,19
+2020-12-31,Montezuma,Colorado,1231,16
+2020-12-31,Montrose,Colorado,2114,31
+2020-12-31,Morgan,Colorado,2119,81
+2020-12-31,Otero,Colorado,1619,39
+2020-12-31,Ouray,Colorado,154,3
+2020-12-31,Park,Colorado,385,5
+2020-12-31,Phillips,Colorado,278,7
+2020-12-31,Pitkin,Colorado,1047,4
+2020-12-31,Prowers,Colorado,1004,20
+2020-12-31,Pueblo,Colorado,13218,304
+2020-12-31,Rio Blanco,Colorado,267,3
+2020-12-31,Rio Grande,Colorado,384,7
+2020-12-31,Routt,Colorado,1042,18
+2020-12-31,Saguache,Colorado,255,4
+2020-12-31,San Juan,Colorado,27,0
+2020-12-31,San Miguel,Colorado,394,0
+2020-12-31,Sedgwick,Colorado,126,2
+2020-12-31,Summit,Colorado,2134,5
+2020-12-31,Teller,Colorado,990,9
+2020-12-31,Washington,Colorado,347,10
+2020-12-31,Weld,Colorado,19925,285
+2020-12-31,Yuma,Colorado,549,13
+2020-12-31,Fairfield,Connecticut,56288,1720
+2020-12-31,Hartford,Connecticut,46680,1852
+2020-12-31,Litchfield,Connecticut,7476,225
+2020-12-31,Middlesex,Connecticut,6566,237
+2020-12-31,New Haven,Connecticut,47375,1529
+2020-12-31,New London,Connecticut,10618,245
+2020-12-31,Tolland,Connecticut,4900,109
+2020-12-31,Unknown,Connecticut,665,0
+2020-12-31,Windham,Connecticut,5140,78
+2020-12-31,Kent,Delaware,9173,167
+2020-12-31,New Castle,Delaware,33211,462
+2020-12-31,Sussex,Delaware,14936,297
+2020-12-31,Unknown,Delaware,136,0
+2020-12-31,District of Columbia,District of Columbia,28983,786
+2020-12-31,Alachua,Florida,15866,129
+2020-12-31,Baker,Florida,2470,36
+2020-12-31,Bay,Florida,11907,209
+2020-12-31,Bradford,Florida,2180,23
+2020-12-31,Brevard,Florida,21034,523
+2020-12-31,Broward,Florida,137610,1847
+2020-12-31,Calhoun,Florida,1233,28
+2020-12-31,Charlotte,Florida,7410,231
+2020-12-31,Citrus,Florida,6663,266
+2020-12-31,Clay,Florida,11261,186
+2020-12-31,Collier,Florida,22506,332
+2020-12-31,Columbia,Florida,6007,117
+2020-12-31,DeSoto,Florida,2898,56
+2020-12-31,Dixie,Florida,1115,11
+2020-12-31,Duval,Florida,61321,725
+2020-12-31,Escambia,Florida,22349,373
+2020-12-31,Flagler,Florida,3724,48
+2020-12-31,Franklin,Florida,900,4
+2020-12-31,Gadsden,Florida,3987,59
+2020-12-31,Gilchrist,Florida,1014,23
+2020-12-31,Glades,Florida,769,11
+2020-12-31,Gulf,Florida,1333,27
+2020-12-31,Hamilton,Florida,1277,15
+2020-12-31,Hardee,Florida,2110,20
+2020-12-31,Hendry,Florida,3291,49
+2020-12-31,Hernando,Florida,7336,278
+2020-12-31,Highlands,Florida,4975,204
+2020-12-31,Hillsborough,Florida,77118,1071
+2020-12-31,Holmes,Florida,1683,25
+2020-12-31,Indian River,Florida,6875,159
+2020-12-31,Jackson,Florida,4649,118
+2020-12-31,Jefferson,Florida,994,16
+2020-12-31,Lafayette,Florida,1422,22
+2020-12-31,Lake,Florida,15559,295
+2020-12-31,Lee,Florida,40634,672
+2020-12-31,Leon,Florida,19573,175
+2020-12-31,Levy,Florida,1851,19
+2020-12-31,Liberty,Florida,750,14
+2020-12-31,Madison,Florida,1540,33
+2020-12-31,Manatee,Florida,22332,433
+2020-12-31,Marion,Florida,17799,463
+2020-12-31,Martin,Florida,7839,210
+2020-12-31,Miami-Dade,Florida,298872,4188
+2020-12-31,Monroe,Florida,4226,35
+2020-12-31,Nassau,Florida,4775,66
+2020-12-31,Okaloosa,Florida,12856,231
+2020-12-31,Okeechobee,Florida,2430,51
+2020-12-31,Orange,Florida,76457,748
+2020-12-31,Osceola,Florida,25344,288
+2020-12-31,Palm Beach,Florida,82888,1895
+2020-12-31,Pasco,Florida,21932,376
+2020-12-31,Pinellas,Florida,44975,1049
+2020-12-31,Polk,Florida,37403,790
+2020-12-31,Putnam,Florida,3990,72
+2020-12-31,Santa Rosa,Florida,11180,128
+2020-12-31,Sarasota,Florida,18607,509
+2020-12-31,Seminole,Florida,18083,314
+2020-12-31,St. Johns,Florida,13072,113
+2020-12-31,St. Lucie,Florida,14278,405
+2020-12-31,Sumter,Florida,5085,120
+2020-12-31,Suwannee,Florida,4015,97
+2020-12-31,Taylor,Florida,1967,25
+2020-12-31,Union,Florida,1439,65
+2020-12-31,Unknown,Florida,3010,0
+2020-12-31,Volusia,Florida,22291,449
+2020-12-31,Wakulla,Florida,2106,25
+2020-12-31,Walton,Florida,4891,48
+2020-12-31,Washington,Florida,1971,30
+2020-12-31,Appling,Georgia,1677,44
+2020-12-31,Atkinson,Georgia,775,9
+2020-12-31,Bacon,Georgia,1011,25
+2020-12-31,Baker,Georgia,164,6
+2020-12-31,Baldwin,Georgia,3203,75
+2020-12-31,Banks,Georgia,1248,20
+2020-12-31,Barrow,Georgia,5296,67
+2020-12-31,Bartow,Georgia,7951,130
+2020-12-31,Ben Hill,Georgia,1491,44
+2020-12-31,Berrien,Georgia,1132,31
+2020-12-31,Bibb,Georgia,10126,261
+2020-12-31,Bleckley,Georgia,1016,35
+2020-12-31,Brantley,Georgia,1044,20
+2020-12-31,Brooks,Georgia,994,31
+2020-12-31,Bryan,Georgia,1963,21
+2020-12-31,Bulloch,Georgia,4421,57
+2020-12-31,Burke,Georgia,1570,20
+2020-12-31,Butts,Georgia,1703,48
+2020-12-31,Calhoun,Georgia,362,11
+2020-12-31,Camden,Georgia,2491,22
+2020-12-31,Candler,Georgia,689,36
+2020-12-31,Carroll,Georgia,7614,125
+2020-12-31,Catoosa,Georgia,3442,39
+2020-12-31,Charlton,Georgia,1031,19
+2020-12-31,Chatham,Georgia,13657,239
+2020-12-31,Chattahoochee,Georgia,2211,3
+2020-12-31,Chattooga,Georgia,1822,47
+2020-12-31,Cherokee,Georgia,16567,132
+2020-12-31,Clarke,Georgia,10088,66
+2020-12-31,Clay,Georgia,177,3
+2020-12-31,Clayton,Georgia,14415,233
+2020-12-31,Clinch,Georgia,650,14
+2020-12-31,Cobb,Georgia,44345,575
+2020-12-31,Coffee,Georgia,4090,93
+2020-12-31,Colquitt,Georgia,3151,53
+2020-12-31,Columbia,Georgia,10031,100
+2020-12-31,Cook,Georgia,1261,25
+2020-12-31,Coweta,Georgia,8282,84
+2020-12-31,Crawford,Georgia,422,8
+2020-12-31,Crisp,Georgia,1386,39
+2020-12-31,Dade,Georgia,822,8
+2020-12-31,Dawson,Georgia,1793,16
+2020-12-31,DeKalb,Georgia,38320,531
+2020-12-31,Decatur,Georgia,2008,51
+2020-12-31,Dodge,Georgia,1451,62
+2020-12-31,Dooly,Georgia,673,25
+2020-12-31,Dougherty,Georgia,4761,213
+2020-12-31,Douglas,Georgia,8264,109
+2020-12-31,Early,Georgia,810,41
+2020-12-31,Echols,Georgia,378,3
+2020-12-31,Effingham,Georgia,2702,35
+2020-12-31,Elbert,Georgia,1636,33
+2020-12-31,Emanuel,Georgia,1843,53
+2020-12-31,Evans,Georgia,663,13
+2020-12-31,Fannin,Georgia,1364,43
+2020-12-31,Fayette,Georgia,4833,77
+2020-12-31,Floyd,Georgia,7713,128
+2020-12-31,Forsyth,Georgia,10827,81
+2020-12-31,Franklin,Georgia,1815,26
+2020-12-31,Fulton,Georgia,56903,790
+2020-12-31,Gilmer,Georgia,1844,38
+2020-12-31,Glascock,Georgia,178,4
+2020-12-31,Glynn,Georgia,5276,135
+2020-12-31,Gordon,Georgia,4897,66
+2020-12-31,Grady,Georgia,1323,31
+2020-12-31,Greene,Georgia,1128,28
+2020-12-31,Gwinnett,Georgia,57528,601
+2020-12-31,Habersham,Georgia,3788,91
+2020-12-31,Hall,Georgia,18416,232
+2020-12-31,Hancock,Georgia,671,47
+2020-12-31,Haralson,Georgia,1874,38
+2020-12-31,Harris,Georgia,1449,29
+2020-12-31,Hart,Georgia,1530,33
+2020-12-31,Heard,Georgia,582,11
+2020-12-31,Henry,Georgia,13482,158
+2020-12-31,Houston,Georgia,8017,130
+2020-12-31,Irwin,Georgia,658,17
+2020-12-31,Jackson,Georgia,5635,73
+2020-12-31,Jasper,Georgia,828,9
+2020-12-31,Jeff Davis,Georgia,1241,35
+2020-12-31,Jefferson,Georgia,1305,40
+2020-12-31,Jenkins,Georgia,558,34
+2020-12-31,Johnson,Georgia,732,33
+2020-12-31,Jones,Georgia,1156,24
+2020-12-31,Lamar,Georgia,1172,32
+2020-12-31,Lanier,Georgia,530,10
+2020-12-31,Laurens,Georgia,3804,121
+2020-12-31,Lee,Georgia,1546,33
+2020-12-31,Liberty,Georgia,1938,31
+2020-12-31,Lincoln,Georgia,438,11
+2020-12-31,Long,Georgia,501,5
+2020-12-31,Lowndes,Georgia,8691,136
+2020-12-31,Lumpkin,Georgia,1944,23
+2020-12-31,Macon,Georgia,464,16
+2020-12-31,Madison,Georgia,1861,23
+2020-12-31,Marion,Georgia,312,10
+2020-12-31,McDuffie,Georgia,1356,26
+2020-12-31,McIntosh,Georgia,507,10
+2020-12-31,Meriwether,Georgia,1101,20
+2020-12-31,Miller,Georgia,552,3
+2020-12-31,Mitchell,Georgia,1373,52
+2020-12-31,Monroe,Georgia,1604,64
+2020-12-31,Montgomery,Georgia,619,10
+2020-12-31,Morgan,Georgia,1159,10
+2020-12-31,Murray,Georgia,2999,42
+2020-12-31,Muscogee,Georgia,9766,209
+2020-12-31,Newton,Georgia,5889,127
+2020-12-31,Oconee,Georgia,2320,42
+2020-12-31,Oglethorpe,Georgia,881,14
+2020-12-31,Paulding,Georgia,8553,111
+2020-12-31,Peach,Georgia,1528,33
+2020-12-31,Pickens,Georgia,1847,20
+2020-12-31,Pierce,Georgia,1666,33
+2020-12-31,Pike,Georgia,1316,21
+2020-12-31,Polk,Georgia,3448,46
+2020-12-31,Pulaski,Georgia,598,30
+2020-12-31,Putnam,Georgia,1366,31
+2020-12-31,Quitman,Georgia,100,1
+2020-12-31,Rabun,Georgia,1134,17
+2020-12-31,Randolph,Georgia,425,31
+2020-12-31,Richmond,Georgia,14739,253
+2020-12-31,Rockdale,Georgia,4007,81
+2020-12-31,Schley,Georgia,234,2
+2020-12-31,Screven,Georgia,588,15
+2020-12-31,Seminole,Georgia,685,12
+2020-12-31,Spalding,Georgia,3709,98
+2020-12-31,Stephens,Georgia,2249,50
+2020-12-31,Stewart,Georgia,684,17
+2020-12-31,Sumter,Georgia,1719,74
+2020-12-31,Talbot,Georgia,293,9
+2020-12-31,Taliaferro,Georgia,54,0
+2020-12-31,Tattnall,Georgia,1492,36
+2020-12-31,Taylor,Georgia,537,14
+2020-12-31,Telfair,Georgia,797,39
+2020-12-31,Terrell,Georgia,571,35
+2020-12-31,Thomas,Georgia,2813,85
+2020-12-31,Tift,Georgia,3577,81
+2020-12-31,Toombs,Georgia,2333,70
+2020-12-31,Towns,Georgia,805,37
+2020-12-31,Treutlen,Georgia,503,15
+2020-12-31,Troup,Georgia,5013,128
+2020-12-31,Turner,Georgia,660,25
+2020-12-31,Twiggs,Georgia,414,19
+2020-12-31,Union,Georgia,1432,42
+2020-12-31,Unknown,Georgia,3623,6
+2020-12-31,Upson,Georgia,2200,82
+2020-12-31,Walker,Georgia,4134,59
+2020-12-31,Walton,Georgia,5618,91
+2020-12-31,Ware,Georgia,3293,83
+2020-12-31,Warren,Georgia,286,9
+2020-12-31,Washington,Georgia,1441,46
+2020-12-31,Wayne,Georgia,2112,49
+2020-12-31,Webster,Georgia,87,2
+2020-12-31,Wheeler,Georgia,479,19
+2020-12-31,White,Georgia,2134,37
+2020-12-31,Whitfield,Georgia,11815,126
+2020-12-31,Wilcox,Georgia,591,35
+2020-12-31,Wilkes,Georgia,635,10
+2020-12-31,Wilkinson,Georgia,624,18
+2020-12-31,Worth,Georgia,1133,40
+2020-12-31,Unknown,Guam,8286,123
+2020-12-31,Hawaii,Hawaii,1908,45
+2020-12-31,Honolulu,Hawaii,18034,223
+2020-12-31,Kalawao,Hawaii,1,0
+2020-12-31,Kauai,Hawaii,146,1
+2020-12-31,Maui,Hawaii,1370,17
+2020-12-31,Ada,Idaho,38417,355
+2020-12-31,Adams,Idaho,261,3
+2020-12-31,Bannock,Idaho,6443,63
+2020-12-31,Bear Lake,Idaho,274,2
+2020-12-31,Benewah,Idaho,433,4
+2020-12-31,Bingham,Idaho,3649,46
+2020-12-31,Blaine,Idaho,1562,13
+2020-12-31,Boise,Idaho,245,2
+2020-12-31,Bonner,Idaho,1968,14
+2020-12-31,Bonneville,Idaho,10383,117
+2020-12-31,Boundary,Idaho,569,7
+2020-12-31,Butte,Idaho,162,0
+2020-12-31,Camas,Idaho,56,0
+2020-12-31,Canyon,Idaho,20605,219
+2020-12-31,Caribou,Idaho,534,10
+2020-12-31,Cassia,Idaho,2537,20
+2020-12-31,Clark,Idaho,53,0
+2020-12-31,Clearwater,Idaho,828,6
+2020-12-31,Custer,Idaho,203,2
+2020-12-31,Elmore,Idaho,1368,9
+2020-12-31,Franklin,Idaho,928,8
+2020-12-31,Fremont,Idaho,871,14
+2020-12-31,Gem,Idaho,1417,21
+2020-12-31,Gooding,Idaho,1147,17
+2020-12-31,Idaho,Idaho,1049,15
+2020-12-31,Jefferson,Idaho,2067,15
+2020-12-31,Jerome,Idaho,2217,16
+2020-12-31,Kootenai,Idaho,12656,116
+2020-12-31,Latah,Idaho,2154,6
+2020-12-31,Lemhi,Idaho,462,9
+2020-12-31,Lewis,Idaho,342,5
+2020-12-31,Lincoln,Idaho,434,9
+2020-12-31,Madison,Idaho,5248,18
+2020-12-31,Minidoka,Idaho,2062,23
+2020-12-31,Nez Perce,Idaho,3027,45
+2020-12-31,Oneida,Idaho,250,2
+2020-12-31,Owyhee,Idaho,887,20
+2020-12-31,Payette,Idaho,2064,24
+2020-12-31,Power,Idaho,555,4
+2020-12-31,Shoshone,Idaho,840,26
+2020-12-31,Teton,Idaho,723,2
+2020-12-31,Twin Falls,Idaho,7946,114
+2020-12-31,Valley,Idaho,496,3
+2020-12-31,Washington,Idaho,996,14
+2020-12-31,Adams,Illinois,6582,82
+2020-12-31,Alexander,Illinois,341,7
+2020-12-31,Bond,Illinois,1554,16
+2020-12-31,Boone,Illinois,5070,72
+2020-12-31,Brown,Illinois,451,11
+2020-12-31,Bureau,Illinois,2813,72
+2020-12-31,Calhoun,Illinois,381,4
+2020-12-31,Carroll,Illinois,1333,31
+2020-12-31,Cass,Illinois,1586,29
+2020-12-31,Champaign,Illinois,13839,88
+2020-12-31,Christian,Illinois,2600,66
+2020-12-31,Clark,Illinois,1212,24
+2020-12-31,Clay,Illinois,1198,36
+2020-12-31,Clinton,Illinois,4485,80
+2020-12-31,Coles,Illinois,4294,71
+2020-12-31,Cook,Illinois,393652,8285
+2020-12-31,Crawford,Illinois,1578,31
+2020-12-31,Cumberland,Illinois,937,25
+2020-12-31,De Witt,Illinois,915,25
+2020-12-31,DeKalb,Illinois,6768,81
+2020-12-31,Douglas,Illinois,1854,28
+2020-12-31,DuPage,Illinois,61805,1030
+2020-12-31,Edgar,Illinois,1344,42
+2020-12-31,Edwards,Illinois,397,6
+2020-12-31,Effingham,Illinois,3860,57
+2020-12-31,Fayette,Illinois,2664,49
+2020-12-31,Ford,Illinois,1227,43
+2020-12-31,Franklin,Illinois,3362,56
+2020-12-31,Fulton,Illinois,2342,31
+2020-12-31,Gallatin,Illinois,330,4
+2020-12-31,Greene,Illinois,1115,41
+2020-12-31,Grundy,Illinois,3859,47
+2020-12-31,Hamilton,Illinois,601,10
+2020-12-31,Hancock,Illinois,1316,30
+2020-12-31,Hardin,Illinois,217,7
+2020-12-31,Henderson,Illinois,397,13
+2020-12-31,Henry,Illinois,3692,62
+2020-12-31,Iroquois,Illinois,2323,51
+2020-12-31,Jackson,Illinois,3650,60
+2020-12-31,Jasper,Illinois,894,14
+2020-12-31,Jefferson,Illinois,2926,82
+2020-12-31,Jersey,Illinois,1972,42
+2020-12-31,Jo Daviess,Illinois,1388,24
+2020-12-31,Johnson,Illinois,982,15
+2020-12-31,Kane,Illinois,41511,604
+2020-12-31,Kankakee,Illinois,10717,159
+2020-12-31,Kendall,Illinois,8771,73
+2020-12-31,Knox,Illinois,4059,126
+2020-12-31,LaSalle,Illinois,8363,230
+2020-12-31,Lake,Illinois,48300,818
+2020-12-31,Lawrence,Illinois,1985,27
+2020-12-31,Lee,Illinois,2707,64
+2020-12-31,Livingston,Illinois,3140,58
+2020-12-31,Logan,Illinois,2705,51
+2020-12-31,Macon,Illinois,7959,170
+2020-12-31,Macoupin,Illinois,3273,79
+2020-12-31,Madison,Illinois,21054,389
+2020-12-31,Marion,Illinois,3548,103
+2020-12-31,Marshall,Illinois,578,9
+2020-12-31,Mason,Illinois,1026,38
+2020-12-31,Massac,Illinois,893,28
+2020-12-31,McDonough,Illinois,1978,46
+2020-12-31,McHenry,Illinois,19128,217
+2020-12-31,McLean,Illinois,11621,115
+2020-12-31,Menard,Illinois,729,8
+2020-12-31,Mercer,Illinois,1069,24
+2020-12-31,Monroe,Illinois,3135,59
+2020-12-31,Montgomery,Illinois,2166,24
+2020-12-31,Morgan,Illinois,3060,82
+2020-12-31,Moultrie,Illinois,1260,27
+2020-12-31,Ogle,Illinois,4102,65
+2020-12-31,Peoria,Illinois,13172,201
+2020-12-31,Perry,Illinois,2185,52
+2020-12-31,Piatt,Illinois,1046,8
+2020-12-31,Pike,Illinois,1395,41
+2020-12-31,Pope,Illinois,196,1
+2020-12-31,Pulaski,Illinois,560,3
+2020-12-31,Putnam,Illinois,319,0
+2020-12-31,Randolph,Illinois,3324,47
+2020-12-31,Richland,Illinois,1309,37
+2020-12-31,Rock Island,Illinois,11014,259
+2020-12-31,Saline,Illinois,1764,40
+2020-12-31,Sangamon,Illinois,13219,197
+2020-12-31,Schuyler,Illinois,543,14
+2020-12-31,Scott,Illinois,327,1
+2020-12-31,Shelby,Illinois,1793,34
+2020-12-31,St. Clair,Illinois,20854,353
+2020-12-31,Stark,Illinois,449,20
+2020-12-31,Stephenson,Illinois,3242,62
+2020-12-31,Tazewell,Illinois,10431,197
+2020-12-31,Union,Illinois,1697,31
+2020-12-31,Vermilion,Illinois,6429,90
+2020-12-31,Wabash,Illinois,1048,13
+2020-12-31,Warren,Illinois,1496,36
+2020-12-31,Washington,Illinois,1225,24
+2020-12-31,Wayne,Illinois,1336,41
+2020-12-31,White,Illinois,1122,27
+2020-12-31,Whiteside,Illinois,4956,160
+2020-12-31,Will,Illinois,52293,780
+2020-12-31,Williamson,Illinois,5316,106
+2020-12-31,Winnebago,Illinois,24019,373
+2020-12-31,Woodford,Illinois,2818,58
+2020-12-31,Adams,Indiana,2616,34
+2020-12-31,Allen,Indiana,28059,508
+2020-12-31,Bartholomew,Indiana,5485,91
+2020-12-31,Benton,Indiana,745,9
+2020-12-31,Blackford,Indiana,902,23
+2020-12-31,Boone,Indiana,4472,64
+2020-12-31,Brown,Indiana,739,8
+2020-12-31,Carroll,Indiana,1333,15
+2020-12-31,Cass,Indiana,4200,44
+2020-12-31,Clark,Indiana,8403,119
+2020-12-31,Clay,Indiana,1876,30
+2020-12-31,Clinton,Indiana,3208,38
+2020-12-31,Crawford,Indiana,592,8
+2020-12-31,Daviess,Indiana,2281,70
+2020-12-31,DeKalb,Indiana,2981,62
+2020-12-31,Dearborn,Indiana,3843,42
+2020-12-31,Decatur,Indiana,2152,76
+2020-12-31,Delaware,Indiana,7667,126
+2020-12-31,Dubois,Indiana,4614,49
+2020-12-31,Elkhart,Indiana,22743,325
+2020-12-31,Fayette,Indiana,2325,43
+2020-12-31,Floyd,Indiana,5114,104
+2020-12-31,Fountain,Indiana,1521,23
+2020-12-31,Franklin,Indiana,1229,29
+2020-12-31,Fulton,Indiana,1387,26
+2020-12-31,Gibson,Indiana,3016,56
+2020-12-31,Grant,Indiana,5404,102
+2020-12-31,Greene,Indiana,1937,59
+2020-12-31,Hamilton,Indiana,23956,288
+2020-12-31,Hancock,Indiana,5166,86
+2020-12-31,Harrison,Indiana,2636,37
+2020-12-31,Hendricks,Indiana,11514,228
+2020-12-31,Henry,Indiana,4257,55
+2020-12-31,Howard,Indiana,6662,123
+2020-12-31,Huntington,Indiana,2445,45
+2020-12-31,Jackson,Indiana,3760,44
+2020-12-31,Jasper,Indiana,2475,33
+2020-12-31,Jay,Indiana,1510,22
+2020-12-31,Jefferson,Indiana,2162,36
+2020-12-31,Jennings,Indiana,1700,34
+2020-12-31,Johnson,Indiana,12155,248
+2020-12-31,Knox,Indiana,2914,38
+2020-12-31,Kosciusko,Indiana,6833,72
+2020-12-31,LaGrange,Indiana,2045,56
+2020-12-31,LaPorte,Indiana,7561,139
+2020-12-31,Lake,Indiana,39901,632
+2020-12-31,Lawrence,Indiana,3299,65
+2020-12-31,Madison,Indiana,8994,189
+2020-12-31,Marion,Indiana,70801,1206
+2020-12-31,Marshall,Indiana,4469,77
+2020-12-31,Martin,Indiana,592,12
+2020-12-31,Miami,Indiana,2730,32
+2020-12-31,Monroe,Indiana,8007,98
+2020-12-31,Montgomery,Indiana,2842,50
+2020-12-31,Morgan,Indiana,4271,82
+2020-12-31,Newton,Indiana,831,20
+2020-12-31,Noble,Indiana,4048,57
+2020-12-31,Ohio,Indiana,396,7
+2020-12-31,Orange,Indiana,1227,34
+2020-12-31,Owen,Indiana,1325,32
+2020-12-31,Parke,Indiana,1179,8
+2020-12-31,Perry,Indiana,1205,23
+2020-12-31,Pike,Indiana,934,27
+2020-12-31,Porter,Indiana,12819,156
+2020-12-31,Posey,Indiana,1906,26
+2020-12-31,Pulaski,Indiana,851,32
+2020-12-31,Putnam,Indiana,2462,39
+2020-12-31,Randolph,Indiana,1881,35
+2020-12-31,Ripley,Indiana,2478,40
+2020-12-31,Rush,Indiana,1254,14
+2020-12-31,Scott,Indiana,1919,37
+2020-12-31,Shelby,Indiana,4202,82
+2020-12-31,Spencer,Indiana,1507,14
+2020-12-31,St. Joseph,Indiana,24264,367
+2020-12-31,Starke,Indiana,1558,43
+2020-12-31,Steuben,Indiana,2643,24
+2020-12-31,Sullivan,Indiana,1655,25
+2020-12-31,Switzerland,Indiana,497,5
+2020-12-31,Tippecanoe,Indiana,15018,88
+2020-12-31,Tipton,Indiana,1077,32
+2020-12-31,Union,Indiana,530,2
+2020-12-31,Vanderburgh,Indiana,15554,203
+2020-12-31,Vermillion,Indiana,1227,30
+2020-12-31,Vigo,Indiana,9304,154
+2020-12-31,Wabash,Indiana,2613,43
+2020-12-31,Warren,Indiana,537,8
+2020-12-31,Warrick,Indiana,5266,89
+2020-12-31,Washington,Indiana,1432,16
+2020-12-31,Wayne,Indiana,5615,144
+2020-12-31,Wells,Indiana,1945,48
+2020-12-31,White,Indiana,2321,29
+2020-12-31,Whitley,Indiana,2474,20
+2020-12-31,Adair,Iowa,606,17
+2020-12-31,Adams,Iowa,266,2
+2020-12-31,Allamakee,Iowa,1179,25
+2020-12-31,Appanoose,Iowa,972,36
+2020-12-31,Audubon,Iowa,381,7
+2020-12-31,Benton,Iowa,1982,37
+2020-12-31,Black Hawk,Iowa,12788,218
+2020-12-31,Boone,Iowa,1907,15
+2020-12-31,Bremer,Iowa,2264,44
+2020-12-31,Buchanan,Iowa,1441,16
+2020-12-31,Buena Vista,Iowa,3715,26
+2020-12-31,Butler,Iowa,1277,22
+2020-12-31,Calhoun,Iowa,1173,9
+2020-12-31,Carroll,Iowa,2386,30
+2020-12-31,Cass,Iowa,1044,38
+2020-12-31,Cedar,Iowa,1396,18
+2020-12-31,Cerro Gordo,Iowa,4329,62
+2020-12-31,Cherokee,Iowa,1233,22
+2020-12-31,Chickasaw,Iowa,1038,11
+2020-12-31,Clarke,Iowa,687,6
+2020-12-31,Clay,Iowa,1546,12
+2020-12-31,Clayton,Iowa,1388,46
+2020-12-31,Clinton,Iowa,4137,55
+2020-12-31,Crawford,Iowa,2127,22
+2020-12-31,Dallas,Iowa,7943,66
+2020-12-31,Davis,Iowa,638,20
+2020-12-31,Decatur,Iowa,429,3
+2020-12-31,Delaware,Iowa,1634,29
+2020-12-31,Des Moines,Iowa,3531,34
+2020-12-31,Dickinson,Iowa,1707,19
+2020-12-31,Dubuque,Iowa,10615,136
+2020-12-31,Emmet,Iowa,1011,24
+2020-12-31,Fayette,Iowa,1405,19
+2020-12-31,Floyd,Iowa,1281,34
+2020-12-31,Franklin,Iowa,905,17
+2020-12-31,Fremont,Iowa,467,5
+2020-12-31,Greene,Iowa,648,7
+2020-12-31,Grundy,Iowa,1090,17
+2020-12-31,Guthrie,Iowa,951,23
+2020-12-31,Hamilton,Iowa,1485,24
+2020-12-31,Hancock,Iowa,1178,24
+2020-12-31,Hardin,Iowa,1456,26
+2020-12-31,Harrison,Iowa,1443,53
+2020-12-31,Henry,Iowa,2483,27
+2020-12-31,Howard,Iowa,711,17
+2020-12-31,Humboldt,Iowa,983,18
+2020-12-31,Ida,Iowa,695,28
+2020-12-31,Iowa,Iowa,1137,21
+2020-12-31,Jackson,Iowa,1779,29
+2020-12-31,Jasper,Iowa,2867,53
+2020-12-31,Jefferson,Iowa,1029,20
+2020-12-31,Johnson,Iowa,11147,47
+2020-12-31,Jones,Iowa,2586,48
+2020-12-31,Keokuk,Iowa,791,25
+2020-12-31,Kossuth,Iowa,1555,32
+2020-12-31,Lee,Iowa,2859,24
+2020-12-31,Linn,Iowa,16607,245
+2020-12-31,Louisa,Iowa,1069,24
+2020-12-31,Lucas,Iowa,575,7
+2020-12-31,Lyon,Iowa,1259,25
+2020-12-31,Madison,Iowa,972,8
+2020-12-31,Mahaska,Iowa,1742,34
+2020-12-31,Marion,Iowa,2713,47
+2020-12-31,Marshall,Iowa,4018,57
+2020-12-31,Mills,Iowa,1281,15
+2020-12-31,Mitchell,Iowa,1043,30
+2020-12-31,Monona,Iowa,545,16
+2020-12-31,Monroe,Iowa,670,17
+2020-12-31,Montgomery,Iowa,763,15
+2020-12-31,Muscatine,Iowa,3574,75
+2020-12-31,O'Brien,Iowa,1589,53
+2020-12-31,Osceola,Iowa,612,8
+2020-12-31,Page,Iowa,1358,13
+2020-12-31,Palo Alto,Iowa,809,8
+2020-12-31,Plymouth,Iowa,3353,51
+2020-12-31,Pocahontas,Iowa,724,12
+2020-12-31,Polk,Iowa,41499,410
+2020-12-31,Pottawattamie,Iowa,8270,95
+2020-12-31,Poweshiek,Iowa,1204,24
+2020-12-31,Ringgold,Iowa,365,7
+2020-12-31,Sac,Iowa,1039,14
+2020-12-31,Scott,Iowa,14110,152
+2020-12-31,Shelby,Iowa,951,24
+2020-12-31,Sioux,Iowa,4345,44
+2020-12-31,Story,Iowa,8008,31
+2020-12-31,Tama,Iowa,1756,55
+2020-12-31,Taylor,Iowa,544,9
+2020-12-31,Union,Iowa,1027,19
+2020-12-31,Unknown,Iowa,694,0
+2020-12-31,Van Buren,Iowa,455,11
+2020-12-31,Wapello,Iowa,3133,90
+2020-12-31,Warren,Iowa,3810,34
+2020-12-31,Washington,Iowa,1882,28
+2020-12-31,Wayne,Iowa,381,21
+2020-12-31,Webster,Iowa,4447,64
+2020-12-31,Winnebago,Iowa,1100,28
+2020-12-31,Winneshiek,Iowa,1381,18
+2020-12-31,Woodbury,Iowa,12284,167
+2020-12-31,Worth,Iowa,521,3
+2020-12-31,Wright,Iowa,1529,18
+2020-12-31,Allen,Kansas,653,1
+2020-12-31,Anderson,Kansas,564,0
+2020-12-31,Atchison,Kansas,1251,10
+2020-12-31,Barber,Kansas,283,2
+2020-12-31,Barton,Kansas,2201,21
+2020-12-31,Bourbon,Kansas,927,3
+2020-12-31,Brown,Kansas,1023,18
+2020-12-31,Butler,Kansas,5314,23
+2020-12-31,Chase,Kansas,238,3
+2020-12-31,Chautauqua,Kansas,180,3
+2020-12-31,Cherokee,Kansas,1709,16
+2020-12-31,Cheyenne,Kansas,275,10
+2020-12-31,Clark,Kansas,191,4
+2020-12-31,Clay,Kansas,611,17
+2020-12-31,Cloud,Kansas,853,2
+2020-12-31,Coffey,Kansas,508,10
+2020-12-31,Comanche,Kansas,150,7
+2020-12-31,Cowley,Kansas,2544,9
+2020-12-31,Crawford,Kansas,3379,32
+2020-12-31,Decatur,Kansas,231,1
+2020-12-31,Dickinson,Kansas,1239,16
+2020-12-31,Doniphan,Kansas,722,5
+2020-12-31,Douglas,Kansas,6482,34
+2020-12-31,Edwards,Kansas,240,0
+2020-12-31,Elk,Kansas,106,0
+2020-12-31,Ellis,Kansas,3210,40
+2020-12-31,Ellsworth,Kansas,1048,4
+2020-12-31,Finney,Kansas,5482,35
+2020-12-31,Ford,Kansas,5138,10
+2020-12-31,Franklin,Kansas,1757,18
+2020-12-31,Geary,Kansas,1759,17
+2020-12-31,Gove,Kansas,332,20
+2020-12-31,Graham,Kansas,204,2
+2020-12-31,Grant,Kansas,912,14
+2020-12-31,Gray,Kansas,523,7
+2020-12-31,Greeley,Kansas,93,0
+2020-12-31,Greenwood,Kansas,452,2
+2020-12-31,Hamilton,Kansas,186,0
+2020-12-31,Harper,Kansas,427,15
+2020-12-31,Harvey,Kansas,2623,27
+2020-12-31,Haskell,Kansas,361,1
+2020-12-31,Hodgeman,Kansas,161,4
+2020-12-31,Jackson,Kansas,1018,10
+2020-12-31,Jefferson,Kansas,1173,10
+2020-12-31,Jewell,Kansas,193,3
+2020-12-31,Johnson,Kansas,38865,452
+2020-12-31,Kearny,Kansas,503,9
+2020-12-31,Kingman,Kansas,557,7
+2020-12-31,Kiowa,Kansas,178,0
+2020-12-31,Labette,Kansas,1922,10
+2020-12-31,Lane,Kansas,127,5
+2020-12-31,Leavenworth,Kansas,5044,38
+2020-12-31,Lincoln,Kansas,208,2
+2020-12-31,Linn,Kansas,518,4
+2020-12-31,Logan,Kansas,273,0
+2020-12-31,Lyon,Kansas,3366,59
+2020-12-31,Marion,Kansas,678,5
+2020-12-31,Marshall,Kansas,855,21
+2020-12-31,McPherson,Kansas,2348,26
+2020-12-31,Meade,Kansas,394,4
+2020-12-31,Miami,Kansas,1818,7
+2020-12-31,Mitchell,Kansas,386,0
+2020-12-31,Montgomery,Kansas,2244,6
+2020-12-31,Morris,Kansas,404,4
+2020-12-31,Morton,Kansas,201,8
+2020-12-31,Nemaha,Kansas,1345,49
+2020-12-31,Neosho,Kansas,1192,12
+2020-12-31,Ness,Kansas,323,15
+2020-12-31,Norton,Kansas,1179,25
+2020-12-31,Osage,Kansas,816,6
+2020-12-31,Osborne,Kansas,181,0
+2020-12-31,Ottawa,Kansas,417,0
+2020-12-31,Pawnee,Kansas,982,1
+2020-12-31,Phillips,Kansas,578,12
+2020-12-31,Pottawatomie,Kansas,1109,3
+2020-12-31,Pratt,Kansas,681,19
+2020-12-31,Rawlins,Kansas,311,7
+2020-12-31,Reno,Kansas,6938,103
+2020-12-31,Republic,Kansas,560,11
+2020-12-31,Rice,Kansas,783,1
+2020-12-31,Riley,Kansas,4917,20
+2020-12-31,Rooks,Kansas,461,9
+2020-12-31,Rush,Kansas,343,0
+2020-12-31,Russell,Kansas,721,17
+2020-12-31,Saline,Kansas,4436,58
+2020-12-31,Scott,Kansas,549,16
+2020-12-31,Sedgwick,Kansas,39423,282
+2020-12-31,Seward,Kansas,3552,28
+2020-12-31,Shawnee,Kansas,11622,219
+2020-12-31,Sheridan,Kansas,383,0
+2020-12-31,Sherman,Kansas,544,7
+2020-12-31,Smith,Kansas,209,1
+2020-12-31,Stafford,Kansas,269,8
+2020-12-31,Stanton,Kansas,161,2
+2020-12-31,Stevens,Kansas,526,6
+2020-12-31,Sumner,Kansas,1338,13
+2020-12-31,Thomas,Kansas,931,7
+2020-12-31,Trego,Kansas,292,3
+2020-12-31,Unknown,Kansas,0,408
+2020-12-31,Wabaunsee,Kansas,442,7
+2020-12-31,Wallace,Kansas,159,0
+2020-12-31,Washington,Kansas,436,8
+2020-12-31,Wichita,Kansas,179,0
+2020-12-31,Wilson,Kansas,662,7
+2020-12-31,Woodson,Kansas,114,0
+2020-12-31,Wyandotte,Kansas,15576,198
+2020-12-31,Adair,Kentucky,1294,45
+2020-12-31,Allen,Kentucky,1167,18
+2020-12-31,Anderson,Kentucky,971,2
+2020-12-31,Ballard,Kentucky,233,2
+2020-12-31,Barren,Kentucky,2563,35
+2020-12-31,Bath,Kentucky,505,8
+2020-12-31,Bell,Kentucky,1787,26
+2020-12-31,Boone,Kentucky,7800,43
+2020-12-31,Bourbon,Kentucky,1000,1
+2020-12-31,Boyd,Kentucky,3003,31
+2020-12-31,Boyle,Kentucky,2162,2
+2020-12-31,Bracken,Kentucky,275,3
+2020-12-31,Breathitt,Kentucky,597,3
+2020-12-31,Breckinridge,Kentucky,658,5
+2020-12-31,Bullitt,Kentucky,4134,30
+2020-12-31,Butler,Kentucky,814,16
+2020-12-31,Caldwell,Kentucky,869,15
+2020-12-31,Calloway,Kentucky,2344,25
+2020-12-31,Campbell,Kentucky,4650,35
+2020-12-31,Carlisle,Kentucky,328,1
+2020-12-31,Carroll,Kentucky,527,6
+2020-12-31,Carter,Kentucky,1363,6
+2020-12-31,Casey,Kentucky,884,27
+2020-12-31,Christian,Kentucky,4310,57
+2020-12-31,Clark,Kentucky,1452,15
+2020-12-31,Clay,Kentucky,1623,8
+2020-12-31,Clinton,Kentucky,923,20
+2020-12-31,Crittenden,Kentucky,336,3
+2020-12-31,Cumberland,Kentucky,427,6
+2020-12-31,Daviess,Kentucky,5737,92
+2020-12-31,Edmonson,Kentucky,559,13
+2020-12-31,Elliott,Kentucky,784,1
+2020-12-31,Estill,Kentucky,670,0
+2020-12-31,Fayette,Kentucky,23169,160
+2020-12-31,Fleming,Kentucky,711,2
+2020-12-31,Floyd,Kentucky,1805,15
+2020-12-31,Franklin,Kentucky,2132,19
+2020-12-31,Fulton,Kentucky,363,4
+2020-12-31,Gallatin,Kentucky,426,9
+2020-12-31,Garrard,Kentucky,940,4
+2020-12-31,Grant,Kentucky,1289,8
+2020-12-31,Graves,Kentucky,2632,47
+2020-12-31,Grayson,Kentucky,1295,32
+2020-12-31,Green,Kentucky,811,12
+2020-12-31,Greenup,Kentucky,2275,19
+2020-12-31,Hancock,Kentucky,447,12
+2020-12-31,Hardin,Kentucky,5949,42
+2020-12-31,Harlan,Kentucky,1538,18
+2020-12-31,Harrison,Kentucky,729,1
+2020-12-31,Hart,Kentucky,1238,9
+2020-12-31,Henderson,Kentucky,2939,49
+2020-12-31,Henry,Kentucky,814,4
+2020-12-31,Hickman,Kentucky,223,5
+2020-12-31,Hopkins,Kentucky,2670,103
+2020-12-31,Jackson,Kentucky,846,19
+2020-12-31,Jefferson,Kentucky,52277,658
+2020-12-31,Jessamine,Kentucky,2621,46
+2020-12-31,Johnson,Kentucky,1120,15
+2020-12-31,Kenton,Kentucky,8997,79
+2020-12-31,Knott,Kentucky,738,14
+2020-12-31,Knox,Kentucky,1763,10
+2020-12-31,Larue,Kentucky,816,4
+2020-12-31,Laurel,Kentucky,3645,14
+2020-12-31,Lawrence,Kentucky,758,5
+2020-12-31,Lee,Kentucky,1043,18
+2020-12-31,Leslie,Kentucky,471,1
+2020-12-31,Letcher,Kentucky,1027,3
+2020-12-31,Lewis,Kentucky,775,23
+2020-12-31,Lincoln,Kentucky,1443,23
+2020-12-31,Livingston,Kentucky,488,5
+2020-12-31,Logan,Kentucky,1697,39
+2020-12-31,Lyon,Kentucky,320,5
+2020-12-31,Madison,Kentucky,5706,35
+2020-12-31,Magoffin,Kentucky,701,1
+2020-12-31,Marion,Kentucky,1510,20
+2020-12-31,Marshall,Kentucky,1558,20
+2020-12-31,Martin,Kentucky,657,10
+2020-12-31,Mason,Kentucky,920,17
+2020-12-31,McCracken,Kentucky,4265,41
+2020-12-31,McCreary,Kentucky,1164,8
+2020-12-31,McLean,Kentucky,549,21
+2020-12-31,Meade,Kentucky,1133,4
+2020-12-31,Menifee,Kentucky,215,1
+2020-12-31,Mercer,Kentucky,1365,6
+2020-12-31,Metcalfe,Kentucky,601,9
+2020-12-31,Monroe,Kentucky,945,26
+2020-12-31,Montgomery,Kentucky,1378,12
+2020-12-31,Morgan,Kentucky,518,0
+2020-12-31,Muhlenberg,Kentucky,1991,38
+2020-12-31,Nelson,Kentucky,2855,17
+2020-12-31,Nicholas,Kentucky,255,3
+2020-12-31,Ohio,Kentucky,1505,30
+2020-12-31,Oldham,Kentucky,3737,48
+2020-12-31,Owen,Kentucky,428,6
+2020-12-31,Owsley,Kentucky,304,10
+2020-12-31,Pendleton,Kentucky,612,1
+2020-12-31,Perry,Kentucky,1552,15
+2020-12-31,Pike,Kentucky,2923,34
+2020-12-31,Powell,Kentucky,686,0
+2020-12-31,Pulaski,Kentucky,3875,62
+2020-12-31,Robertson,Kentucky,138,5
+2020-12-31,Rockcastle,Kentucky,842,8
+2020-12-31,Rowan,Kentucky,1214,3
+2020-12-31,Russell,Kentucky,1142,35
+2020-12-31,Scott,Kentucky,2457,23
+2020-12-31,Shelby,Kentucky,2989,28
+2020-12-31,Simpson,Kentucky,1191,11
+2020-12-31,Spencer,Kentucky,987,5
+2020-12-31,Taylor,Kentucky,1747,21
+2020-12-31,Todd,Kentucky,686,16
+2020-12-31,Trigg,Kentucky,658,3
+2020-12-31,Trimble,Kentucky,373,0
+2020-12-31,Union,Kentucky,954,9
+2020-12-31,Warren,Kentucky,10194,84
+2020-12-31,Washington,Kentucky,869,9
+2020-12-31,Wayne,Kentucky,1455,20
+2020-12-31,Webster,Kentucky,741,13
+2020-12-31,Whitley,Kentucky,2741,9
+2020-12-31,Wolfe,Kentucky,300,3
+2020-12-31,Woodford,Kentucky,1253,1
+2020-12-31,Acadia,Louisiana,5082,153
+2020-12-31,Allen,Louisiana,2458,71
+2020-12-31,Ascension,Louisiana,7849,117
+2020-12-31,Assumption,Louisiana,1379,28
+2020-12-31,Avoyelles,Louisiana,2695,90
+2020-12-31,Beauregard,Louisiana,1977,54
+2020-12-31,Bienville,Louisiana,1202,47
+2020-12-31,Bossier,Louisiana,8979,199
+2020-12-31,Caddo,Louisiana,17819,517
+2020-12-31,Calcasieu,Louisiana,13933,285
+2020-12-31,Caldwell,Louisiana,922,21
+2020-12-31,Cameron,Louisiana,381,4
+2020-12-31,Catahoula,Louisiana,853,22
+2020-12-31,Claiborne,Louisiana,1072,34
+2020-12-31,Concordia,Louisiana,1448,38
+2020-12-31,De Soto,Louisiana,1764,51
+2020-12-31,East Baton Rouge,Louisiana,25726,583
+2020-12-31,East Carroll,Louisiana,959,16
+2020-12-31,East Feliciana,Louisiana,2458,91
+2020-12-31,Evangeline,Louisiana,2624,57
+2020-12-31,Franklin,Louisiana,2044,81
+2020-12-31,Grant,Louisiana,1501,40
+2020-12-31,Iberia,Louisiana,4840,120
+2020-12-31,Iberville,Louisiana,2683,73
+2020-12-31,Jackson,Louisiana,1392,38
+2020-12-31,Jefferson,Louisiana,31498,669
+2020-12-31,Jefferson Davis,Louisiana,2285,65
+2020-12-31,LaSalle,Louisiana,1149,23
+2020-12-31,Lafayette,Louisiana,16753,188
+2020-12-31,Lafourche,Louisiana,6250,162
+2020-12-31,Lincoln,Louisiana,3339,73
+2020-12-31,Livingston,Louisiana,8761,125
+2020-12-31,Madison,Louisiana,1307,18
+2020-12-31,Morehouse,Louisiana,2133,46
+2020-12-31,Natchitoches,Louisiana,2840,58
+2020-12-31,Orleans,Louisiana,20780,679
+2020-12-31,Ouachita,Louisiana,13951,284
+2020-12-31,Plaquemines,Louisiana,1708,21
+2020-12-31,Pointe Coupee,Louisiana,1918,57
+2020-12-31,Rapides,Louisiana,8258,212
+2020-12-31,Red River,Louisiana,661,29
+2020-12-31,Richland,Louisiana,1744,40
+2020-12-31,Sabine,Louisiana,2064,44
+2020-12-31,St. Bernard,Louisiana,2367,39
+2020-12-31,St. Charles,Louisiana,3637,73
+2020-12-31,St. Helena,Louisiana,707,5
+2020-12-31,St. James,Louisiana,1323,43
+2020-12-31,St. John the Baptist,Louisiana,2649,119
+2020-12-31,St. Landry,Louisiana,6576,202
+2020-12-31,St. Martin,Louisiana,3804,82
+2020-12-31,St. Mary,Louisiana,3080,102
+2020-12-31,St. Tammany,Louisiana,15312,345
+2020-12-31,Tangipahoa,Louisiana,9038,184
+2020-12-31,Tensas,Louisiana,273,3
+2020-12-31,Terrebonne,Louisiana,6260,149
+2020-12-31,Union,Louisiana,1842,66
+2020-12-31,Unknown,Louisiana,399,0
+2020-12-31,Vermilion,Louisiana,3518,85
+2020-12-31,Vernon,Louisiana,2168,76
+2020-12-31,Washington,Louisiana,3135,87
+2020-12-31,Webster,Louisiana,2822,68
+2020-12-31,West Baton Rouge,Louisiana,1836,48
+2020-12-31,West Carroll,Louisiana,913,34
+2020-12-31,West Feliciana,Louisiana,950,25
+2020-12-31,Winn,Louisiana,1227,30
+2020-12-31,Androscoggin,Maine,2667,44
+2020-12-31,Aroostook,Maine,617,8
+2020-12-31,Cumberland,Maine,7233,97
+2020-12-31,Franklin,Maine,451,5
+2020-12-31,Hancock,Maine,550,12
+2020-12-31,Kennebec,Maine,1812,29
+2020-12-31,Knox,Maine,370,4
+2020-12-31,Lincoln,Maine,301,2
+2020-12-31,Oxford,Maine,1115,21
+2020-12-31,Penobscot,Maine,2050,20
+2020-12-31,Piscataquis,Maine,117,1
+2020-12-31,Sagadahoc,Maine,387,1
+2020-12-31,Somerset,Maine,743,21
+2020-12-31,Unknown,Maine,1,0
+2020-12-31,Waldo,Maine,380,17
+2020-12-31,Washington,Maine,377,2
+2020-12-31,York,Maine,5030,63
+2020-12-31,Allegany,Maryland,5404,153
+2020-12-31,Anne Arundel,Maryland,24421,365
+2020-12-31,Baltimore,Maryland,38686,933
+2020-12-31,Baltimore city,Maryland,31558,704
+2020-12-31,Calvert,Maryland,2232,45
+2020-12-31,Caroline,Maryland,1319,10
+2020-12-31,Carroll,Maryland,5172,165
+2020-12-31,Cecil,Maryland,3570,74
+2020-12-31,Charles,Maryland,6037,124
+2020-12-31,Dorchester,Maryland,1372,22
+2020-12-31,Frederick,Maryland,11309,194
+2020-12-31,Garrett,Maryland,1457,50
+2020-12-31,Harford,Maryland,8555,164
+2020-12-31,Howard,Maryland,11228,180
+2020-12-31,Kent,Maryland,739,27
+2020-12-31,Montgomery,Maryland,46243,1124
+2020-12-31,Prince George's,Maryland,54614,1085
+2020-12-31,Queen Anne's,Maryland,1665,28
+2020-12-31,Somerset,Maryland,1792,22
+2020-12-31,St. Mary's,Maryland,3255,87
+2020-12-31,Talbot,Maryland,1164,8
+2020-12-31,Unknown,Maryland,0,57
+2020-12-31,Washington,Maryland,8208,149
+2020-12-31,Wicomico,Maryland,4675,77
+2020-12-31,Worcester,Maryland,2159,48
+2020-12-31,Barnstable,Massachusetts,5396,238
+2020-12-31,Berkshire,Massachusetts,2907,138
+2020-12-31,Bristol,Massachusetts,34655,1071
+2020-12-31,Dukes,Massachusetts,483,0
+2020-12-31,Essex,Massachusetts,58429,1698
+2020-12-31,Franklin,Massachusetts,1278,92
+2020-12-31,Hampden,Massachusetts,26282,1046
+2020-12-31,Hampshire,Massachusetts,3832,198
+2020-12-31,Middlesex,Massachusetts,75615,2729
+2020-12-31,Nantucket,Massachusetts,748,2
+2020-12-31,Norfolk,Massachusetts,27296,1302
+2020-12-31,Plymouth,Massachusetts,24296,1005
+2020-12-31,Suffolk,Massachusetts,54556,1374
+2020-12-31,Unknown,Massachusetts,16810,7
+2020-12-31,Worcester,Massachusetts,42595,1523
+2020-12-31,Alcona,Michigan,336,14
+2020-12-31,Alger,Michigan,446,2
+2020-12-31,Allegan,Michigan,5758,66
+2020-12-31,Alpena,Michigan,1142,26
+2020-12-31,Antrim,Michigan,620,9
+2020-12-31,Arenac,Michigan,597,24
+2020-12-31,Baraga,Michigan,610,28
+2020-12-31,Barry,Michigan,2968,34
+2020-12-31,Bay,Michigan,6219,187
+2020-12-31,Benzie,Michigan,658,26
+2020-12-31,Berrien,Michigan,9371,189
+2020-12-31,Branch,Michigan,3887,91
+2020-12-31,Calhoun,Michigan,7802,189
+2020-12-31,Cass,Michigan,3194,45
+2020-12-31,Charlevoix,Michigan,849,10
+2020-12-31,Cheboygan,Michigan,737,33
+2020-12-31,Chippewa,Michigan,2780,20
+2020-12-31,Clare,Michigan,1224,41
+2020-12-31,Clinton,Michigan,3879,40
+2020-12-31,Crawford,Michigan,457,6
+2020-12-31,Delta,Michigan,2889,77
+2020-12-31,Dickinson,Michigan,2174,68
+2020-12-31,Eaton,Michigan,4667,88
+2020-12-31,Emmet,Michigan,1207,33
+2020-12-31,Genesee,Michigan,21619,596
+2020-12-31,Gladwin,Michigan,1184,32
+2020-12-31,Gogebic,Michigan,1002,38
+2020-12-31,Grand Traverse,Michigan,3042,46
+2020-12-31,Gratiot,Michigan,4148,71
+2020-12-31,Hillsdale,Michigan,2588,57
+2020-12-31,Houghton,Michigan,1974,32
+2020-12-31,Huron,Michigan,1523,42
+2020-12-31,Ingham,Michigan,12635,184
+2020-12-31,Ionia,Michigan,4848,46
+2020-12-31,Iosco,Michigan,1104,46
+2020-12-31,Iron,Michigan,813,37
+2020-12-31,Isabella,Michigan,3426,42
+2020-12-31,Jackson,Michigan,10366,176
+2020-12-31,Kalamazoo,Michigan,12232,240
+2020-12-31,Kalkaska,Michigan,492,12
+2020-12-31,Kent,Michigan,43280,543
+2020-12-31,Keweenaw,Michigan,82,2
+2020-12-31,Lake,Michigan,304,9
+2020-12-31,Lapeer,Michigan,4334,108
+2020-12-31,Leelanau,Michigan,626,7
+2020-12-31,Lenawee,Michigan,5353,66
+2020-12-31,Livingston,Michigan,7853,74
+2020-12-31,Luce,Michigan,976,0
+2020-12-31,Mackinac,Michigan,380,2
+2020-12-31,Macomb,Michigan,49744,1606
+2020-12-31,Manistee,Michigan,609,15
+2020-12-31,Marquette,Michigan,4408,52
+2020-12-31,Mason,Michigan,979,19
+2020-12-31,Mecosta,Michigan,1651,14
+2020-12-31,Menominee,Michigan,1689,25
+2020-12-31,Midland,Michigan,4011,44
+2020-12-31,Missaukee,Michigan,481,8
+2020-12-31,Monroe,Michigan,7595,149
+2020-12-31,Montcalm,Michigan,3205,65
+2020-12-31,Montmorency,Michigan,286,9
+2020-12-31,Muskegon,Michigan,11067,269
+2020-12-31,Newaygo,Michigan,2253,33
+2020-12-31,Oakland,Michigan,61195,1636
+2020-12-31,Oceana,Michigan,1605,43
+2020-12-31,Ogemaw,Michigan,921,30
+2020-12-31,Ontonagon,Michigan,306,16
+2020-12-31,Osceola,Michigan,841,18
+2020-12-31,Oscoda,Michigan,308,15
+2020-12-31,Otsego,Michigan,1026,22
+2020-12-31,Ottawa,Michigan,18640,272
+2020-12-31,Presque Isle,Michigan,530,9
+2020-12-31,Roscommon,Michigan,963,27
+2020-12-31,Saginaw,Michigan,12367,383
+2020-12-31,Sanilac,Michigan,1497,57
+2020-12-31,Schoolcraft,Michigan,229,4
+2020-12-31,Shiawassee,Michigan,2954,58
+2020-12-31,St. Clair,Michigan,7088,160
+2020-12-31,St. Joseph,Michigan,3584,50
+2020-12-31,Tuscola,Michigan,2637,89
+2020-12-31,Unknown,Michigan,7105,37
+2020-12-31,Van Buren,Michigan,4044,78
+2020-12-31,Washtenaw,Michigan,14234,200
+2020-12-31,Wayne,Michigan,84967,3626
+2020-12-31,Wexford,Michigan,994,18
+2020-12-31,Aitkin,Minnesota,1023,32
+2020-12-31,Anoka,Minnesota,28973,323
+2020-12-31,Becker,Minnesota,2680,36
+2020-12-31,Beltrami,Minnesota,2871,41
+2020-12-31,Benton,Minnesota,3888,78
+2020-12-31,Big Stone,Minnesota,434,3
+2020-12-31,Blue Earth,Minnesota,5040,28
+2020-12-31,Brown,Minnesota,2011,32
+2020-12-31,Carlton,Minnesota,2595,37
+2020-12-31,Carver,Minnesota,6449,33
+2020-12-31,Cass,Minnesota,1928,20
+2020-12-31,Chippewa,Minnesota,1275,29
+2020-12-31,Chisago,Minnesota,4149,27
+2020-12-31,Clay,Minnesota,6163,78
+2020-12-31,Clearwater,Minnesota,657,14
+2020-12-31,Cook,Minnesota,104,0
+2020-12-31,Cottonwood,Minnesota,1221,15
+2020-12-31,Crow Wing,Minnesota,4509,64
+2020-12-31,Dakota,Minnesota,30280,277
+2020-12-31,Dodge,Minnesota,1175,4
+2020-12-31,Douglas,Minnesota,3481,59
+2020-12-31,Faribault,Minnesota,911,11
+2020-12-31,Fillmore,Minnesota,1110,1
+2020-12-31,Freeborn,Minnesota,1992,18
+2020-12-31,Goodhue,Minnesota,3059,42
+2020-12-31,Grant,Minnesota,390,7
+2020-12-31,Hennepin,Minnesota,86273,1382
+2020-12-31,Houston,Minnesota,1185,12
+2020-12-31,Hubbard,Minnesota,1396,37
+2020-12-31,Isanti,Minnesota,2636,31
+2020-12-31,Itasca,Minnesota,2692,39
+2020-12-31,Jackson,Minnesota,791,8
+2020-12-31,Kanabec,Minnesota,924,18
+2020-12-31,Kandiyohi,Minnesota,5379,65
+2020-12-31,Kittson,Minnesota,341,18
+2020-12-31,Koochiching,Minnesota,546,9
+2020-12-31,Lac qui Parle,Minnesota,603,14
+2020-12-31,Lake,Minnesota,547,15
+2020-12-31,Lake of the Woods,Minnesota,152,1
+2020-12-31,Le Sueur,Minnesota,1950,15
+2020-12-31,Lincoln,Minnesota,454,1
+2020-12-31,Lyon,Minnesota,2847,29
+2020-12-31,Mahnomen,Minnesota,396,7
+2020-12-31,Marshall,Minnesota,675,12
+2020-12-31,Martin,Minnesota,1570,25
+2020-12-31,McLeod,Minnesota,3073,39
+2020-12-31,Meeker,Minnesota,1879,32
+2020-12-31,Mille Lacs,Minnesota,2028,43
+2020-12-31,Morrison,Minnesota,2914,43
+2020-12-31,Mower,Minnesota,3321,25
+2020-12-31,Murray,Minnesota,755,5
+2020-12-31,Nicollet,Minnesota,2073,32
+2020-12-31,Nobles,Minnesota,3530,46
+2020-12-31,Norman,Minnesota,410,8
+2020-12-31,Olmsted,Minnesota,9309,61
+2020-12-31,Otter Tail,Minnesota,4216,50
+2020-12-31,Pennington,Minnesota,905,14
+2020-12-31,Pine,Minnesota,2472,12
+2020-12-31,Pipestone,Minnesota,875,21
+2020-12-31,Polk,Minnesota,3198,49
+2020-12-31,Pope,Minnesota,690,4
+2020-12-31,Ramsey,Minnesota,37111,688
+2020-12-31,Red Lake,Minnesota,309,4
+2020-12-31,Redwood,Minnesota,1308,26
+2020-12-31,Renville,Minnesota,1291,39
+2020-12-31,Rice,Minnesota,5516,55
+2020-12-31,Rock,Minnesota,1025,10
+2020-12-31,Roseau,Minnesota,1599,14
+2020-12-31,Scott,Minnesota,11016,81
+2020-12-31,Sherburne,Minnesota,7654,57
+2020-12-31,Sibley,Minnesota,1021,5
+2020-12-31,St. Louis,Minnesota,12538,205
+2020-12-31,Stearns,Minnesota,16946,172
+2020-12-31,Steele,Minnesota,2512,9
+2020-12-31,Stevens,Minnesota,671,6
+2020-12-31,Swift,Minnesota,790,16
+2020-12-31,Todd,Minnesota,2226,27
+2020-12-31,Traverse,Minnesota,216,2
+2020-12-31,Unknown,Minnesota,503,59
+2020-12-31,Wabasha,Minnesota,1500,2
+2020-12-31,Wadena,Minnesota,1123,12
+2020-12-31,Waseca,Minnesota,1755,13
+2020-12-31,Washington,Minnesota,18467,190
+2020-12-31,Watonwan,Minnesota,1024,7
+2020-12-31,Wilkin,Minnesota,588,7
+2020-12-31,Winona,Minnesota,3565,43
+2020-12-31,Wright,Minnesota,10834,88
+2020-12-31,Yellow Medicine,Minnesota,880,14
+2020-12-31,Adams,Mississippi,1801,58
+2020-12-31,Alcorn,Mississippi,2210,40
+2020-12-31,Amite,Mississippi,859,23
+2020-12-31,Attala,Mississippi,1728,51
+2020-12-31,Benton,Mississippi,675,21
+2020-12-31,Bolivar,Mississippi,3418,95
+2020-12-31,Calhoun,Mississippi,1175,17
+2020-12-31,Carroll,Mississippi,932,18
+2020-12-31,Chickasaw,Mississippi,1594,37
+2020-12-31,Choctaw,Mississippi,518,10
+2020-12-31,Claiborne,Mississippi,708,20
+2020-12-31,Clarke,Mississippi,1202,58
+2020-12-31,Clay,Mississippi,1329,30
+2020-12-31,Coahoma,Mississippi,1955,52
+2020-12-31,Copiah,Mississippi,2182,45
+2020-12-31,Covington,Mississippi,1843,67
+2020-12-31,DeSoto,Mississippi,14714,139
+2020-12-31,Forrest,Mississippi,5232,101
+2020-12-31,Franklin,Mississippi,586,9
+2020-12-31,George,Mississippi,1732,35
+2020-12-31,Greene,Mississippi,988,25
+2020-12-31,Grenada,Mississippi,1962,62
+2020-12-31,Hancock,Mississippi,2033,55
+2020-12-31,Harrison,Mississippi,10680,157
+2020-12-31,Hinds,Mississippi,13966,265
+2020-12-31,Holmes,Mississippi,1592,65
+2020-12-31,Humphreys,Mississippi,726,22
+2020-12-31,Issaquena,Mississippi,152,4
+2020-12-31,Itawamba,Mississippi,2279,51
+2020-12-31,Jackson,Mississippi,8771,158
+2020-12-31,Jasper,Mississippi,1435,25
+2020-12-31,Jefferson,Mississippi,466,14
+2020-12-31,Jefferson Davis,Mississippi,762,24
+2020-12-31,Jones,Mississippi,5236,97
+2020-12-31,Kemper,Mississippi,655,19
+2020-12-31,Lafayette,Mississippi,4250,83
+2020-12-31,Lamar,Mississippi,4106,60
+2020-12-31,Lauderdale,Mississippi,4941,171
+2020-12-31,Lawrence,Mississippi,918,16
+2020-12-31,Leake,Mississippi,2049,51
+2020-12-31,Lee,Mississippi,7668,118
+2020-12-31,Leflore,Mississippi,2649,101
+2020-12-31,Lincoln,Mississippi,2551,79
+2020-12-31,Lowndes,Mississippi,4394,92
+2020-12-31,Madison,Mississippi,7194,136
+2020-12-31,Marion,Mississippi,1757,63
+2020-12-31,Marshall,Mississippi,2915,63
+2020-12-31,Monroe,Mississippi,3007,89
+2020-12-31,Montgomery,Mississippi,984,31
+2020-12-31,Neshoba,Mississippi,3006,141
+2020-12-31,Newton,Mississippi,1615,33
+2020-12-31,Noxubee,Mississippi,932,20
+2020-12-31,Oktibbeha,Mississippi,3409,74
+2020-12-31,Panola,Mississippi,3202,70
+2020-12-31,Pearl River,Mississippi,2581,81
+2020-12-31,Perry,Mississippi,878,30
+2020-12-31,Pike,Mississippi,2210,71
+2020-12-31,Pontotoc,Mississippi,3171,42
+2020-12-31,Prentiss,Mississippi,2101,42
+2020-12-31,Quitman,Mississippi,600,7
+2020-12-31,Rankin,Mississippi,8793,165
+2020-12-31,Scott,Mississippi,2131,40
+2020-12-31,Sharkey,Mississippi,387,17
+2020-12-31,Simpson,Mississippi,2042,63
+2020-12-31,Smith,Mississippi,1021,20
+2020-12-31,Stone,Mississippi,1173,18
+2020-12-31,Sunflower,Mississippi,2408,61
+2020-12-31,Tallahatchie,Mississippi,1228,32
+2020-12-31,Tate,Mississippi,2391,56
+2020-12-31,Tippah,Mississippi,1993,40
+2020-12-31,Tishomingo,Mississippi,1583,53
+2020-12-31,Tunica,Mississippi,758,19
+2020-12-31,Union,Mississippi,2809,42
+2020-12-31,Walthall,Mississippi,1002,34
+2020-12-31,Warren,Mississippi,2743,78
+2020-12-31,Washington,Mississippi,4259,116
+2020-12-31,Wayne,Mississippi,1671,27
+2020-12-31,Webster,Mississippi,760,18
+2020-12-31,Wilkinson,Mississippi,532,23
+2020-12-31,Winston,Mississippi,1834,50
+2020-12-31,Yalobusha,Mississippi,995,32
+2020-12-31,Yazoo,Mississippi,2114,50
+2020-12-31,Adair,Missouri,1764,11
+2020-12-31,Andrew,Missouri,1091,14
+2020-12-31,Atchison,Missouri,260,5
+2020-12-31,Audrain,Missouri,1829,36
+2020-12-31,Barry,Missouri,1781,36
+2020-12-31,Barton,Missouri,764,8
+2020-12-31,Bates,Missouri,834,12
+2020-12-31,Benton,Missouri,1189,16
+2020-12-31,Bollinger,Missouri,956,12
+2020-12-31,Boone,Missouri,13835,58
+2020-12-31,Buchanan,Missouri,8368,132
+2020-12-31,Butler,Missouri,2805,15
+2020-12-31,Caldwell,Missouri,545,5
+2020-12-31,Callaway,Missouri,3778,20
+2020-12-31,Camden,Missouri,3143,63
+2020-12-31,Cape Girardeau,Missouri,7754,109
+2020-12-31,Carroll,Missouri,650,18
+2020-12-31,Carter,Missouri,373,6
+2020-12-31,Cass,Missouri,5627,54
+2020-12-31,Cedar,Missouri,516,8
+2020-12-31,Chariton,Missouri,332,3
+2020-12-31,Christian,Missouri,6285,49
+2020-12-31,Clark,Missouri,371,4
+2020-12-31,Clay,Missouri,7134,98
+2020-12-31,Clinton,Missouri,1248,56
+2020-12-31,Cole,Missouri,7605,90
+2020-12-31,Cooper,Missouri,1493,20
+2020-12-31,Crawford,Missouri,1706,19
+2020-12-31,Dade,Missouri,585,29
+2020-12-31,Dallas,Missouri,697,18
+2020-12-31,Daviess,Missouri,468,9
+2020-12-31,DeKalb,Missouri,780,19
+2020-12-31,Dent,Missouri,701,8
+2020-12-31,Douglas,Missouri,617,19
+2020-12-31,Dunklin,Missouri,2083,15
+2020-12-31,Franklin,Missouri,6556,113
+2020-12-31,Gasconade,Missouri,675,29
+2020-12-31,Gentry,Missouri,604,16
+2020-12-31,Greene,Missouri,21496,297
+2020-12-31,Grundy,Missouri,679,23
+2020-12-31,Harrison,Missouri,633,10
+2020-12-31,Henry,Missouri,1432,22
+2020-12-31,Hickory,Missouri,425,9
+2020-12-31,Holt,Missouri,324,9
+2020-12-31,Howard,Missouri,617,2
+2020-12-31,Howell,Missouri,2313,37
+2020-12-31,Iron,Missouri,408,1
+2020-12-31,Jackson,Missouri,23425,243
+2020-12-31,Jasper,Missouri,6020,84
+2020-12-31,Jefferson,Missouri,16795,134
+2020-12-31,Johnson,Missouri,3214,29
+2020-12-31,Joplin,Missouri,3975,74
+2020-12-31,Kansas City,Missouri,30039,352
+2020-12-31,Knox,Missouri,150,1
+2020-12-31,Laclede,Missouri,2491,46
+2020-12-31,Lafayette,Missouri,2058,40
+2020-12-31,Lawrence,Missouri,2293,52
+2020-12-31,Lewis,Missouri,539,3
+2020-12-31,Lincoln,Missouri,3536,20
+2020-12-31,Linn,Missouri,417,11
+2020-12-31,Livingston,Missouri,1036,23
+2020-12-31,Macon,Missouri,916,10
+2020-12-31,Madison,Missouri,1200,10
+2020-12-31,Maries,Missouri,463,6
+2020-12-31,Marion,Missouri,2329,24
+2020-12-31,McDonald,Missouri,2013,27
+2020-12-31,Mercer,Missouri,131,1
+2020-12-31,Miller,Missouri,2024,41
+2020-12-31,Mississippi,Missouri,1137,15
+2020-12-31,Moniteau,Missouri,1488,17
+2020-12-31,Monroe,Missouri,516,5
+2020-12-31,Montgomery,Missouri,498,9
+2020-12-31,Morgan,Missouri,1444,24
+2020-12-31,New Madrid,Missouri,1615,31
+2020-12-31,Newton,Missouri,3467,46
+2020-12-31,Nodaway,Missouri,2348,19
+2020-12-31,Oregon,Missouri,532,3
+2020-12-31,Osage,Missouri,1188,8
+2020-12-31,Ozark,Missouri,378,4
+2020-12-31,Pemiscot,Missouri,1273,21
+2020-12-31,Perry,Missouri,1852,19
+2020-12-31,Pettis,Missouri,4186,61
+2020-12-31,Phelps,Missouri,2480,85
+2020-12-31,Pike,Missouri,1275,14
+2020-12-31,Platte,Missouri,2420,23
+2020-12-31,Polk,Missouri,2576,36
+2020-12-31,Pulaski,Missouri,2546,27
+2020-12-31,Putnam,Missouri,199,1
+2020-12-31,Ralls,Missouri,660,7
+2020-12-31,Randolph,Missouri,1599,17
+2020-12-31,Ray,Missouri,1115,8
+2020-12-31,Reynolds,Missouri,414,3
+2020-12-31,Ripley,Missouri,673,8
+2020-12-31,Saline,Missouri,1994,23
+2020-12-31,Schuyler,Missouri,199,1
+2020-12-31,Scotland,Missouri,227,3
+2020-12-31,Scott,Missouri,3328,60
+2020-12-31,Shannon,Missouri,408,9
+2020-12-31,Shelby,Missouri,293,4
+2020-12-31,St. Charles,Missouri,29669,330
+2020-12-31,St. Clair,Missouri,458,5
+2020-12-31,St. Francois,Missouri,6539,69
+2020-12-31,St. Louis,Missouri,69480,1391
+2020-12-31,St. Louis city,Missouri,17028,302
+2020-12-31,Ste. Genevieve,Missouri,1412,5
+2020-12-31,Stoddard,Missouri,2015,33
+2020-12-31,Stone,Missouri,1612,24
+2020-12-31,Sullivan,Missouri,656,10
+2020-12-31,Taney,Missouri,3752,52
+2020-12-31,Texas,Missouri,1339,17
+2020-12-31,Vernon,Missouri,1082,19
+2020-12-31,Warren,Missouri,2021,19
+2020-12-31,Washington,Missouri,1780,39
+2020-12-31,Wayne,Missouri,663,6
+2020-12-31,Webster,Missouri,2423,38
+2020-12-31,Worth,Missouri,119,1
+2020-12-31,Wright,Missouri,1068,23
+2020-12-31,Beaverhead,Montana,769,8
+2020-12-31,Big Horn,Montana,2050,58
+2020-12-31,Blaine,Montana,603,22
+2020-12-31,Broadwater,Montana,294,1
+2020-12-31,Carbon,Montana,682,8
+2020-12-31,Carter,Montana,135,4
+2020-12-31,Cascade,Montana,6634,104
+2020-12-31,Chouteau,Montana,371,4
+2020-12-31,Custer,Montana,987,9
+2020-12-31,Daniels,Montana,138,5
+2020-12-31,Dawson,Montana,926,23
+2020-12-31,Deer Lodge,Montana,847,9
+2020-12-31,Fallon,Montana,268,2
+2020-12-31,Fergus,Montana,860,13
+2020-12-31,Flathead,Montana,8854,56
+2020-12-31,Gallatin,Montana,9454,38
+2020-12-31,Garfield,Montana,72,2
+2020-12-31,Glacier,Montana,1324,23
+2020-12-31,Golden Valley,Montana,43,0
+2020-12-31,Granite,Montana,162,2
+2020-12-31,Hill,Montana,1639,34
+2020-12-31,Jefferson,Montana,777,4
+2020-12-31,Judith Basin,Montana,77,0
+2020-12-31,Lake,Montana,1471,16
+2020-12-31,Lewis and Clark,Montana,4859,38
+2020-12-31,Liberty,Montana,101,1
+2020-12-31,Lincoln,Montana,1089,9
+2020-12-31,Madison,Montana,509,3
+2020-12-31,McCone,Montana,143,0
+2020-12-31,Meagher,Montana,111,7
+2020-12-31,Mineral,Montana,177,0
+2020-12-31,Missoula,Montana,6390,54
+2020-12-31,Musselshell,Montana,264,7
+2020-12-31,Park,Montana,876,6
+2020-12-31,Petroleum,Montana,10,1
+2020-12-31,Phillips,Montana,426,12
+2020-12-31,Pondera,Montana,387,3
+2020-12-31,Powder River,Montana,102,5
+2020-12-31,Powell,Montana,788,5
+2020-12-31,Prairie,Montana,124,2
+2020-12-31,Ravalli,Montana,2156,26
+2020-12-31,Richland,Montana,875,11
+2020-12-31,Roosevelt,Montana,1390,51
+2020-12-31,Rosebud,Montana,1027,28
+2020-12-31,Sanders,Montana,440,3
+2020-12-31,Sheridan,Montana,357,5
+2020-12-31,Silver Bow,Montana,3033,34
+2020-12-31,Stillwater,Montana,543,8
+2020-12-31,Sweet Grass,Montana,314,6
+2020-12-31,Teton,Montana,312,5
+2020-12-31,Toole,Montana,673,8
+2020-12-31,Treasure,Montana,43,1
+2020-12-31,Valley,Montana,644,7
+2020-12-31,Wheatland,Montana,141,6
+2020-12-31,Wibaux,Montana,113,4
+2020-12-31,Yellowstone,Montana,13847,161
+2020-12-31,Adams,Nebraska,2285,36
+2020-12-31,Antelope,Nebraska,427,4
+2020-12-31,Arthur,Nebraska,18,0
+2020-12-31,Banner,Nebraska,26,0
+2020-12-31,Blaine,Nebraska,16,0
+2020-12-31,Boone,Nebraska,418,4
+2020-12-31,Box Butte,Nebraska,783,8
+2020-12-31,Boyd,Nebraska,162,3
+2020-12-31,Brown,Nebraska,207,2
+2020-12-31,Buffalo,Nebraska,4324,48
+2020-12-31,Burt,Nebraska,520,9
+2020-12-31,Butler,Nebraska,729,10
+2020-12-31,Cass,Nebraska,1745,13
+2020-12-31,Cedar,Nebraska,548,10
+2020-12-31,Chase,Nebraska,366,3
+2020-12-31,Cherry,Nebraska,251,4
+2020-12-31,Cheyenne,Nebraska,751,10
+2020-12-31,Clay,Nebraska,549,8
+2020-12-31,Colfax,Nebraska,1442,18
+2020-12-31,Cuming,Nebraska,817,9
+2020-12-31,Custer,Nebraska,637,14
+2020-12-31,Dakota,Nebraska,3600,56
+2020-12-31,Dawes,Nebraska,544,18
+2020-12-31,Dawson,Nebraska,2468,24
+2020-12-31,Deuel,Nebraska,70,0
+2020-12-31,Dixon,Nebraska,490,6
+2020-12-31,Dodge,Nebraska,3784,42
+2020-12-31,Douglas,Nebraska,53284,515
+2020-12-31,Dundy,Nebraska,102,4
+2020-12-31,Fillmore,Nebraska,408,7
+2020-12-31,Franklin,Nebraska,209,2
+2020-12-31,Frontier,Nebraska,150,1
+2020-12-31,Furnas,Nebraska,362,4
+2020-12-31,Gage,Nebraska,1837,13
+2020-12-31,Garden,Nebraska,92,0
+2020-12-31,Garfield,Nebraska,127,3
+2020-12-31,Gosper,Nebraska,158,3
+2020-12-31,Grant,Nebraska,23,3
+2020-12-31,Greeley,Nebraska,178,2
+2020-12-31,Hall,Nebraska,5835,96
+2020-12-31,Hamilton,Nebraska,712,15
+2020-12-31,Harlan,Nebraska,179,0
+2020-12-31,Hayes,Nebraska,55,0
+2020-12-31,Hitchcock,Nebraska,176,2
+2020-12-31,Holt,Nebraska,675,13
+2020-12-31,Hooker,Nebraska,47,1
+2020-12-31,Howard,Nebraska,470,13
+2020-12-31,Jefferson,Nebraska,555,1
+2020-12-31,Johnson,Nebraska,540,5
+2020-12-31,Kearney,Nebraska,583,4
+2020-12-31,Keith,Nebraska,583,2
+2020-12-31,Keya Paha,Nebraska,38,0
+2020-12-31,Kimball,Nebraska,339,4
+2020-12-31,Knox,Nebraska,673,5
+2020-12-31,Lancaster,Nebraska,22654,152
+2020-12-31,Lincoln,Nebraska,3013,27
+2020-12-31,Logan,Nebraska,69,0
+2020-12-31,Loup,Nebraska,36,0
+2020-12-31,Madison,Nebraska,3875,39
+2020-12-31,McPherson,Nebraska,21,0
+2020-12-31,Merrick,Nebraska,594,11
+2020-12-31,Morrill,Nebraska,404,11
+2020-12-31,Nance,Nebraska,347,9
+2020-12-31,Nemaha,Nebraska,480,10
+2020-12-31,Nuckolls,Nebraska,299,1
+2020-12-31,Otoe,Nebraska,1003,2
+2020-12-31,Pawnee,Nebraska,157,1
+2020-12-31,Perkins,Nebraska,230,11
+2020-12-31,Phelps,Nebraska,743,8
+2020-12-31,Pierce,Nebraska,533,19
+2020-12-31,Platte,Nebraska,3513,41
+2020-12-31,Polk,Nebraska,463,15
+2020-12-31,Red Willow,Nebraska,950,5
+2020-12-31,Richardson,Nebraska,518,15
+2020-12-31,Rock,Nebraska,99,2
+2020-12-31,Saline,Nebraska,1740,3
+2020-12-31,Sarpy,Nebraska,15804,78
+2020-12-31,Saunders,Nebraska,1784,10
+2020-12-31,Scotts Bluff,Nebraska,4119,50
+2020-12-31,Seward,Nebraska,1571,20
+2020-12-31,Sheridan,Nebraska,385,10
+2020-12-31,Sherman,Nebraska,151,4
+2020-12-31,Sioux,Nebraska,27,0
+2020-12-31,Stanton,Nebraska,313,8
+2020-12-31,Thayer,Nebraska,382,3
+2020-12-31,Thomas,Nebraska,46,0
+2020-12-31,Thurston,Nebraska,706,9
+2020-12-31,Valley,Nebraska,249,3
+2020-12-31,Washington,Nebraska,1627,17
+2020-12-31,Wayne,Nebraska,877,6
+2020-12-31,Webster,Nebraska,273,3
+2020-12-31,Wheeler,Nebraska,28,0
+2020-12-31,York,Nebraska,1345,10
+2020-12-31,Carson City,Nevada,5016,57
+2020-12-31,Churchill,Nevada,1381,39
+2020-12-31,Clark,Nevada,170032,2379
+2020-12-31,Douglas,Nevada,1974,16
+2020-12-31,Elko,Nevada,3862,33
+2020-12-31,Esmeralda,Nevada,32,0
+2020-12-31,Eureka,Nevada,29,0
+2020-12-31,Humboldt,Nevada,813,10
+2020-12-31,Lander,Nevada,384,7
+2020-12-31,Lincoln,Nevada,277,1
+2020-12-31,Lyon,Nevada,2163,44
+2020-12-31,Mineral,Nevada,199,4
+2020-12-31,Nye,Nevada,1975,43
+2020-12-31,Pershing,Nevada,829,9
+2020-12-31,Storey,Nevada,66,2
+2020-12-31,Washoe,Nevada,35756,489
+2020-12-31,White Pine,Nevada,377,3
+2020-12-31,Belknap,New Hampshire,1934,47
+2020-12-31,Carroll,New Hampshire,905,4
+2020-12-31,Cheshire,New Hampshire,1263,7
+2020-12-31,Coos,New Hampshire,662,15
+2020-12-31,Grafton,New Hampshire,1127,9
+2020-12-31,Hillsborough,New Hampshire,17624,435
+2020-12-31,Merrimack,New Hampshire,4793,64
+2020-12-31,Rockingham,New Hampshire,10918,141
+2020-12-31,Strafford,New Hampshire,3489,31
+2020-12-31,Sullivan,New Hampshire,430,6
+2020-12-31,Unknown,New Hampshire,883,0
+2020-12-31,Atlantic,New Jersey,12200,368
+2020-12-31,Bergen,New Jersey,47362,2318
+2020-12-31,Burlington,New Jersey,21221,624
+2020-12-31,Camden,New Jersey,28693,818
+2020-12-31,Cape May,New Jersey,2403,135
+2020-12-31,Cumberland,New Jersey,7853,225
+2020-12-31,Essex,New Jersey,47442,2391
+2020-12-31,Gloucester,New Jersey,14133,386
+2020-12-31,Hudson,New Jersey,44104,1699
+2020-12-31,Hunterdon,New Jersey,3800,139
+2020-12-31,Mercer,New Jersey,18790,720
+2020-12-31,Middlesex,New Jersey,45012,1677
+2020-12-31,Monmouth,New Jersey,31937,1040
+2020-12-31,Morris,New Jersey,20284,958
+2020-12-31,Ocean,New Jersey,32509,1356
+2020-12-31,Passaic,New Jersey,40033,1458
+2020-12-31,Salem,New Jersey,2764,112
+2020-12-31,Somerset,New Jersey,12688,664
+2020-12-31,Sussex,New Jersey,4478,215
+2020-12-31,Union,New Jersey,36683,1556
+2020-12-31,Unknown,New Jersey,1057,0
+2020-12-31,Warren,New Jersey,3935,183
+2020-12-31,Bernalillo,New Mexico,40808,569
+2020-12-31,Catron,New Mexico,55,3
+2020-12-31,Chaves,New Mexico,7197,92
+2020-12-31,Cibola,New Mexico,2781,73
+2020-12-31,Colfax,New Mexico,665,24
+2020-12-31,Curry,New Mexico,4041,45
+2020-12-31,De Baca,New Mexico,97,0
+2020-12-31,Do챰a Ana,New Mexico,17691,280
+2020-12-31,Eddy,New Mexico,4544,70
+2020-12-31,Grant,New Mexico,904,13
+2020-12-31,Guadalupe,New Mexico,525,5
+2020-12-31,Harding,New Mexico,8,0
+2020-12-31,Hidalgo,New Mexico,240,8
+2020-12-31,Lea,New Mexico,6971,90
+2020-12-31,Lincoln,New Mexico,1040,10
+2020-12-31,Los Alamos,New Mexico,284,0
+2020-12-31,Luna,New Mexico,2365,43
+2020-12-31,McKinley,New Mexico,9807,341
+2020-12-31,Mora,New Mexico,121,1
+2020-12-31,Otero,New Mexico,3247,38
+2020-12-31,Quay,New Mexico,332,7
+2020-12-31,Rio Arriba,New Mexico,2285,42
+2020-12-31,Roosevelt,New Mexico,1503,27
+2020-12-31,San Juan,New Mexico,10155,296
+2020-12-31,San Miguel,New Mexico,846,4
+2020-12-31,Sandoval,New Mexico,8161,130
+2020-12-31,Santa Fe,New Mexico,7529,75
+2020-12-31,Sierra,New Mexico,532,35
+2020-12-31,Socorro,New Mexico,954,42
+2020-12-31,Taos,New Mexico,1152,39
+2020-12-31,Torrance,New Mexico,524,4
+2020-12-31,Union,New Mexico,354,7
+2020-12-31,Valencia,New Mexico,5179,66
+2020-12-31,Albany,New York,11585,202
+2020-12-31,Allegany,New York,1831,72
+2020-12-31,Broome,New York,8157,204
+2020-12-31,Cattaraugus,New York,2498,42
+2020-12-31,Cayuga,New York,2894,20
+2020-12-31,Chautauqua,New York,3518,21
+2020-12-31,Chemung,New York,4531,96
+2020-12-31,Chenango,New York,1214,21
+2020-12-31,Clinton,New York,1075,8
+2020-12-31,Columbia,New York,1630,60
+2020-12-31,Cortland,New York,2070,32
+2020-12-31,Delaware,New York,707,10
+2020-12-31,Dutchess,New York,12082,234
+2020-12-31,Erie,New York,41252,1194
+2020-12-31,Essex,New York,578,16
+2020-12-31,Franklin,New York,761,9
+2020-12-31,Fulton,New York,1285,36
+2020-12-31,Genesee,New York,2681,51
+2020-12-31,Greene,New York,1322,21
+2020-12-31,Hamilton,New York,102,1
+2020-12-31,Herkimer,New York,2138,24
+2020-12-31,Jefferson,New York,1783,9
+2020-12-31,Lewis,New York,910,13
+2020-12-31,Livingston,New York,1863,24
+2020-12-31,Madison,New York,2289,66
+2020-12-31,Monroe,New York,33755,563
+2020-12-31,Montgomery,New York,1307,43
+2020-12-31,Nassau,New York,87904,2390
+2020-12-31,New York City,New York,430863,25144
+2020-12-31,Niagara,New York,8444,176
+2020-12-31,Oneida,New York,12111,248
+2020-12-31,Onondaga,New York,21146,426
+2020-12-31,Ontario,New York,3254,62
+2020-12-31,Orange,New York,23372,510
+2020-12-31,Orleans,New York,1359,62
+2020-12-31,Oswego,New York,3425,36
+2020-12-31,Otsego,New York,1205,16
+2020-12-31,Putnam,New York,4831,67
+2020-12-31,Rensselaer,New York,4269,81
+2020-12-31,Rockland,New York,27510,585
+2020-12-31,Saratoga,New York,5588,40
+2020-12-31,Schenectady,New York,5913,83
+2020-12-31,Schoharie,New York,554,5
+2020-12-31,Schuyler,New York,526,10
+2020-12-31,Seneca,New York,790,35
+2020-12-31,St. Lawrence,New York,2084,42
+2020-12-31,Steuben,New York,3406,120
+2020-12-31,Suffolk,New York,96057,2299
+2020-12-31,Sullivan,New York,3106,40
+2020-12-31,Tioga,New York,1679,54
+2020-12-31,Tompkins,New York,2079,14
+2020-12-31,Ulster,New York,5679,141
+2020-12-31,Warren,New York,1156,32
+2020-12-31,Washington,New York,825,15
+2020-12-31,Wayne,New York,2559,36
+2020-12-31,Westchester,New York,69660,1664
+2020-12-31,Wyoming,New York,1367,22
+2020-12-31,Yates,New York,501,10
+2020-12-31,Alamance,North Carolina,10397,117
+2020-12-31,Alexander,North Carolina,2662,30
+2020-12-31,Alleghany,North Carolina,638,2
+2020-12-31,Anson,North Carolina,1407,26
+2020-12-31,Ashe,North Carolina,1212,27
+2020-12-31,Avery,North Carolina,1342,15
+2020-12-31,Beaufort,North Carolina,2534,61
+2020-12-31,Bertie,North Carolina,1204,27
+2020-12-31,Bladen,North Carolina,1843,24
+2020-12-31,Brunswick,North Carolina,4402,72
+2020-12-31,Buncombe,North Carolina,9195,169
+2020-12-31,Burke,North Carolina,6195,75
+2020-12-31,Cabarrus,North Carolina,11161,146
+2020-12-31,Caldwell,North Carolina,5842,28
+2020-12-31,Camden,North Carolina,285,5
+2020-12-31,Carteret,North Carolina,2723,17
+2020-12-31,Caswell,North Carolina,1160,9
+2020-12-31,Catawba,North Carolina,11101,158
+2020-12-31,Chatham,North Carolina,2905,65
+2020-12-31,Cherokee,North Carolina,1257,15
+2020-12-31,Chowan,North Carolina,821,20
+2020-12-31,Clay,North Carolina,368,5
+2020-12-31,Cleveland,North Carolina,6675,139
+2020-12-31,Columbus,North Carolina,3629,83
+2020-12-31,Craven,North Carolina,5127,83
+2020-12-31,Cumberland,North Carolina,13900,138
+2020-12-31,Currituck,North Carolina,649,11
+2020-12-31,Dare,North Carolina,1024,5
+2020-12-31,Davidson,North Carolina,8700,85
+2020-12-31,Davie,North Carolina,2112,13
+2020-12-31,Duplin,North Carolina,4227,67
+2020-12-31,Durham,North Carolina,15173,144
+2020-12-31,Edgecombe,North Carolina,3227,81
+2020-12-31,Forsyth,North Carolina,20643,221
+2020-12-31,Franklin,North Carolina,3186,37
+2020-12-31,Gaston,North Carolina,15513,239
+2020-12-31,Gates,North Carolina,357,12
+2020-12-31,Graham,North Carolina,395,11
+2020-12-31,Granville,North Carolina,3570,63
+2020-12-31,Greene,North Carolina,1534,27
+2020-12-31,Guilford,North Carolina,24500,312
+2020-12-31,Halifax,North Carolina,2899,49
+2020-12-31,Harnett,North Carolina,5958,94
+2020-12-31,Haywood,North Carolina,2136,61
+2020-12-31,Henderson,North Carolina,5496,92
+2020-12-31,Hertford,North Carolina,1349,48
+2020-12-31,Hoke,North Carolina,2758,35
+2020-12-31,Hyde,North Carolina,326,5
+2020-12-31,Iredell,North Carolina,9369,101
+2020-12-31,Jackson,North Carolina,2259,18
+2020-12-31,Johnston,North Carolina,11881,112
+2020-12-31,Jones,North Carolina,407,16
+2020-12-31,Lee,North Carolina,3510,41
+2020-12-31,Lenoir,North Carolina,3239,70
+2020-12-31,Lincoln,North Carolina,5378,20
+2020-12-31,Macon,North Carolina,1400,9
+2020-12-31,Madison,North Carolina,797,19
+2020-12-31,Martin,North Carolina,1328,25
+2020-12-31,McDowell,North Carolina,3066,38
+2020-12-31,Mecklenburg,North Carolina,63088,566
+2020-12-31,Mitchell,North Carolina,875,6
+2020-12-31,Montgomery,North Carolina,1920,46
+2020-12-31,Moore,North Carolina,4871,75
+2020-12-31,Nash,North Carolina,6081,120
+2020-12-31,New Hanover,North Carolina,9597,89
+2020-12-31,Northampton,North Carolina,1052,27
+2020-12-31,Onslow,North Carolina,8730,66
+2020-12-31,Orange,North Carolina,5046,65
+2020-12-31,Pamlico,North Carolina,528,5
+2020-12-31,Pasquotank,North Carolina,1807,44
+2020-12-31,Pender,North Carolina,2737,22
+2020-12-31,Perquimans,North Carolina,533,5
+2020-12-31,Person,North Carolina,1646,21
+2020-12-31,Pitt,North Carolina,11454,69
+2020-12-31,Polk,North Carolina,720,13
+2020-12-31,Randolph,North Carolina,8048,123
+2020-12-31,Richmond,North Carolina,2630,47
+2020-12-31,Robeson,North Carolina,9840,137
+2020-12-31,Rockingham,North Carolina,4432,25
+2020-12-31,Rowan,North Carolina,9017,172
+2020-12-31,Rutherford,North Carolina,4337,118
+2020-12-31,Sampson,North Carolina,4912,61
+2020-12-31,Scotland,North Carolina,2522,54
+2020-12-31,Stanly,North Carolina,4331,78
+2020-12-31,Stokes,North Carolina,2005,26
+2020-12-31,Surry,North Carolina,4430,75
+2020-12-31,Swain,North Carolina,692,8
+2020-12-31,Transylvania,North Carolina,917,10
+2020-12-31,Tyrrell,North Carolina,169,3
+2020-12-31,Union,North Carolina,12505,98
+2020-12-31,Vance,North Carolina,2679,68
+2020-12-31,Wake,North Carolina,44203,344
+2020-12-31,Warren,North Carolina,1093,9
+2020-12-31,Washington,North Carolina,444,10
+2020-12-31,Watauga,North Carolina,2605,16
+2020-12-31,Wayne,North Carolina,7422,145
+2020-12-31,Wilkes,North Carolina,3877,72
+2020-12-31,Wilson,North Carolina,5516,103
+2020-12-31,Yadkin,North Carolina,2377,28
+2020-12-31,Yancey,North Carolina,1031,5
+2020-12-31,Adams,North Dakota,190,2
+2020-12-31,Barnes,North Dakota,1242,26
+2020-12-31,Benson,North Dakota,990,16
+2020-12-31,Billings,North Dakota,49,0
+2020-12-31,Bottineau,North Dakota,610,20
+2020-12-31,Bowman,North Dakota,305,4
+2020-12-31,Burke,North Dakota,200,1
+2020-12-31,Burleigh,North Dakota,13643,175
+2020-12-31,Cass,North Dakota,19866,167
+2020-12-31,Cavalier,North Dakota,408,4
+2020-12-31,Dickey,North Dakota,688,32
+2020-12-31,Divide,North Dakota,137,2
+2020-12-31,Dunn,North Dakota,355,7
+2020-12-31,Eddy,North Dakota,413,6
+2020-12-31,Emmons,North Dakota,372,10
+2020-12-31,Foster,North Dakota,525,19
+2020-12-31,Golden Valley,North Dakota,200,0
+2020-12-31,Grand Forks,North Dakota,9237,66
+2020-12-31,Grant,North Dakota,172,7
+2020-12-31,Griggs,North Dakota,298,2
+2020-12-31,Hettinger,North Dakota,268,4
+2020-12-31,Kidder,North Dakota,248,8
+2020-12-31,LaMoure,North Dakota,469,16
+2020-12-31,Logan,North Dakota,214,8
+2020-12-31,McHenry,North Dakota,534,19
+2020-12-31,McIntosh,North Dakota,312,7
+2020-12-31,McKenzie,North Dakota,1029,11
+2020-12-31,McLean,North Dakota,1126,27
+2020-12-31,Mercer,North Dakota,1011,9
+2020-12-31,Morton,North Dakota,4629,88
+2020-12-31,Mountrail,North Dakota,1186,15
+2020-12-31,Nelson,North Dakota,408,10
+2020-12-31,Oliver,North Dakota,149,2
+2020-12-31,Pembina,North Dakota,699,9
+2020-12-31,Pierce,North Dakota,495,21
+2020-12-31,Ramsey,North Dakota,1466,19
+2020-12-31,Ransom,North Dakota,550,11
+2020-12-31,Renville,North Dakota,276,12
+2020-12-31,Richland,North Dakota,1545,15
+2020-12-31,Rolette,North Dakota,1883,21
+2020-12-31,Sargent,North Dakota,407,5
+2020-12-31,Sheridan,North Dakota,97,2
+2020-12-31,Sioux,North Dakota,604,10
+2020-12-31,Slope,North Dakota,28,0
+2020-12-31,Stark,North Dakota,4060,47
+2020-12-31,Steele,North Dakota,166,2
+2020-12-31,Stutsman,North Dakota,3133,70
+2020-12-31,Towner,North Dakota,273,10
+2020-12-31,Traill,North Dakota,910,17
+2020-12-31,Unknown,North Dakota,7,7
+2020-12-31,Walsh,North Dakota,1626,21
+2020-12-31,Ward,North Dakota,8439,173
+2020-12-31,Wells,North Dakota,400,6
+2020-12-31,Williams,North Dakota,3955,31
+2020-12-31,Saipan,Northern Mariana Islands,120,2
+2020-12-31,Tinian,Northern Mariana Islands,2,0
+2020-12-31,Adams,Ohio,1367,14
+2020-12-31,Allen,Ohio,8308,111
+2020-12-31,Ashland,Ohio,2729,37
+2020-12-31,Ashtabula,Ohio,3829,66
+2020-12-31,Athens,Ohio,3101,9
+2020-12-31,Auglaize,Ohio,3642,55
+2020-12-31,Belmont,Ohio,3169,38
+2020-12-31,Brown,Ohio,2367,12
+2020-12-31,Butler,Ohio,25723,188
+2020-12-31,Carroll,Ohio,1127,13
+2020-12-31,Champaign,Ohio,1917,23
+2020-12-31,Clark,Ohio,8988,186
+2020-12-31,Clermont,Ohio,12046,76
+2020-12-31,Clinton,Ohio,2355,39
+2020-12-31,Columbiana,Ohio,6147,119
+2020-12-31,Coshocton,Ohio,1703,17
+2020-12-31,Crawford,Ohio,2616,61
+2020-12-31,Cuyahoga,Ohio,70137,897
+2020-12-31,Darke,Ohio,4140,86
+2020-12-31,Defiance,Ohio,2722,68
+2020-12-31,Delaware,Ohio,11362,65
+2020-12-31,Erie,Ohio,4912,107
+2020-12-31,Fairfield,Ohio,10031,71
+2020-12-31,Fayette,Ohio,1806,29
+2020-12-31,Franklin,Ohio,84050,698
+2020-12-31,Fulton,Ohio,2744,38
+2020-12-31,Gallia,Ohio,1668,23
+2020-12-31,Geauga,Ohio,4022,53
+2020-12-31,Greene,Ohio,9685,121
+2020-12-31,Guernsey,Ohio,2019,22
+2020-12-31,Hamilton,Ohio,51821,417
+2020-12-31,Hancock,Ohio,4593,81
+2020-12-31,Hardin,Ohio,1756,32
+2020-12-31,Harrison,Ohio,692,3
+2020-12-31,Henry,Ohio,1791,45
+2020-12-31,Highland,Ohio,2103,18
+2020-12-31,Hocking,Ohio,1381,22
+2020-12-31,Holmes,Ohio,1963,62
+2020-12-31,Huron,Ohio,3389,37
+2020-12-31,Jackson,Ohio,2138,32
+2020-12-31,Jefferson,Ohio,3395,53
+2020-12-31,Knox,Ohio,2783,22
+2020-12-31,Lake,Ohio,12756,120
+2020-12-31,Lawrence,Ohio,3517,47
+2020-12-31,Licking,Ohio,10528,120
+2020-12-31,Logan,Ohio,2385,23
+2020-12-31,Lorain,Ohio,14786,162
+2020-12-31,Lucas,Ohio,25805,541
+2020-12-31,Madison,Ohio,2926,25
+2020-12-31,Mahoning,Ohio,14800,315
+2020-12-31,Marion,Ohio,6733,105
+2020-12-31,Medina,Ohio,9312,114
+2020-12-31,Meigs,Ohio,844,14
+2020-12-31,Mercer,Ohio,3911,82
+2020-12-31,Miami,Ohio,7580,73
+2020-12-31,Monroe,Ohio,735,24
+2020-12-31,Montgomery,Ohio,35615,359
+2020-12-31,Morgan,Ohio,644,26
+2020-12-31,Morrow,Ohio,1834,4
+2020-12-31,Muskingum,Ohio,5400,27
+2020-12-31,Noble,Ohio,1008,32
+2020-12-31,Ottawa,Ohio,2340,34
+2020-12-31,Paulding,Ohio,1187,19
+2020-12-31,Perry,Ohio,1847,15
+2020-12-31,Pickaway,Ohio,6137,50
+2020-12-31,Pike,Ohio,1406,5
+2020-12-31,Portage,Ohio,7297,97
+2020-12-31,Preble,Ohio,2719,31
+2020-12-31,Putnam,Ohio,3266,67
+2020-12-31,Richland,Ohio,7499,89
+2020-12-31,Ross,Ohio,4439,87
+2020-12-31,Sandusky,Ohio,3553,56
+2020-12-31,Scioto,Ohio,4243,45
+2020-12-31,Seneca,Ohio,3481,41
+2020-12-31,Shelby,Ohio,3448,18
+2020-12-31,Stark,Ohio,20468,326
+2020-12-31,Summit,Ohio,28040,589
+2020-12-31,Trumbull,Ohio,10843,264
+2020-12-31,Tuscarawas,Ohio,6196,151
+2020-12-31,Union,Ohio,3597,19
+2020-12-31,Van Wert,Ohio,1711,37
+2020-12-31,Vinton,Ohio,513,11
+2020-12-31,Warren,Ohio,15752,121
+2020-12-31,Washington,Ohio,2996,38
+2020-12-31,Wayne,Ohio,5829,146
+2020-12-31,Williams,Ohio,2290,48
+2020-12-31,Wood,Ohio,8299,146
+2020-12-31,Wyandot,Ohio,1628,33
+2020-12-31,Adair,Oklahoma,1870,14
+2020-12-31,Alfalfa,Oklahoma,932,4
+2020-12-31,Atoka,Oklahoma,1307,3
+2020-12-31,Beaver,Oklahoma,308,2
+2020-12-31,Beckham,Oklahoma,1964,22
+2020-12-31,Blaine,Oklahoma,660,3
+2020-12-31,Bryan,Oklahoma,3980,32
+2020-12-31,Caddo,Oklahoma,2785,39
+2020-12-31,Canadian,Oklahoma,10582,52
+2020-12-31,Carter,Oklahoma,2754,18
+2020-12-31,Cherokee,Oklahoma,3671,17
+2020-12-31,Choctaw,Oklahoma,1076,6
+2020-12-31,Cimarron,Oklahoma,107,1
+2020-12-31,Cleveland,Oklahoma,19231,163
+2020-12-31,Coal,Oklahoma,478,4
+2020-12-31,Comanche,Oklahoma,6994,60
+2020-12-31,Cotton,Oklahoma,422,10
+2020-12-31,Craig,Oklahoma,1457,7
+2020-12-31,Creek,Oklahoma,4079,64
+2020-12-31,Custer,Oklahoma,2981,31
+2020-12-31,Delaware,Oklahoma,2915,44
+2020-12-31,Dewey,Oklahoma,421,3
+2020-12-31,Ellis,Oklahoma,309,1
+2020-12-31,Garfield,Oklahoma,5394,43
+2020-12-31,Garvin,Oklahoma,2306,18
+2020-12-31,Grady,Oklahoma,3848,37
+2020-12-31,Grant,Oklahoma,380,5
+2020-12-31,Greer,Oklahoma,379,9
+2020-12-31,Harmon,Oklahoma,201,0
+2020-12-31,Harper,Oklahoma,345,3
+2020-12-31,Haskell,Oklahoma,878,7
+2020-12-31,Hughes,Oklahoma,828,9
+2020-12-31,Jackson,Oklahoma,2336,37
+2020-12-31,Jefferson,Oklahoma,436,3
+2020-12-31,Johnston,Oklahoma,837,10
+2020-12-31,Kay,Oklahoma,3312,33
+2020-12-31,Kingfisher,Oklahoma,1357,12
+2020-12-31,Kiowa,Oklahoma,544,11
+2020-12-31,Latimer,Oklahoma,532,5
+2020-12-31,Le Flore,Oklahoma,3590,30
+2020-12-31,Lincoln,Oklahoma,2108,33
+2020-12-31,Logan,Oklahoma,2547,8
+2020-12-31,Love,Oklahoma,906,6
+2020-12-31,Major,Oklahoma,716,4
+2020-12-31,Marshall,Oklahoma,1123,6
+2020-12-31,Mayes,Oklahoma,2565,24
+2020-12-31,McClain,Oklahoma,3561,28
+2020-12-31,McCurtain,Oklahoma,2937,52
+2020-12-31,McIntosh,Oklahoma,1326,18
+2020-12-31,Murray,Oklahoma,1164,9
+2020-12-31,Muskogee,Oklahoma,6526,48
+2020-12-31,Noble,Oklahoma,984,7
+2020-12-31,Nowata,Oklahoma,681,9
+2020-12-31,Okfuskee,Oklahoma,1414,15
+2020-12-31,Oklahoma,Oklahoma,57993,441
+2020-12-31,Okmulgee,Oklahoma,2600,27
+2020-12-31,Osage,Oklahoma,3016,26
+2020-12-31,Ottawa,Oklahoma,2728,28
+2020-12-31,Pawnee,Oklahoma,1065,12
+2020-12-31,Payne,Oklahoma,5883,28
+2020-12-31,Pittsburg,Oklahoma,3010,23
+2020-12-31,Pontotoc,Oklahoma,3135,25
+2020-12-31,Pottawatomie,Oklahoma,5552,37
+2020-12-31,Pushmataha,Oklahoma,625,6
+2020-12-31,Roger Mills,Oklahoma,253,6
+2020-12-31,Rogers,Oklahoma,6566,85
+2020-12-31,Seminole,Oklahoma,1820,18
+2020-12-31,Sequoyah,Oklahoma,2479,16
+2020-12-31,Stephens,Oklahoma,3029,23
+2020-12-31,Texas,Oklahoma,2956,17
+2020-12-31,Tillman,Oklahoma,544,9
+2020-12-31,Tulsa,Oklahoma,48124,399
+2020-12-31,Unknown,Oklahoma,236,0
+2020-12-31,Wagoner,Oklahoma,4650,46
+2020-12-31,Washington,Oklahoma,3129,60
+2020-12-31,Washita,Oklahoma,757,3
+2020-12-31,Woods,Oklahoma,981,5
+2020-12-31,Woodward,Oklahoma,2461,10
+2020-12-31,Baker,Oregon,472,5
+2020-12-31,Benton,Oregon,1347,11
+2020-12-31,Clackamas,Oregon,10058,114
+2020-12-31,Clatsop,Oregon,553,3
+2020-12-31,Columbia,Oregon,837,14
+2020-12-31,Coos,Oregon,756,9
+2020-12-31,Crook,Oregon,448,7
+2020-12-31,Curry,Oregon,278,3
+2020-12-31,Deschutes,Oregon,3976,22
+2020-12-31,Douglas,Oregon,1387,39
+2020-12-31,Gilliam,Oregon,37,1
+2020-12-31,Grant,Oregon,170,1
+2020-12-31,Harney,Oregon,134,2
+2020-12-31,Hood River,Oregon,816,14
+2020-12-31,Jackson,Oregon,5884,72
+2020-12-31,Jefferson,Oregon,1425,17
+2020-12-31,Josephine,Oregon,1193,22
+2020-12-31,Klamath,Oregon,1910,18
+2020-12-31,Lake,Oregon,197,4
+2020-12-31,Lane,Oregon,6929,92
+2020-12-31,Lincoln,Oregon,880,17
+2020-12-31,Linn,Oregon,2650,32
+2020-12-31,Malheur,Oregon,2914,50
+2020-12-31,Marion,Oregon,13928,210
+2020-12-31,Morrow,Oregon,815,8
+2020-12-31,Multnomah,Oregon,25290,394
+2020-12-31,Polk,Oregon,1977,30
+2020-12-31,Sherman,Oregon,31,0
+2020-12-31,Tillamook,Oregon,308,0
+2020-12-31,Umatilla,Oregon,5640,57
+2020-12-31,Union,Oregon,980,14
+2020-12-31,Wallowa,Oregon,76,3
+2020-12-31,Wasco,Oregon,905,22
+2020-12-31,Washington,Oregon,16070,142
+2020-12-31,Wheeler,Oregon,17,1
+2020-12-31,Yamhill,Oregon,2641,35
+2020-12-31,Adams,Pennsylvania,4557,88
+2020-12-31,Allegheny,Pennsylvania,53809,1009
+2020-12-31,Armstrong,Pennsylvania,3465,69
+2020-12-31,Beaver,Pennsylvania,8433,252
+2020-12-31,Bedford,Pennsylvania,2956,94
+2020-12-31,Berks,Pennsylvania,23439,565
+2020-12-31,Blair,Pennsylvania,7886,175
+2020-12-31,Bradford,Pennsylvania,3040,56
+2020-12-31,Bucks,Pennsylvania,30537,904
+2020-12-31,Butler,Pennsylvania,9361,194
+2020-12-31,Cambria,Pennsylvania,8823,250
+2020-12-31,Cameron,Pennsylvania,147,4
+2020-12-31,Carbon,Pennsylvania,2780,90
+2020-12-31,Centre,Pennsylvania,8977,139
+2020-12-31,Chester,Pennsylvania,20457,512
+2020-12-31,Clarion,Pennsylvania,2021,46
+2020-12-31,Clearfield,Pennsylvania,4023,50
+2020-12-31,Clinton,Pennsylvania,1942,24
+2020-12-31,Columbia,Pennsylvania,2746,71
+2020-12-31,Crawford,Pennsylvania,4859,84
+2020-12-31,Cumberland,Pennsylvania,10456,299
+2020-12-31,Dauphin,Pennsylvania,13859,314
+2020-12-31,Delaware,Pennsylvania,29745,993
+2020-12-31,Elk,Pennsylvania,1437,16
+2020-12-31,Erie,Pennsylvania,11663,218
+2020-12-31,Fayette,Pennsylvania,7247,113
+2020-12-31,Forest,Pennsylvania,307,3
+2020-12-31,Franklin,Pennsylvania,8699,225
+2020-12-31,Fulton,Pennsylvania,710,10
+2020-12-31,Greene,Pennsylvania,1690,15
+2020-12-31,Huntingdon,Pennsylvania,3070,86
+2020-12-31,Indiana,Pennsylvania,3950,123
+2020-12-31,Jefferson,Pennsylvania,1888,43
+2020-12-31,Juniata,Pennsylvania,1351,48
+2020-12-31,Lackawanna,Pennsylvania,8812,268
+2020-12-31,Lancaster,Pennsylvania,28006,731
+2020-12-31,Lawrence,Pennsylvania,4245,126
+2020-12-31,Lebanon,Pennsylvania,8851,156
+2020-12-31,Lehigh,Pennsylvania,20348,503
+2020-12-31,Luzerne,Pennsylvania,17317,463
+2020-12-31,Lycoming,Pennsylvania,6014,121
+2020-12-31,McKean,Pennsylvania,1679,21
+2020-12-31,Mercer,Pennsylvania,5975,142
+2020-12-31,Mifflin,Pennsylvania,3418,119
+2020-12-31,Monroe,Pennsylvania,6103,200
+2020-12-31,Montgomery,Pennsylvania,36131,1147
+2020-12-31,Montour,Pennsylvania,1173,25
+2020-12-31,Northampton,Pennsylvania,16648,431
+2020-12-31,Northumberland,Pennsylvania,4836,226
+2020-12-31,Perry,Pennsylvania,1721,33
+2020-12-31,Philadelphia,Pennsylvania,93885,2473
+2020-12-31,Pike,Pennsylvania,1440,33
+2020-12-31,Potter,Pennsylvania,583,14
+2020-12-31,Schuylkill,Pennsylvania,7817,245
+2020-12-31,Snyder,Pennsylvania,1894,43
+2020-12-31,Somerset,Pennsylvania,4849,81
+2020-12-31,Sullivan,Pennsylvania,146,3
+2020-12-31,Susquehanna,Pennsylvania,1028,39
+2020-12-31,Tioga,Pennsylvania,1913,58
+2020-12-31,Union,Pennsylvania,2891,42
+2020-12-31,Venango,Pennsylvania,2354,47
+2020-12-31,Warren,Pennsylvania,1474,28
+2020-12-31,Washington,Pennsylvania,8947,131
+2020-12-31,Wayne,Pennsylvania,1829,18
+2020-12-31,Westmoreland,Pennsylvania,19333,423
+2020-12-31,Wyoming,Pennsylvania,787,29
+2020-12-31,York,Pennsylvania,23283,419
+2020-12-31,Adjuntas,Puerto Rico,396,
+2020-12-31,Aguada,Puerto Rico,889,
+2020-12-31,Aguadilla,Puerto Rico,1226,
+2020-12-31,Aguas Buenas,Puerto Rico,829,
+2020-12-31,Aibonito,Puerto Rico,442,
+2020-12-31,Anasco,Puerto Rico,675,
+2020-12-31,Arecibo,Puerto Rico,2321,
+2020-12-31,Arroyo,Puerto Rico,309,
+2020-12-31,Barceloneta,Puerto Rico,607,
+2020-12-31,Barranquitas,Puerto Rico,993,
+2020-12-31,Bayamon,Puerto Rico,8062,
+2020-12-31,Cabo Rojo,Puerto Rico,757,
+2020-12-31,Caguas,Puerto Rico,4504,
+2020-12-31,Camuy,Puerto Rico,922,
+2020-12-31,Canovanas,Puerto Rico,1444,
+2020-12-31,Carolina,Puerto Rico,6494,
+2020-12-31,Catano,Puerto Rico,999,
+2020-12-31,Cayey,Puerto Rico,1050,
+2020-12-31,Ceiba,Puerto Rico,320,
+2020-12-31,Ciales,Puerto Rico,600,
+2020-12-31,Cidra,Puerto Rico,957,
+2020-12-31,Coamo,Puerto Rico,743,
+2020-12-31,Comerio,Puerto Rico,607,
+2020-12-31,Corozal,Puerto Rico,1402,
+2020-12-31,Culebra,Puerto Rico,28,
+2020-12-31,Dorado,Puerto Rico,1864,
+2020-12-31,Fajardo,Puerto Rico,1038,
+2020-12-31,Florida,Puerto Rico,625,
+2020-12-31,Guanica,Puerto Rico,223,
+2020-12-31,Guayama,Puerto Rico,669,
+2020-12-31,Guayanilla,Puerto Rico,349,
+2020-12-31,Guaynabo,Puerto Rico,3589,
+2020-12-31,Gurabo,Puerto Rico,1452,
+2020-12-31,Hatillo,Puerto Rico,877,
+2020-12-31,Hormigueros,Puerto Rico,345,
+2020-12-31,Humacao,Puerto Rico,1322,
+2020-12-31,Isabela,Puerto Rico,932,
+2020-12-31,Jayuya,Puerto Rico,373,
+2020-12-31,Juana Diaz,Puerto Rico,827,
+2020-12-31,Juncos,Puerto Rico,1380,
+2020-12-31,Lajas,Puerto Rico,324,
+2020-12-31,Lares,Puerto Rico,743,
+2020-12-31,Las Marias,Puerto Rico,175,
+2020-12-31,Las Piedras,Puerto Rico,1118,
+2020-12-31,Loiza,Puerto Rico,773,
+2020-12-31,Luquillo,Puerto Rico,504,
+2020-12-31,Manati,Puerto Rico,1347,
+2020-12-31,Maricao,Puerto Rico,100,
+2020-12-31,Maunabo,Puerto Rico,278,
+2020-12-31,Mayaguez,Puerto Rico,1570,
+2020-12-31,Moca,Puerto Rico,1112,
+2020-12-31,Morovis,Puerto Rico,1085,
+2020-12-31,Naguabo,Puerto Rico,634,
+2020-12-31,Naranjito,Puerto Rico,1320,
+2020-12-31,Orocovis,Puerto Rico,656,
+2020-12-31,Patillas,Puerto Rico,318,
+2020-12-31,Penuelas,Puerto Rico,395,
+2020-12-31,Ponce,Puerto Rico,2253,
+2020-12-31,Quebradillas,Puerto Rico,576,
+2020-12-31,Rincon,Puerto Rico,340,
+2020-12-31,Rio Grande,Puerto Rico,1382,
+2020-12-31,Sabana Grande,Puerto Rico,328,
+2020-12-31,Salinas,Puerto Rico,899,
+2020-12-31,San German,Puerto Rico,491,
+2020-12-31,San Juan,Puerto Rico,15250,
+2020-12-31,San Lorenzo,Puerto Rico,1217,
+2020-12-31,San Sebastian,Puerto Rico,1448,
+2020-12-31,Santa Isabel,Puerto Rico,457,
+2020-12-31,Toa Alta,Puerto Rico,3020,
+2020-12-31,Toa Baja,Puerto Rico,3208,
+2020-12-31,Trujillo Alto,Puerto Rico,2412,
+2020-12-31,Unknown,Puerto Rico,3875,1503
+2020-12-31,Utuado,Puerto Rico,721,
+2020-12-31,Vega Alta,Puerto Rico,1557,
+2020-12-31,Vega Baja,Puerto Rico,2203,
+2020-12-31,Vieques,Puerto Rico,179,
+2020-12-31,Villalba,Puerto Rico,579,
+2020-12-31,Yabucoa,Puerto Rico,740,
+2020-12-31,Yauco,Puerto Rico,878,
+2020-12-31,Bristol,Rhode Island,2403,54
+2020-12-31,Kent,Rhode Island,9901,194
+2020-12-31,Newport,Rhode Island,2595,9
+2020-12-31,Providence,Rhode Island,58946,1347
+2020-12-31,Unknown,Rhode Island,9622,60
+2020-12-31,Washington,Rhode Island,4482,113
+2020-12-31,Abbeville,South Carolina,1275,25
+2020-12-31,Aiken,South Carolina,9156,133
+2020-12-31,Allendale,South Carolina,511,9
+2020-12-31,Anderson,South Carolina,12054,280
+2020-12-31,Bamberg,South Carolina,957,40
+2020-12-31,Barnwell,South Carolina,1455,30
+2020-12-31,Beaufort,South Carolina,9586,105
+2020-12-31,Berkeley,South Carolina,9153,111
+2020-12-31,Calhoun,South Carolina,807,20
+2020-12-31,Charleston,South Carolina,24202,321
+2020-12-31,Cherokee,South Carolina,3035,79
+2020-12-31,Chester,South Carolina,2247,45
+2020-12-31,Chesterfield,South Carolina,2336,61
+2020-12-31,Clarendon,South Carolina,1830,74
+2020-12-31,Colleton,South Carolina,1951,55
+2020-12-31,Darlington,South Carolina,4546,94
+2020-12-31,Dillon,South Carolina,2376,59
+2020-12-31,Dorchester,South Carolina,8354,128
+2020-12-31,Edgefield,South Carolina,1551,26
+2020-12-31,Fairfield,South Carolina,1364,53
+2020-12-31,Florence,South Carolina,10494,259
+2020-12-31,Georgetown,South Carolina,3930,79
+2020-12-31,Greenville,South Carolina,37327,502
+2020-12-31,Greenwood,South Carolina,4248,93
+2020-12-31,Hampton,South Carolina,1099,36
+2020-12-31,Horry,South Carolina,20336,317
+2020-12-31,Jasper,South Carolina,1347,25
+2020-12-31,Kershaw,South Carolina,3911,75
+2020-12-31,Lancaster,South Carolina,5234,84
+2020-12-31,Laurens,South Carolina,3609,81
+2020-12-31,Lee,South Carolina,1194,42
+2020-12-31,Lexington,South Carolina,16734,269
+2020-12-31,Marion,South Carolina,1946,63
+2020-12-31,Marlboro,South Carolina,1916,27
+2020-12-31,McCormick,South Carolina,473,9
+2020-12-31,Newberry,South Carolina,2822,71
+2020-12-31,Oconee,South Carolina,5241,62
+2020-12-31,Orangeburg,South Carolina,5105,147
+2020-12-31,Pickens,South Carolina,10203,153
+2020-12-31,Richland,South Carolina,26344,335
+2020-12-31,Saluda,South Carolina,1001,28
+2020-12-31,Spartanburg,South Carolina,19756,392
+2020-12-31,Sumter,South Carolina,5519,117
+2020-12-31,Union,South Carolina,1551,41
+2020-12-31,Williamsburg,South Carolina,2213,61
+2020-12-31,York,South Carolina,15208,180
+2020-12-31,Aurora,South Dakota,414,8
+2020-12-31,Beadle,South Dakota,2509,35
+2020-12-31,Bennett,South Dakota,355,8
+2020-12-31,Bon Homme,South Dakota,1477,23
+2020-12-31,Brookings,South Dakota,2981,30
+2020-12-31,Brown,South Dakota,4426,60
+2020-12-31,Brule,South Dakota,627,7
+2020-12-31,Buffalo,South Dakota,410,10
+2020-12-31,Butte,South Dakota,881,18
+2020-12-31,Campbell,South Dakota,115,4
+2020-12-31,Charles Mix,South Dakota,1112,11
+2020-12-31,Clark,South Dakota,313,2
+2020-12-31,Clay,South Dakota,1625,12
+2020-12-31,Codington,South Dakota,3452,70
+2020-12-31,Corson,South Dakota,449,10
+2020-12-31,Custer,South Dakota,672,9
+2020-12-31,Davison,South Dakota,2718,54
+2020-12-31,Day,South Dakota,537,20
+2020-12-31,Deuel,South Dakota,412,7
+2020-12-31,Dewey,South Dakota,1263,12
+2020-12-31,Douglas,South Dakota,382,7
+2020-12-31,Edmunds,South Dakota,369,4
+2020-12-31,Fall River,South Dakota,454,12
+2020-12-31,Faulk,South Dakota,313,12
+2020-12-31,Grant,South Dakota,826,35
+2020-12-31,Gregory,South Dakota,482,26
+2020-12-31,Haakon,South Dakota,233,7
+2020-12-31,Hamlin,South Dakota,606,34
+2020-12-31,Hand,South Dakota,312,2
+2020-12-31,Hanson,South Dakota,311,3
+2020-12-31,Harding,South Dakota,89,1
+2020-12-31,Hughes,South Dakota,2023,25
+2020-12-31,Hutchinson,South Dakota,700,16
+2020-12-31,Hyde,South Dakota,132,1
+2020-12-31,Jackson,South Dakota,262,8
+2020-12-31,Jerauld,South Dakota,259,15
+2020-12-31,Jones,South Dakota,67,0
+2020-12-31,Kingsbury,South Dakota,538,13
+2020-12-31,Lake,South Dakota,1020,16
+2020-12-31,Lawrence,South Dakota,2555,28
+2020-12-31,Lincoln,South Dakota,6780,66
+2020-12-31,Lyman,South Dakota,520,9
+2020-12-31,Marshall,South Dakota,260,4
+2020-12-31,McCook,South Dakota,683,22
+2020-12-31,McPherson,South Dakota,181,1
+2020-12-31,Meade,South Dakota,2231,24
+2020-12-31,Mellette,South Dakota,215,2
+2020-12-31,Miner,South Dakota,225,6
+2020-12-31,Minnehaha,South Dakota,24977,264
+2020-12-31,Moody,South Dakota,535,14
+2020-12-31,Oglala Lakota,South Dakota,1927,35
+2020-12-31,Pennington,South Dakota,11197,130
+2020-12-31,Perkins,South Dakota,285,11
+2020-12-31,Potter,South Dakota,300,3
+2020-12-31,Roberts,South Dakota,984,32
+2020-12-31,Sanborn,South Dakota,305,3
+2020-12-31,Spink,South Dakota,703,24
+2020-12-31,Stanley,South Dakota,272,2
+2020-12-31,Sully,South Dakota,111,3
+2020-12-31,Todd,South Dakota,1162,19
+2020-12-31,Tripp,South Dakota,629,12
+2020-12-31,Turner,South Dakota,970,49
+2020-12-31,Union,South Dakota,1608,30
+2020-12-31,Walworth,South Dakota,618,14
+2020-12-31,Yankton,South Dakota,2514,26
+2020-12-31,Ziebach,South Dakota,291,8
+2020-12-31,Anderson,Tennessee,5631,72
+2020-12-31,Bedford,Tennessee,4548,61
+2020-12-31,Benton,Tennessee,1168,30
+2020-12-31,Bledsoe,Tennessee,1565,9
+2020-12-31,Blount,Tennessee,9976,98
+2020-12-31,Bradley,Tennessee,9120,72
+2020-12-31,Campbell,Tennessee,2782,36
+2020-12-31,Cannon,Tennessee,1366,15
+2020-12-31,Carroll,Tennessee,2696,52
+2020-12-31,Carter,Tennessee,4464,86
+2020-12-31,Cheatham,Tennessee,2865,24
+2020-12-31,Chester,Tennessee,1490,31
+2020-12-31,Claiborne,Tennessee,1682,18
+2020-12-31,Clay,Tennessee,845,23
+2020-12-31,Cocke,Tennessee,2841,44
+2020-12-31,Coffee,Tennessee,4916,65
+2020-12-31,Crockett,Tennessee,1641,29
+2020-12-31,Cumberland,Tennessee,4398,51
+2020-12-31,Davidson,Tennessee,68812,570
+2020-12-31,DeKalb,Tennessee,2087,33
+2020-12-31,Decatur,Tennessee,1335,20
+2020-12-31,Dickson,Tennessee,4624,59
+2020-12-31,Dyer,Tennessee,4254,70
+2020-12-31,Fayette,Tennessee,3321,48
+2020-12-31,Fentress,Tennessee,1880,29
+2020-12-31,Franklin,Tennessee,3549,48
+2020-12-31,Gibson,Tennessee,5033,91
+2020-12-31,Giles,Tennessee,2670,60
+2020-12-31,Grainger,Tennessee,1768,26
+2020-12-31,Greene,Tennessee,5517,92
+2020-12-31,Grundy,Tennessee,1193,19
+2020-12-31,Hamblen,Tennessee,5862,86
+2020-12-31,Hamilton,Tennessee,29530,273
+2020-12-31,Hancock,Tennessee,324,5
+2020-12-31,Hardeman,Tennessee,2830,41
+2020-12-31,Hardin,Tennessee,2630,35
+2020-12-31,Hawkins,Tennessee,3631,56
+2020-12-31,Haywood,Tennessee,2169,36
+2020-12-31,Henderson,Tennessee,2945,44
+2020-12-31,Henry,Tennessee,2311,38
+2020-12-31,Hickman,Tennessee,1929,26
+2020-12-31,Houston,Tennessee,797,22
+2020-12-31,Humphreys,Tennessee,1167,12
+2020-12-31,Jackson,Tennessee,948,19
+2020-12-31,Jefferson,Tennessee,3861,62
+2020-12-31,Johnson,Tennessee,1774,28
+2020-12-31,Knox,Tennessee,33663,324
+2020-12-31,Lake,Tennessee,1408,13
+2020-12-31,Lauderdale,Tennessee,2627,28
+2020-12-31,Lawrence,Tennessee,4416,58
+2020-12-31,Lewis,Tennessee,1151,19
+2020-12-31,Lincoln,Tennessee,3299,34
+2020-12-31,Loudon,Tennessee,4210,37
+2020-12-31,Macon,Tennessee,2588,45
+2020-12-31,Madison,Tennessee,8035,152
+2020-12-31,Marion,Tennessee,1860,26
+2020-12-31,Marshall,Tennessee,2863,30
+2020-12-31,Maury,Tennessee,9248,104
+2020-12-31,McMinn,Tennessee,4352,66
+2020-12-31,McNairy,Tennessee,2045,38
+2020-12-31,Meigs,Tennessee,969,16
+2020-12-31,Monroe,Tennessee,3880,56
+2020-12-31,Montgomery,Tennessee,11511,126
+2020-12-31,Moore,Tennessee,701,6
+2020-12-31,Morgan,Tennessee,1534,11
+2020-12-31,Obion,Tennessee,3642,71
+2020-12-31,Overton,Tennessee,2183,41
+2020-12-31,Perry,Tennessee,855,23
+2020-12-31,Pickett,Tennessee,567,17
+2020-12-31,Polk,Tennessee,1174,16
+2020-12-31,Putnam,Tennessee,8678,121
+2020-12-31,Rhea,Tennessee,3174,48
+2020-12-31,Roane,Tennessee,4325,56
+2020-12-31,Robertson,Tennessee,6533,74
+2020-12-31,Rutherford,Tennessee,28618,242
+2020-12-31,Scott,Tennessee,1994,23
+2020-12-31,Sequatchie,Tennessee,1148,17
+2020-12-31,Sevier,Tennessee,8901,70
+2020-12-31,Shelby,Tennessee,67198,903
+2020-12-31,Smith,Tennessee,2045,24
+2020-12-31,Stewart,Tennessee,883,20
+2020-12-31,Sullivan,Tennessee,10862,178
+2020-12-31,Sumner,Tennessee,15789,206
+2020-12-31,Tipton,Tennessee,5409,53
+2020-12-31,Trousdale,Tennessee,2159,12
+2020-12-31,Unicoi,Tennessee,1446,40
+2020-12-31,Union,Tennessee,1221,17
+2020-12-31,Unknown,Tennessee,6903,59
+2020-12-31,Van Buren,Tennessee,545,6
+2020-12-31,Warren,Tennessee,4395,43
+2020-12-31,Washington,Tennessee,10223,165
+2020-12-31,Wayne,Tennessee,2417,17
+2020-12-31,Weakley,Tennessee,3071,43
+2020-12-31,White,Tennessee,2737,39
+2020-12-31,Williamson,Tennessee,17903,121
+2020-12-31,Wilson,Tennessee,12476,128
+2020-12-31,Anderson,Texas,4538,63
+2020-12-31,Andrews,Texas,1416,25
+2020-12-31,Angelina,Texas,5696,144
+2020-12-31,Aransas,Texas,730,22
+2020-12-31,Archer,Texas,553,6
+2020-12-31,Armstrong,Texas,106,5
+2020-12-31,Atascosa,Texas,2923,63
+2020-12-31,Austin,Texas,1030,14
+2020-12-31,Bailey,Texas,718,13
+2020-12-31,Bandera,Texas,571,12
+2020-12-31,Bastrop,Texas,3782,45
+2020-12-31,Baylor,Texas,211,7
+2020-12-31,Bee,Texas,2668,46
+2020-12-31,Bell,Texas,13132,167
+2020-12-31,Bexar,Texas,115697,1726
+2020-12-31,Blanco,Texas,280,7
+2020-12-31,Borden,Texas,18,0
+2020-12-31,Bosque,Texas,796,17
+2020-12-31,Bowie,Texas,4001,120
+2020-12-31,Brazoria,Texas,21271,238
+2020-12-31,Brazos,Texas,14273,138
+2020-12-31,Brewster,Texas,880,8
+2020-12-31,Briscoe,Texas,89,2
+2020-12-31,Brooks,Texas,594,27
+2020-12-31,Brown,Texas,2797,73
+2020-12-31,Burleson,Texas,935,14
+2020-12-31,Burnet,Texas,1957,27
+2020-12-31,Caldwell,Texas,2400,43
+2020-12-31,Calhoun,Texas,1200,10
+2020-12-31,Callahan,Texas,801,17
+2020-12-31,Cameron,Texas,29525,1183
+2020-12-31,Camp,Texas,766,23
+2020-12-31,Carson,Texas,284,10
+2020-12-31,Cass,Texas,1297,50
+2020-12-31,Castro,Texas,781,15
+2020-12-31,Chambers,Texas,2627,26
+2020-12-31,Cherokee,Texas,3026,72
+2020-12-31,Childress,Texas,1217,7
+2020-12-31,Clay,Texas,710,10
+2020-12-31,Cochran,Texas,204,10
+2020-12-31,Coke,Texas,391,10
+2020-12-31,Coleman,Texas,416,15
+2020-12-31,Collin,Texas,48423,370
+2020-12-31,Collingsworth,Texas,209,5
+2020-12-31,Colorado,Texas,1012,15
+2020-12-31,Comal,Texas,6239,158
+2020-12-31,Comanche,Texas,1011,28
+2020-12-31,Concho,Texas,210,3
+2020-12-31,Cooke,Texas,2300,31
+2020-12-31,Coryell,Texas,3544,32
+2020-12-31,Cottle,Texas,152,5
+2020-12-31,Crane,Texas,509,9
+2020-12-31,Crockett,Texas,519,9
+2020-12-31,Crosby,Texas,341,20
+2020-12-31,Culberson,Texas,297,3
+2020-12-31,Dallam,Texas,458,18
+2020-12-31,Dallas,Texas,193318,2007
+2020-12-31,Dawson,Texas,1429,48
+2020-12-31,DeWitt,Texas,1426,48
+2020-12-31,Deaf Smith,Texas,2401,55
+2020-12-31,Delta,Texas,147,3
+2020-12-31,Denton,Texas,39182,348
+2020-12-31,Dickens,Texas,122,7
+2020-12-31,Dimmit,Texas,625,12
+2020-12-31,Donley,Texas,233,7
+2020-12-31,Duval,Texas,883,28
+2020-12-31,Eastland,Texas,822,15
+2020-12-31,Ector,Texas,11543,223
+2020-12-31,Edwards,Texas,183,2
+2020-12-31,El Paso,Texas,98540,1666
+2020-12-31,Ellis,Texas,13216,174
+2020-12-31,Erath,Texas,3015,30
+2020-12-31,Falls,Texas,1185,16
+2020-12-31,Fannin,Texas,1872,52
+2020-12-31,Fayette,Texas,1290,35
+2020-12-31,Fisher,Texas,221,9
+2020-12-31,Floyd,Texas,527,21
+2020-12-31,Foard,Texas,70,4
+2020-12-31,Fort Bend,Texas,36324,390
+2020-12-31,Franklin,Texas,437,12
+2020-12-31,Freestone,Texas,922,23
+2020-12-31,Frio,Texas,1803,12
+2020-12-31,Gaines,Texas,1234,29
+2020-12-31,Galveston,Texas,21429,217
+2020-12-31,Garza,Texas,261,16
+2020-12-31,Gillespie,Texas,1419,20
+2020-12-31,Glasscock,Texas,91,1
+2020-12-31,Goliad,Texas,282,8
+2020-12-31,Gonzales,Texas,1638,25
+2020-12-31,Gray,Texas,1679,33
+2020-12-31,Grayson,Texas,6544,173
+2020-12-31,Gregg,Texas,6923,167
+2020-12-31,Grimes,Texas,1794,44
+2020-12-31,Guadalupe,Texas,6937,106
+2020-12-31,Hale,Texas,5152,124
+2020-12-31,Hall,Texas,220,9
+2020-12-31,Hamilton,Texas,493,16
+2020-12-31,Hansford,Texas,598,13
+2020-12-31,Hardeman,Texas,257,8
+2020-12-31,Hardin,Texas,3352,50
+2020-12-31,Harris,Texas,237727,3402
+2020-12-31,Harrison,Texas,2510,63
+2020-12-31,Hartley,Texas,319,2
+2020-12-31,Haskell,Texas,314,11
+2020-12-31,Hays,Texas,11874,126
+2020-12-31,Hemphill,Texas,342,1
+2020-12-31,Henderson,Texas,3675,74
+2020-12-31,Hidalgo,Texas,50824,2201
+2020-12-31,Hill,Texas,2210,33
+2020-12-31,Hockley,Texas,1890,79
+2020-12-31,Hood,Texas,3908,71
+2020-12-31,Hopkins,Texas,2239,71
+2020-12-31,Houston,Texas,1098,23
+2020-12-31,Howard,Texas,3936,67
+2020-12-31,Hudspeth,Texas,445,8
+2020-12-31,Hunt,Texas,3666,84
+2020-12-31,Hutchinson,Texas,1176,48
+2020-12-31,Irion,Texas,70,0
+2020-12-31,Jack,Texas,417,9
+2020-12-31,Jackson,Texas,1085,20
+2020-12-31,Jasper,Texas,1502,44
+2020-12-31,Jeff Davis,Texas,108,1
+2020-12-31,Jefferson,Texas,13606,219
+2020-12-31,Jim Hogg,Texas,323,11
+2020-12-31,Jim Wells,Texas,2770,65
+2020-12-31,Johnson,Texas,11092,158
+2020-12-31,Jones,Texas,2351,30
+2020-12-31,Karnes,Texas,1273,21
+2020-12-31,Kaufman,Texas,9274,118
+2020-12-31,Kendall,Texas,1426,33
+2020-12-31,Kenedy,Texas,21,2
+2020-12-31,Kent,Texas,57,1
+2020-12-31,Kerr,Texas,2353,34
+2020-12-31,Kimble,Texas,205,6
+2020-12-31,King,Texas,6,0
+2020-12-31,Kinney,Texas,144,3
+2020-12-31,Kleberg,Texas,1700,60
+2020-12-31,Knox,Texas,160,12
+2020-12-31,La Salle,Texas,616,14
+2020-12-31,Lamar,Texas,4109,95
+2020-12-31,Lamb,Texas,1642,68
+2020-12-31,Lampasas,Texas,731,15
+2020-12-31,Lavaca,Texas,1690,53
+2020-12-31,Lee,Texas,962,27
+2020-12-31,Leon,Texas,747,24
+2020-12-31,Liberty,Texas,4230,92
+2020-12-31,Limestone,Texas,1251,28
+2020-12-31,Lipscomb,Texas,218,7
+2020-12-31,Live Oak,Texas,818,12
+2020-12-31,Llano,Texas,658,12
+2020-12-31,Loving,Texas,1,0
+2020-12-31,Lubbock,Texas,42134,561
+2020-12-31,Lynn,Texas,517,12
+2020-12-31,Madison,Texas,1112,16
+2020-12-31,Marion,Texas,261,17
+2020-12-31,Martin,Texas,526,15
+2020-12-31,Mason,Texas,262,2
+2020-12-31,Matagorda,Texas,1889,64
+2020-12-31,Maverick,Texas,6437,192
+2020-12-31,McCulloch,Texas,447,12
+2020-12-31,McLennan,Texas,19026,283
+2020-12-31,McMullen,Texas,64,1
+2020-12-31,Medina,Texas,2732,55
+2020-12-31,Menard,Texas,170,4
+2020-12-31,Midland,Texas,11506,185
+2020-12-31,Milam,Texas,1432,11
+2020-12-31,Mills,Texas,271,11
+2020-12-31,Mitchell,Texas,480,14
+2020-12-31,Montague,Texas,1394,37
+2020-12-31,Montgomery,Texas,26650,260
+2020-12-31,Moore,Texas,2058,48
+2020-12-31,Morris,Texas,493,10
+2020-12-31,Motley,Texas,73,5
+2020-12-31,Nacogdoches,Texas,2992,95
+2020-12-31,Navarro,Texas,4026,62
+2020-12-31,Newton,Texas,392,17
+2020-12-31,Nolan,Texas,1195,24
+2020-12-31,Nueces,Texas,28744,547
+2020-12-31,Ochiltree,Texas,894,17
+2020-12-31,Oldham,Texas,149,2
+2020-12-31,Orange,Texas,5089,72
+2020-12-31,Palo Pinto,Texas,1863,44
+2020-12-31,Panola,Texas,1015,41
+2020-12-31,Parker,Texas,8700,96
+2020-12-31,Parmer,Texas,1079,32
+2020-12-31,Pecos,Texas,1321,23
+2020-12-31,Polk,Texas,2180,58
+2020-12-31,Potter,Texas,15181,307
+2020-12-31,Presidio,Texas,598,14
+2020-12-31,Rains,Texas,532,18
+2020-12-31,Randall,Texas,14006,191
+2020-12-31,Reagan,Texas,321,7
+2020-12-31,Real,Texas,207,11
+2020-12-31,Red River,Texas,450,25
+2020-12-31,Reeves,Texas,1461,29
+2020-12-31,Refugio,Texas,455,17
+2020-12-31,Roberts,Texas,46,1
+2020-12-31,Robertson,Texas,895,18
+2020-12-31,Rockwall,Texas,6227,51
+2020-12-31,Runnels,Texas,894,17
+2020-12-31,Rusk,Texas,2565,51
+2020-12-31,Sabine,Texas,391,14
+2020-12-31,San Augustine,Texas,473,23
+2020-12-31,San Jacinto,Texas,424,19
+2020-12-31,San Patricio,Texas,2944,96
+2020-12-31,San Saba,Texas,425,14
+2020-12-31,Schleicher,Texas,217,6
+2020-12-31,Scurry,Texas,1977,31
+2020-12-31,Shackelford,Texas,152,1
+2020-12-31,Shelby,Texas,1063,40
+2020-12-31,Sherman,Texas,111,6
+2020-12-31,Smith,Texas,12844,261
+2020-12-31,Somervell,Texas,737,6
+2020-12-31,Starr,Texas,6182,200
+2020-12-31,Stephens,Texas,562,14
+2020-12-31,Sterling,Texas,100,1
+2020-12-31,Stonewall,Texas,86,3
+2020-12-31,Sutton,Texas,397,6
+2020-12-31,Swisher,Texas,623,13
+2020-12-31,Tarrant,Texas,150004,1494
+2020-12-31,Taylor,Texas,11199,199
+2020-12-31,Terrell,Texas,61,1
+2020-12-31,Terry,Texas,1351,39
+2020-12-31,Throckmorton,Texas,54,3
+2020-12-31,Titus,Texas,2534,45
+2020-12-31,Tom Green,Texas,12818,180
+2020-12-31,Travis,Texas,50595,549
+2020-12-31,Trinity,Texas,339,9
+2020-12-31,Tyler,Texas,786,11
+2020-12-31,Upshur,Texas,1844,31
+2020-12-31,Upton,Texas,269,7
+2020-12-31,Uvalde,Texas,1900,42
+2020-12-31,Val Verde,Texas,4696,153
+2020-12-31,Van Zandt,Texas,2471,62
+2020-12-31,Victoria,Texas,5881,120
+2020-12-31,Walker,Texas,6088,86
+2020-12-31,Waller,Texas,2038,22
+2020-12-31,Ward,Texas,749,9
+2020-12-31,Washington,Texas,1481,60
+2020-12-31,Webb,Texas,26967,505
+2020-12-31,Wharton,Texas,2423,74
+2020-12-31,Wheeler,Texas,362,7
+2020-12-31,Wichita,Texas,11047,216
+2020-12-31,Wilbarger,Texas,1378,31
+2020-12-31,Willacy,Texas,1712,63
+2020-12-31,Williamson,Texas,22884,210
+2020-12-31,Wilson,Texas,2135,35
+2020-12-31,Winkler,Texas,532,14
+2020-12-31,Wise,Texas,4329,72
+2020-12-31,Wood,Texas,2042,66
+2020-12-31,Yoakum,Texas,779,19
+2020-12-31,Young,Texas,1419,30
+2020-12-31,Zapata,Texas,958,10
+2020-12-31,Zavala,Texas,944,25
+2020-12-31,Beaver,Utah,405,2
+2020-12-31,Box Elder,Utah,3571,26
+2020-12-31,Cache,Utah,11167,20
+2020-12-31,Carbon,Utah,1072,7
+2020-12-31,Daggett,Utah,18,0
+2020-12-31,Davis,Utah,25023,86
+2020-12-31,Duchesne,Utah,912,6
+2020-12-31,Emery,Utah,569,6
+2020-12-31,Garfield,Utah,314,7
+2020-12-31,Grand,Utah,445,1
+2020-12-31,Iron,Utah,3208,15
+2020-12-31,Juab,Utah,793,9
+2020-12-31,Kane,Utah,332,2
+2020-12-31,Millard,Utah,1003,2
+2020-12-31,Morgan,Utah,867,7
+2020-12-31,Piute,Utah,73,2
+2020-12-31,Rich,Utah,67,0
+2020-12-31,Salt Lake,Utah,107386,554
+2020-12-31,San Juan,Utah,1406,32
+2020-12-31,Sanpete,Utah,2374,12
+2020-12-31,Sevier,Utah,1356,8
+2020-12-31,Summit,Utah,3214,5
+2020-12-31,Tooele,Utah,4542,13
+2020-12-31,Uintah,Utah,1267,9
+2020-12-31,Unknown,Utah,430,2
+2020-12-31,Utah,Utah,67250,215
+2020-12-31,Wasatch,Utah,3196,15
+2020-12-31,Washington,Utah,14765,111
+2020-12-31,Wayne,Utah,70,0
+2020-12-31,Weber,Utah,19517,96
+2020-12-31,Addison,Vermont,269,4
+2020-12-31,Bennington,Vermont,501,3
+2020-12-31,Caledonia,Vermont,248,3
+2020-12-31,Chittenden,Vermont,2658,69
+2020-12-31,Essex,Vermont,80,0
+2020-12-31,Franklin,Vermont,542,25
+2020-12-31,Grand Isle,Vermont,61,0
+2020-12-31,Lamoille,Vermont,230,1
+2020-12-31,Orange,Vermont,312,1
+2020-12-31,Orleans,Vermont,293,5
+2020-12-31,Rutland,Vermont,451,8
+2020-12-31,Unknown,Vermont,9,0
+2020-12-31,Washington,Vermont,884,9
+2020-12-31,Windham,Vermont,470,5
+2020-12-31,Windsor,Vermont,404,3
+2020-12-31,St. Croix,Virgin Islands,829,7
+2020-12-31,St. John,Virgin Islands,174,1
+2020-12-31,St. Thomas,Virgin Islands,1028,15
+2020-12-31,Accomack,Virginia,1698,27
+2020-12-31,Albemarle,Virginia,2808,31
+2020-12-31,Alexandria city,Virginia,7298,87
+2020-12-31,Alleghany,Virginia,767,23
+2020-12-31,Amelia,Virginia,352,7
+2020-12-31,Amherst,Virginia,1443,10
+2020-12-31,Appomattox,Virginia,716,7
+2020-12-31,Arlington,Virginia,8872,180
+2020-12-31,Augusta,Virginia,3307,29
+2020-12-31,Bath,Virginia,153,0
+2020-12-31,Bedford,Virginia,3107,31
+2020-12-31,Bland,Virginia,480,6
+2020-12-31,Botetourt,Virginia,1292,17
+2020-12-31,Bristol city,Virginia,917,8
+2020-12-31,Brunswick,Virginia,641,7
+2020-12-31,Buchanan,Virginia,870,23
+2020-12-31,Buckingham,Virginia,1369,12
+2020-12-31,Buena Vista city,Virginia,512,4
+2020-12-31,Campbell,Virginia,2065,19
+2020-12-31,Caroline,Virginia,1035,9
+2020-12-31,Carroll,Virginia,1495,36
+2020-12-31,Charles City,Virginia,195,8
+2020-12-31,Charlotte,Virginia,379,6
+2020-12-31,Charlottesville city,Virginia,2203,34
+2020-12-31,Chesapeake city,Virginia,9324,101
+2020-12-31,Chesterfield,Virginia,13059,172
+2020-12-31,Clarke,Virginia,389,5
+2020-12-31,Colonial Heights city,Virginia,614,28
+2020-12-31,Covington city,Virginia,368,4
+2020-12-31,Craig,Virginia,149,1
+2020-12-31,Culpeper,Virginia,2998,19
+2020-12-31,Cumberland,Virginia,197,4
+2020-12-31,Danville city,Virginia,2322,63
+2020-12-31,Dickenson,Virginia,643,5
+2020-12-31,Dinwiddie,Virginia,916,15
+2020-12-31,Emporia city,Virginia,417,30
+2020-12-31,Essex,Virginia,341,2
+2020-12-31,Fairfax,Virginia,43977,679
+2020-12-31,Fairfax city,Virginia,303,10
+2020-12-31,Falls Church city,Virginia,176,6
+2020-12-31,Fauquier,Virginia,2369,28
+2020-12-31,Floyd,Virginia,507,17
+2020-12-31,Fluvanna,Virginia,758,10
+2020-12-31,Franklin,Virginia,2329,22
+2020-12-31,Franklin city,Virginia,673,17
+2020-12-31,Frederick,Virginia,3732,28
+2020-12-31,Fredericksburg city,Virginia,1039,9
+2020-12-31,Galax city,Virginia,831,35
+2020-12-31,Giles,Virginia,605,2
+2020-12-31,Gloucester,Virginia,855,7
+2020-12-31,Goochland,Virginia,612,7
+2020-12-31,Grayson,Virginia,790,24
+2020-12-31,Greene,Virginia,543,4
+2020-12-31,Greensville,Virginia,1023,16
+2020-12-31,Halifax,Virginia,1141,36
+2020-12-31,Hampton city,Virginia,4332,48
+2020-12-31,Hanover,Virginia,3828,72
+2020-12-31,Harrisonburg city,Virginia,4384,44
+2020-12-31,Henrico,Virginia,12337,293
+2020-12-31,Henry,Virginia,2637,53
+2020-12-31,Highland,Virginia,57,0
+2020-12-31,Hopewell city,Virginia,883,10
+2020-12-31,Isle of Wight,Virginia,1519,29
+2020-12-31,James City,Virginia,1898,28
+2020-12-31,King George,Virginia,736,10
+2020-12-31,King William,Virginia,453,4
+2020-12-31,King and Queen,Virginia,171,2
+2020-12-31,Lancaster,Virginia,344,2
+2020-12-31,Lee,Virginia,1476,29
+2020-12-31,Lexington city,Virginia,596,4
+2020-12-31,Loudoun,Virginia,14169,159
+2020-12-31,Louisa,Virginia,902,9
+2020-12-31,Lunenburg,Virginia,347,3
+2020-12-31,Lynchburg city,Virginia,4255,53
+2020-12-31,Madison,Virginia,299,4
+2020-12-31,Manassas Park city,Virginia,931,8
+2020-12-31,Manassas city,Virginia,2887,29
+2020-12-31,Martinsville city,Virginia,1002,27
+2020-12-31,Mathews,Virginia,310,4
+2020-12-31,Mecklenburg,Virginia,1304,39
+2020-12-31,Middlesex,Virginia,275,11
+2020-12-31,Montgomery,Virginia,5182,38
+2020-12-31,Nelson,Virginia,348,4
+2020-12-31,New Kent,Virginia,646,5
+2020-12-31,Newport News city,Virginia,5973,69
+2020-12-31,Norfolk city,Virginia,8849,107
+2020-12-31,Northampton,Virginia,444,31
+2020-12-31,Northumberland,Virginia,427,10
+2020-12-31,Norton city,Virginia,169,1
+2020-12-31,Nottoway,Virginia,1149,24
+2020-12-31,Orange,Virginia,944,13
+2020-12-31,Page,Virginia,1026,33
+2020-12-31,Patrick,Virginia,765,28
+2020-12-31,Petersburg city,Virginia,1444,33
+2020-12-31,Pittsylvania,Virginia,2609,37
+2020-12-31,Poquoson city,Virginia,335,3
+2020-12-31,Portsmouth city,Virginia,4519,78
+2020-12-31,Powhatan,Virginia,865,6
+2020-12-31,Prince Edward,Virginia,1083,17
+2020-12-31,Prince George,Virginia,1830,8
+2020-12-31,Prince William,Virginia,25519,260
+2020-12-31,Pulaski,Virginia,1502,32
+2020-12-31,Radford city,Virginia,1497,7
+2020-12-31,Rappahannock,Virginia,163,2
+2020-12-31,Richmond,Virginia,811,5
+2020-12-31,Richmond city,Virginia,9158,94
+2020-12-31,Roanoke,Virginia,4686,68
+2020-12-31,Roanoke city,Virginia,5236,99
+2020-12-31,Rockbridge,Virginia,599,6
+2020-12-31,Rockingham,Virginia,3919,48
+2020-12-31,Russell,Virginia,1520,16
+2020-12-31,Salem city,Virginia,1172,26
+2020-12-31,Scott,Virginia,1214,34
+2020-12-31,Shenandoah,Virginia,2204,73
+2020-12-31,Smyth,Virginia,1817,55
+2020-12-31,Southampton,Virginia,1142,42
+2020-12-31,Spotsylvania,Virginia,4797,67
+2020-12-31,Stafford,Virginia,5221,24
+2020-12-31,Staunton city,Virginia,1585,31
+2020-12-31,Suffolk city,Virginia,3987,90
+2020-12-31,Surry,Virginia,247,5
+2020-12-31,Sussex,Virginia,713,13
+2020-12-31,Tazewell,Virginia,2335,24
+2020-12-31,Virginia Beach city,Virginia,16629,150
+2020-12-31,Warren,Virginia,1329,33
+2020-12-31,Washington,Virginia,2970,44
+2020-12-31,Waynesboro city,Virginia,1194,13
+2020-12-31,Westmoreland,Virginia,692,9
+2020-12-31,Williamsburg city,Virginia,358,8
+2020-12-31,Winchester city,Virginia,1649,10
+2020-12-31,Wise,Virginia,2023,58
+2020-12-31,Wythe,Virginia,1311,28
+2020-12-31,York,Virginia,1472,12
+2020-12-31,Adams,Washington,1627,16
+2020-12-31,Asotin,Washington,959,18
+2020-12-31,Benton,Washington,11692,164
+2020-12-31,Chelan,Washington,5156,36
+2020-12-31,Clallam,Washington,716,4
+2020-12-31,Clark,Washington,13344,146
+2020-12-31,Columbia,Washington,84,4
+2020-12-31,Cowlitz,Washington,2415,29
+2020-12-31,Douglas,Washington,2716,15
+2020-12-31,Ferry,Washington,176,2
+2020-12-31,Franklin,Washington,8772,83
+2020-12-31,Garfield,Washington,95,2
+2020-12-31,Grant,Washington,6923,82
+2020-12-31,Grays Harbor,Washington,2220,26
+2020-12-31,Island,Washington,924,22
+2020-12-31,Jefferson,Washington,220,1
+2020-12-31,King,Washington,62582,1052
+2020-12-31,Kitsap,Washington,3887,40
+2020-12-31,Kittitas,Washington,1688,26
+2020-12-31,Klickitat,Washington,476,3
+2020-12-31,Lewis,Washington,2445,31
+2020-12-31,Lincoln,Washington,250,5
+2020-12-31,Mason,Washington,1492,16
+2020-12-31,Okanogan,Washington,1757,32
+2020-12-31,Pacific,Washington,542,5
+2020-12-31,Pend Oreille,Washington,453,4
+2020-12-31,Pierce,Washington,27620,348
+2020-12-31,San Juan,Washington,74,0
+2020-12-31,Skagit,Washington,3299,40
+2020-12-31,Skamania,Washington,190,1
+2020-12-31,Snohomish,Washington,23189,393
+2020-12-31,Spokane,Washington,26174,370
+2020-12-31,Stevens,Washington,1182,17
+2020-12-31,Thurston,Washington,4776,56
+2020-12-31,Wahkiakum,Washington,48,0
+2020-12-31,Walla Walla,Washington,3586,35
+2020-12-31,Whatcom,Washington,3478,55
+2020-12-31,Whitman,Washington,2784,27
+2020-12-31,Yakima,Washington,21053,317
+2020-12-31,Barbour,West Virginia,765,9
+2020-12-31,Berkeley,West Virginia,6245,51
+2020-12-31,Boone,West Virginia,1067,21
+2020-12-31,Braxton,West Virginia,298,1
+2020-12-31,Brooke,West Virginia,1405,24
+2020-12-31,Cabell,West Virginia,5232,101
+2020-12-31,Calhoun,West Virginia,130,0
+2020-12-31,Clay,West Virginia,258,4
+2020-12-31,Doddridge,West Virginia,245,3
+2020-12-31,Fayette,West Virginia,1711,48
+2020-12-31,Gilmer,West Virginia,397,1
+2020-12-31,Grant,West Virginia,760,17
+2020-12-31,Greenbrier,West Virginia,1469,35
+2020-12-31,Hampshire,West Virginia,988,11
+2020-12-31,Hancock,West Virginia,1837,41
+2020-12-31,Hardy,West Virginia,775,7
+2020-12-31,Harrison,West Virginia,2949,33
+2020-12-31,Jackson,West Virginia,1153,29
+2020-12-31,Jefferson,West Virginia,2337,26
+2020-12-31,Kanawha,West Virginia,8582,203
+2020-12-31,Lewis,West Virginia,525,4
+2020-12-31,Lincoln,West Virginia,741,8
+2020-12-31,Logan,West Virginia,1642,58
+2020-12-31,Marion,West Virginia,1826,13
+2020-12-31,Marshall,West Virginia,2100,53
+2020-12-31,Mason,West Virginia,1031,15
+2020-12-31,McDowell,West Virginia,970,6
+2020-12-31,Mercer,West Virginia,2783,54
+2020-12-31,Mineral,West Virginia,2095,62
+2020-12-31,Mingo,West Virginia,1422,20
+2020-12-31,Monongalia,West Virginia,5284,31
+2020-12-31,Monroe,West Virginia,646,11
+2020-12-31,Morgan,West Virginia,641,8
+2020-12-31,Nicholas,West Virginia,654,8
+2020-12-31,Ohio,West Virginia,2484,37
+2020-12-31,Pendleton,West Virginia,293,2
+2020-12-31,Pleasants,West Virginia,569,5
+2020-12-31,Pocahontas,West Virginia,356,9
+2020-12-31,Preston,West Virginia,1649,30
+2020-12-31,Putnam,West Virginia,2953,56
+2020-12-31,Raleigh,West Virginia,2670,29
+2020-12-31,Randolph,West Virginia,1138,6
+2020-12-31,Ritchie,West Virginia,345,7
+2020-12-31,Roane,West Virginia,306,5
+2020-12-31,Summers,West Virginia,439,16
+2020-12-31,Taylor,West Virginia,689,13
+2020-12-31,Tucker,West Virginia,330,2
+2020-12-31,Tyler,West Virginia,357,2
+2020-12-31,Upshur,West Virginia,922,4
+2020-12-31,Wayne,West Virginia,1701,19
+2020-12-31,Webster,West Virginia,150,0
+2020-12-31,Wetzel,West Virginia,689,16
+2020-12-31,Wirt,West Virginia,216,1
+2020-12-31,Wood,West Virginia,4933,43
+2020-12-31,Wyoming,West Virginia,1182,20
+2020-12-31,Adams,Wisconsin,1427,13
+2020-12-31,Ashland,Wisconsin,1059,16
+2020-12-31,Barron,Wisconsin,4580,57
+2020-12-31,Bayfield,Wisconsin,964,18
+2020-12-31,Brown,Wisconsin,27818,172
+2020-12-31,Buffalo,Wisconsin,1005,7
+2020-12-31,Burnett,Wisconsin,1099,19
+2020-12-31,Calumet,Wisconsin,5015,37
+2020-12-31,Chippewa,Wisconsin,6005,67
+2020-12-31,Clark,Wisconsin,3114,55
+2020-12-31,Columbia,Wisconsin,4500,38
+2020-12-31,Crawford,Wisconsin,1596,12
+2020-12-31,Dane,Wisconsin,34503,199
+2020-12-31,Dodge,Wisconsin,10999,137
+2020-12-31,Door,Wisconsin,2195,15
+2020-12-31,Douglas,Wisconsin,3515,30
+2020-12-31,Dunn,Wisconsin,3768,23
+2020-12-31,Eau Claire,Wisconsin,9473,86
+2020-12-31,Florence,Wisconsin,421,12
+2020-12-31,Fond du Lac,Wisconsin,11228,75
+2020-12-31,Forest,Wisconsin,912,24
+2020-12-31,Grant,Wisconsin,4530,82
+2020-12-31,Green,Wisconsin,2392,12
+2020-12-31,Green Lake,Wisconsin,1732,13
+2020-12-31,Iowa,Wisconsin,1745,8
+2020-12-31,Iron,Wisconsin,527,33
+2020-12-31,Jackson,Wisconsin,2402,18
+2020-12-31,Jefferson,Wisconsin,7231,61
+2020-12-31,Juneau,Wisconsin,2501,10
+2020-12-31,Kenosha,Wisconsin,13842,226
+2020-12-31,Kewaunee,Wisconsin,2186,25
+2020-12-31,La Crosse,Wisconsin,10615,57
+2020-12-31,Lafayette,Wisconsin,1350,6
+2020-12-31,Langlade,Wisconsin,1928,40
+2020-12-31,Lincoln,Wisconsin,2605,59
+2020-12-31,Manitowoc,Wisconsin,6950,57
+2020-12-31,Marathon,Wisconsin,13062,183
+2020-12-31,Marinette,Wisconsin,3868,45
+2020-12-31,Marquette,Wisconsin,1302,21
+2020-12-31,Menominee,Wisconsin,718,10
+2020-12-31,Milwaukee,Wisconsin,91624,1002
+2020-12-31,Monroe,Wisconsin,3510,25
+2020-12-31,Oconto,Wisconsin,4109,42
+2020-12-31,Oneida,Wisconsin,2870,50
+2020-12-31,Outagamie,Wisconsin,17590,160
+2020-12-31,Ozaukee,Wisconsin,7104,55
+2020-12-31,Pepin,Wisconsin,693,5
+2020-12-31,Pierce,Wisconsin,3587,35
+2020-12-31,Polk,Wisconsin,3064,24
+2020-12-31,Portage,Wisconsin,5913,54
+2020-12-31,Price,Wisconsin,1015,5
+2020-12-31,Racine,Wisconsin,19548,259
+2020-12-31,Richland,Wisconsin,1126,13
+2020-12-31,Rock,Wisconsin,13032,126
+2020-12-31,Rusk,Wisconsin,1140,13
+2020-12-31,Sauk,Wisconsin,4698,31
+2020-12-31,Sawyer,Wisconsin,1241,11
+2020-12-31,Shawano,Wisconsin,4579,67
+2020-12-31,Sheboygan,Wisconsin,11827,96
+2020-12-31,St. Croix,Wisconsin,6547,28
+2020-12-31,Taylor,Wisconsin,1776,19
+2020-12-31,Trempealeau,Wisconsin,3052,30
+2020-12-31,Vernon,Wisconsin,1580,30
+2020-12-31,Vilas,Wisconsin,1669,23
+2020-12-31,Walworth,Wisconsin,9438,102
+2020-12-31,Washburn,Wisconsin,1095,14
+2020-12-31,Washington,Wisconsin,13185,102
+2020-12-31,Waukesha,Wisconsin,37252,370
+2020-12-31,Waupaca,Wisconsin,4782,135
+2020-12-31,Waushara,Wisconsin,2067,18
+2020-12-31,Winnebago,Wisconsin,17021,165
+2020-12-31,Wood,Wisconsin,6022,58
+2020-12-31,Albany,Wyoming,3469,9
+2020-12-31,Big Horn,Wyoming,788,21
+2020-12-31,Campbell,Wyoming,4185,31
+2020-12-31,Carbon,Wyoming,946,15
+2020-12-31,Converse,Wyoming,803,11
+2020-12-31,Crook,Wyoming,388,7
+2020-12-31,Fremont,Wyoming,3968,64
+2020-12-31,Goshen,Wyoming,1010,17
+2020-12-31,Hot Springs,Wyoming,231,1
+2020-12-31,Johnson,Wyoming,518,6
+2020-12-31,Laramie,Wyoming,7045,62
+2020-12-31,Lincoln,Wyoming,920,11
+2020-12-31,Natrona,Wyoming,6479,92
+2020-12-31,Niobrara,Wyoming,140,2
+2020-12-31,Park,Wyoming,2021,10
+2020-12-31,Platte,Wyoming,440,8
+2020-12-31,Sheridan,Wyoming,2543,17
+2020-12-31,Sublette,Wyoming,597,6
+2020-12-31,Sweetwater,Wyoming,2966,16
+2020-12-31,Teton,Wyoming,2138,4
+2020-12-31,Uinta,Wyoming,1558,7
+2020-12-31,Washakie,Wyoming,780,19
+2020-12-31,Weston,Wyoming,476,2
