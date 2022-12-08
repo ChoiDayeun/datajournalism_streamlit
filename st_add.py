@@ -424,18 +424,6 @@ state_crime_2019 = {'State':state_name_list, 'Crimes':crime_list_2019}
 state_crime_df_2019 = pd.DataFrame(state_crime_2019)
 #state_crime_df_2019
 
-fig_crime_2019 = px.choropleth(state_crime_df_2019, geojson= states, locations='State', 
-                    color = 'Crimes',
-                    color_continuous_scale="Blues",
-                    range_color=(0, state_crime_df_2020.Crimes.max()),
-                    featureidkey='properties.State',
-                    scope="usa",
-                    labels={'case':'Crimes'},
-                    title = 'Crime Cases per State 2019', 
-                    )
-fig_crime_2019.update_layout(margin={"r":0,"t":60,"l":0,"b":0})
-#fig_crime_2019.show()
-
 ###############2020년##################
 fbi_state_2020 = fbi.loc[fbi['DATA_YEAR'] == 2020][['STATE_NAME']]
 #각 주별 범죄 총 건수 세는 함수
@@ -453,6 +441,21 @@ for item in state_name_list:
 state_crime_2020 = {'State':state_name_list, 'Crimes':crime_list_2020}
 state_crime_df_2020 = pd.DataFrame(state_crime_2020)
 #state_crime_df_2019
+
+######표######
+
+fig_crime_2019 = px.choropleth(state_crime_df_2019, geojson= states, locations='State', 
+                    color = 'Crimes',
+                    color_continuous_scale="Blues",
+                    range_color=(0, state_crime_df_2020.Crimes.max()),
+                    featureidkey='properties.State',
+                    scope="usa",
+                    labels={'case':'Crimes'},
+                    title = 'Crime Cases per State 2019', 
+                    )
+fig_crime_2019.update_layout(margin={"r":0,"t":60,"l":0,"b":0})
+#fig_crime_2019.show()
+
 
 fig_crime_2020 = px.choropleth(state_crime_df_2020, geojson= states, locations='State', 
                     color = 'Crimes',
