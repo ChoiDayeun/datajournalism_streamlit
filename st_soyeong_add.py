@@ -19,7 +19,7 @@ st.markdown("""
 ----
 """)
 
-fbi =  pd.read_csv("/Users/ohsoyeong/Downloads/fbi_data_edited.csv", low_memory=False)
+fbi =  pd.read_csv("fbi_data_edited.csv", low_memory=False)
 df = pd.DataFrame(fbi, columns=['DATA_YEAR', 'BIAS_DESC'])
 
 #소영언니 파트다른 인종에 대한 범죄도 늘었는가, 아시아에 대한 범죄만 늘었는가(범죄 성격)
@@ -372,7 +372,7 @@ st.markdown("""
 """)
 
 #파일 임포트 
-covid_state = pd.read_csv("/Users/ohsoyeong/Downloads/us_county_covid_2020.csv") #2020년 12월 31일 기준, 미국 각 주 county별 누적 확진 수를 담은 파일.
+covid_state = pd.read_csv("us_county_covid_2020.csv") #2020년 12월 31일 기준, 미국 각 주 county별 누적 확진 수를 담은 파일.
 
 #주별 인구 10만명 당 코로나19 확진자 수 표 그리기
 covid_state_df = pd.DataFrame(covid_state)
@@ -412,7 +412,7 @@ state_death = {'State':state_name_list, 'Deaths':deaths_list}
 state_death_df = pd.DataFrame(state_death)
 
 #10만 명당: (전체 건수 / 2020 기준 해당 주 인구수) * 100,000 - 해당 주 인구수는 us census.gov 사이트에서 가져온 파일, 2020 7월 기준
-us_population = pd.read_csv("/Users/ohsoyeong/Downloads/us_population_2020.csv")
+us_population = pd.read_csv("us_population_2020.csv")
 us_population['2020'] = us_population['2020'].apply(lambda x: int(x.replace(',', '')))
 
 us_case_population = pd.merge(state_case_df, us_population)
