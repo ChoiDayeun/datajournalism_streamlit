@@ -175,39 +175,39 @@ def crime_pie_chart(filename):
 
 with tab1:
     st.header("2015")
-    fig_2015 = px.pie(crime_pie_chart("/Users/ohsoyeong/Downloads/hate_crime_race.csv"), values = 'number', names = 'race', color_discrete_sequence=px.colors.sequential.RdBu)
+    fig_2015 = px.pie(crime_pie_chart("hate_crime_race.csv"), values = 'number', names = 'race', color_discrete_sequence=px.colors.sequential.RdBu)
     fig_2015.update_traces(pull=[0, 0, 0, 0, 0, 0, 0, 0, 0, 0.2, 0, 0, 0, 0, 0, 0])
     st.plotly_chart(fig_2015)
 
 with tab2:
     st.header("2016")
-    fig_2016 = px.pie(crime_pie_chart("/Users/ohsoyeong/Downloads/hate_crime_race_2016.csv"), values = 'number', names = 'race', color_discrete_sequence=px.colors.sequential.RdBu)
+    fig_2016 = px.pie(crime_pie_chart("hate_crime_race_2016.csv"), values = 'number', names = 'race', color_discrete_sequence=px.colors.sequential.RdBu)
     fig_2016.update_traces(pull=[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.2, 0, 0, 0, 0, 0, 0])
     st.plotly_chart(fig_2016)
 
 
 with tab3:
     st.header("2017")
-    fig_2017 = px.pie(crime_pie_chart("/Users/ohsoyeong/Downloads/hate_crime_race_2017.csv"), values = 'number', names = 'race', color_discrete_sequence=px.colors.sequential.RdBu)
+    fig_2017 = px.pie(crime_pie_chart("hate_crime_race_2017.csv"), values = 'number', names = 'race', color_discrete_sequence=px.colors.sequential.RdBu)
     fig_2017.update_traces(pull=[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.2, 0, 0, 0, 0, 0, 0, 0, 0, 0])
     st.plotly_chart(fig_2017)
 
 with tab4:
     st.header("2018")
-    fig_2018 = px.pie(crime_pie_chart("/Users/ohsoyeong/Downloads/hate_crime_race_2018.csv"), values = 'number', names = 'race', color_discrete_sequence=px.colors.sequential.RdBu)
+    fig_2018 = px.pie(crime_pie_chart("hate_crime_race_2018.csv"), values = 'number', names = 'race', color_discrete_sequence=px.colors.sequential.RdBu)
     fig_2018.update_traces(pull=[0, 0, 0, 0, 0, 0, 0, 0, 0, 0.2, 0, 0, 0, 0, 0, 0, 0, 0, 0])
     st.plotly_chart(fig_2018)
 
 
 with tab5:
     st.header("2019")
-    fig_2019 = px.pie(crime_pie_chart("/Users/ohsoyeong/Downloads/hate_crime_race_2019.csv"), values = 'number', names = 'race', color_discrete_sequence=px.colors.sequential.RdBu)
+    fig_2019 = px.pie(crime_pie_chart("hate_crime_race_2019.csv"), values = 'number', names = 'race', color_discrete_sequence=px.colors.sequential.RdBu)
     fig_2019.update_traces(pull=[0, 0, 0, 0, 0, 0, 0, 0.2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])
     st.plotly_chart(fig_2019)
 
 with tab6:
     st.header("2020")
-    fig_2020 = px.pie(crime_pie_chart("/Users/ohsoyeong/Downloads/hate_crime_race_2020.csv"), values = 'number', names = 'race', color_discrete_sequence=px.colors.sequential.RdBu)
+    fig_2020 = px.pie(crime_pie_chart("hate_crime_race_2020.csv"), values = 'number', names = 'race', color_discrete_sequence=px.colors.sequential.RdBu)
     fig_2020.update_traces(pull=[0, 0, 0, 0, 0, 0, 0, 0.2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])
     st.plotly_chart(fig_2020)
 
@@ -486,7 +486,7 @@ st.markdown('''
 
 # section 3-1: 아시아인 인구
 
-image = Image.open('/Users/ohsoyeong/Downloads/population_map.png')
+image = Image.open('population_map.png')
 st.image(image, caption = "Population of Asian in US")
 
 st.markdown('''
@@ -498,7 +498,7 @@ st.markdown('''
 # section 3-2: 사망자수
 
 #파일 임포트 
-covid_state = pd.read_csv("/Users/ohsoyeong/Downloads/us_county_covid_2020.csv") #2020년 12월 31일 기준, 미국 각 주 county별 누적 확진 수를 담은 파일.
+covid_state = pd.read_csv("us_county_covid_2020.csv") #2020년 12월 31일 기준, 미국 각 주 county별 누적 확진 수를 담은 파일.
 
 #주별 인구 10만명 당 코로나19 확진자 수 표 그리기
 covid_state_df = pd.DataFrame(covid_state)
@@ -521,7 +521,7 @@ state_death = {'State':state_name_list, 'Deaths':deaths_list}
 state_death_df = pd.DataFrame(state_death)
 
 #10만 명당: (전체 건수 / 2020 기준 해당 주 인구수) * 100,000 - 해당 주 인구수는 us census.gov 사이트에서 가져온 파일, 2020 7월 기준
-us_population = pd.read_csv("/Users/ohsoyeong/Downloads/us_population_2020.csv")
+us_population = pd.read_csv("us_population_2020.csv")
 us_population['2020'] = us_population['2020'].apply(lambda x: int(x.replace(',', '')))
 us_death_population = pd.merge(state_death_df, us_population)
 
