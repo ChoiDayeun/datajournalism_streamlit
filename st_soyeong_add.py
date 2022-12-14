@@ -31,6 +31,7 @@ st.set_page_config(page_icon="🗽",
 # header
 st.markdown("""
 # 아시아인 혐오 범죄, 확산과 심화: 코로나19 전후 미국의 혐오 범죄를 조명하다💡
+* 데이터저널리즘 2조: 오소영, 이혜정, 최다연
 """) 
 
 # introduce
@@ -945,6 +946,11 @@ st.warning('''
 
 📍 코로나19 아시아혐오범죄 (주별 비교)
         ''')
+
+st.error("""
+hate_words_list = ['isis', 'islamic', 'terrorist', 'asian', 'border', 'race', 'racism', 'african-american', 'immigration', 'china', 'threat']
+"""
+)
 
 #*stopwords 업데이트
 #words filtered
