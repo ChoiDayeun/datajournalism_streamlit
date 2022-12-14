@@ -641,283 +641,235 @@ elif add_radio == "🔍아시아인 혐오 범죄, 지역으로 좁혀 보자!":
   * 코로나19 피해 심했던 주, 혐오 범죄도 많았다: 코로나19 사망자수와 아시아인 혐오 범죄 발생 수를 주별로 그린 지도랑, 아시아인 인구 분포도를 보여줄게요. 사망자가 많은 주에서 혐오 범죄 수도 많이 발생하는 경향이 보이네요.
   ''')
 
-  # st.markdown("""
-  # ##### 분석
-  # * 혐오범죄 건수는 코로나19의 주별 심각성과는 무관하게 모든 주에서 증가했습니다.
-  # """)
-
-  # ###주별 정리 다시: 5개로 하니 차이가 너무 안 보여서 10개로 했는데.. 결과가 애매꾸리. 표 형식을 바꾸라면 바꾸겠음.###
-
-  # st.markdown("""
-  # ### 2. 혐오 범죄 유형의 과격성과 심각성 - 상위, 하위 10개주별 비교\n요컨대 혐오 범죄 발생 빈도수에서 유의미한 주별 차이는 없었습니다. 그렇다면 범죄의 과격성과 공개성은 코로나10 전후로 어떤 변화가 있었을까요?\n
-  # 인구 10만 명당 코로나19 확진자수, 인구 1000명당 코로나19 사망자수 상위 10개 주와 하위 10개 주를 나눠 과격성과 공개성을 비교했습니다.
-  # """)
+  # ###주별 정리 다시: 10개###
 
 
   # #1000명당 사망 건수별로 정렬: 상위 10개, 하위 10개 주 추출
   # #상위 10개, 하위 10개
-  # death_top10_df = us_death_population_final.sort_values('deaths_per_1k', ascending = False)[:10]
-  # death_bottom10_df = us_death_population_final.sort_values('deaths_per_1k')[:10]
+  death_top10_df = us_death_population_final.sort_values('deaths_per_1k', ascending = False)[:10]
+  death_bottom10_df = us_death_population_final.sort_values('deaths_per_1k')[:10]
 
-  # #death_top10_df['State']
+  #death_top10_df['State']
 
-  # #해당 주 이름들 추출
-  # death_top10_names = []
-  # death_bottom10_names = []
-  # for item in death_top10_df['State']:
-  #     death_top10_names.append(item)
+  #해당 주 이름들 추출
+  death_top10_names = []
+  death_bottom10_names = []
+  for item in death_top10_df['State']:
+      death_top10_names.append(item)
 
 
-  # for item in death_bottom10_df['State']:
-  #     death_bottom10_names.append(item)
+  for item in death_bottom10_df['State']:
+      death_bottom10_names.append(item)
 
 
   # ################사망자수 기준##################
 
-  # df_new2 = pd.DataFrame(fbi, columns=['DATA_YEAR', 'STATE_NAME', 'OFFENSE_NAME', 'BIAS_DESC', 'LOCATION_NAME'])
-  # df_new2 = df_new2[(df_new2['DATA_YEAR'] >= 2019)]
+  df_new2 = pd.DataFrame(fbi, columns=['DATA_YEAR', 'STATE_NAME', 'OFFENSE_NAME', 'BIAS_DESC', 'LOCATION_NAME'])
+  df_new2 = df_new2[(df_new2['DATA_YEAR'] >= 2019)]
 
-  # df_new2.loc[(df_new2['OFFENSE_NAME'].str.startswith('Aggravated Assault')), 'OFFENSE_NAME'] = 'Aggravated Assault'
-  # df_new2.loc[(df_new2['OFFENSE_NAME'].str.startswith('Murder and Nonnegligent Manslaughter')), 'OFFENSE_NAME'] = 'Murder and Nonnegligent Manslaughter'
-  # df_new2.loc[(df_new2['OFFENSE_NAME'].str.contains('Destruction/Damage/Vandalism of Property')), 'OFFENSE_NAME'] = 'Destruction/Damage/Vandalism of Property'
-  # df_new2.loc[(df_new2['OFFENSE_NAME'].str.contains('Intimidation')), 'OFFENSE_NAME'] = 'Intimidation'
-  # df_new2.loc[(df_new2['OFFENSE_NAME'].str.contains('Drug')), 'OFFENSE_NAME'] = 'Drug Violations'
-  # df_new2.loc[(df_new2['OFFENSE_NAME'].str.contains('Theft')), 'OFFENSE_NAME'] = 'Theft'
-  # df_new2.loc[(df_new2['OFFENSE_NAME'].str.contains('Robbery')), 'OFFENSE_NAME'] = 'Robbery'
-  # df_new2.loc[(df_new2['OFFENSE_NAME'].str.contains('Burglary')), 'OFFENSE_NAME'] = 'Burglary'
-  # df_new2.loc[(df_new2['OFFENSE_NAME'].str.contains('Fraud')), 'OFFENSE_NAME'] = 'Fraud'
-  # df_new2.loc[(df_new2['OFFENSE_NAME'].str.contains('Rape')), 'OFFENSE_NAME'] = 'Rape'
-  # df_new2.loc[(df_new2['OFFENSE_NAME'].str.contains('Prostitution')), 'OFFENSE_NAME'] = 'Prostitution'
-  # df_new2.loc[(df_new2['OFFENSE_NAME'].str.contains('Arson')), 'OFFENSE_NAME'] = 'Arson'
-  # df_new2.loc[(df_new2['OFFENSE_NAME'].str.startswith('Kidnapping')), 'OFFENSE_NAME'] = 'Kidnapping'
-  # df_new2.loc[(df_new2['OFFENSE_NAME'].str.contains('Extortion')), 'OFFENSE_NAME'] = 'Extortion'
-  # df_new2.loc[(df_new2['OFFENSE_NAME'].str.contains('Shoplifting')), 'OFFENSE_NAME'] = 'Shoplifting'
-  # df_new2.loc[(df_new2['OFFENSE_NAME'].str.contains('Purse-snatching')), 'OFFENSE_NAME'] = 'Shoplifting'
-  # df_new2.loc[(df_new2['OFFENSE_NAME'].str.contains('Pocket-picking')), 'OFFENSE_NAME'] = 'Shoplifting' #약간 좀도둑 느낌이면 다 shoplifting 
-  # df_new2.loc[(df_new2['OFFENSE_NAME'].str.contains('Fondling')), 'OFFENSE_NAME'] = 'Fondling'
-  # df_new2.loc[(df_new2['OFFENSE_NAME'].str.contains('Simple Assault')), 'OFFENSE_NAME'] = 'Simple Assault'
-
-
-  # df_new2.loc[(df_new2['OFFENSE_NAME'].str.contains('All Other Larceny')), 'OFFENSE_NAME'] = 'All Other Larceny' #다 정리하고도 남으면 기타로 빼기.
-
-  # # crime type cleaning (2nd)
-  # df_new2.loc[df_new2['OFFENSE_NAME'] == 'Intimidation', 'OFFENSE_NAME'] = 1
-  # df_new2.loc[df_new2['OFFENSE_NAME'] == 'Counterfeiting/Forgery', 'OFFENSE_NAME'] = 1
-  # df_new2.loc[df_new2['OFFENSE_NAME'] == 'Drug Violations', 'OFFENSE_NAME'] = 1
-  # df_new2.loc[df_new2['OFFENSE_NAME'] == 'Weapon Law Violations', 'OFFENSE_NAME'] = 1 
-  # df_new2.loc[df_new2['OFFENSE_NAME'] == 'Embezzlement', 'OFFENSE_NAME'] = 1 
-  # df_new2.loc[df_new2['OFFENSE_NAME'] == 'Sodomy', 'OFFENSE_NAME'] = 1
-  # df_new2.loc[df_new2['OFFENSE_NAME'] == 'Extortion', 'OFFENSE_NAME'] = 1
-  # df_new2.loc[df_new2['OFFENSE_NAME'] == 'Fondling', 'OFFENSE_NAME'] = 1
-  # df_new2.loc[df_new2['OFFENSE_NAME'] == 'Pornography/Obscene Material', 'OFFENSE_NAME'] = 1
-  # df_new2.loc[df_new2['OFFENSE_NAME'] == 'Shoplifting', 'OFFENSE_NAME'] = 1
-  # df_new2.loc[df_new2['OFFENSE_NAME'] == 'Impersonation', 'OFFENSE_NAME'] = 1
-  # df_new2.loc[df_new2['OFFENSE_NAME'] == 'Fraud', 'OFFENSE_NAME'] = 1 #사기까지
-  # df_new2.loc[df_new2['OFFENSE_NAME'] == 'False Pretenses/Swindle/Confidence Game', 'OFFENSE_NAME'] = 1
-  # df_new2.loc[df_new2['OFFENSE_NAME'] == 'Stolen Property Offenses', 'OFFENSE_NAME'] = 1
-  # df_new2.loc[df_new2['OFFENSE_NAME'] == 'Animal Cruelty', 'OFFENSE_NAME'] = 1
-
-  # df_new2.loc[df_new2['OFFENSE_NAME'] == 'All Other Larceny', 'OFFENSE_NAME'] = 2
-  # df_new2.loc[df_new2['OFFENSE_NAME'] == 'Theft', 'OFFENSE_NAME'] = 2 #여기서부터는 절도 등등
-  # df_new2.loc[df_new2['OFFENSE_NAME'] == 'Destruction/Damage/Vandalism of Property', 'OFFENSE_NAME'] = 2
-  # df_new2.loc[df_new2['OFFENSE_NAME'] == 'Prostitution', 'OFFENSE_NAME'] = 2 
-  # df_new2.loc[df_new2['OFFENSE_NAME'] == 'Human Trafficking, Commercial Sex Acts', 'OFFENSE_NAME'] = 2
-
-  # df_new2.loc[df_new2['OFFENSE_NAME'] == 'Arson', 'OFFENSE_NAME'] = 3 #방화는 3으로 빼는 것은 어떨지? 
-  # df_new2.loc[df_new2['OFFENSE_NAME'] == 'Robbery', 'OFFENSE_NAME'] = 3
-  # df_new2.loc[df_new2['OFFENSE_NAME'] == 'Burglary', 'OFFENSE_NAME'] = 3
-  # df_new2.loc[df_new2['OFFENSE_NAME'] == 'Simple Assault', 'OFFENSE_NAME'] = 3
-  # df_new2.loc[df_new2['OFFENSE_NAME'] == 'Aggravated Assault', 'OFFENSE_NAME'] = 3 #가중 폭행
-  # df_new2.loc[df_new2['OFFENSE_NAME'] == 'Sexual Assault With An Object', 'OFFENSE_NAME'] = 3
-  # df_new2.loc[df_new2['OFFENSE_NAME'] == 'Negligent Manslaughter', 'OFFENSE_NAME'] = 3
-
-  # df_new2.loc[df_new2['OFFENSE_NAME'] == 'Kidnapping', 'OFFENSE_NAME'] = 4 #유괴 3? 4?
-  # df_new2.loc[df_new2['OFFENSE_NAME'] == 'Rape', 'OFFENSE_NAME'] = 4
-  # df_new2.loc[df_new2['OFFENSE_NAME'] == 'Murder and Nonnegligent Manslaughter', 'OFFENSE_NAME'] = 4
-
-  # df_new2.loc[df_new2['OFFENSE_NAME'] == 'Not Specified', 'OFFENSE_NAME'] = 5
-  # df_new2.loc[df_new2['OFFENSE_NAME'] == 'Hacking/Computer Invasion', 'OFFENSE_NAME'] = 5 #1로 보내는 것은 어떨지? 
+  df_new2.loc[(df_new2['OFFENSE_NAME'].str.startswith('Aggravated Assault')), 'OFFENSE_NAME'] = 'Aggravated Assault'
+  df_new2.loc[(df_new2['OFFENSE_NAME'].str.startswith('Murder and Nonnegligent Manslaughter')), 'OFFENSE_NAME'] = 'Murder and Nonnegligent Manslaughter'
+  df_new2.loc[(df_new2['OFFENSE_NAME'].str.contains('Destruction/Damage/Vandalism of Property')), 'OFFENSE_NAME'] = 'Destruction/Damage/Vandalism of Property'
+  df_new2.loc[(df_new2['OFFENSE_NAME'].str.contains('Intimidation')), 'OFFENSE_NAME'] = 'Intimidation'
+  df_new2.loc[(df_new2['OFFENSE_NAME'].str.contains('Drug')), 'OFFENSE_NAME'] = 'Drug Violations'
+  df_new2.loc[(df_new2['OFFENSE_NAME'].str.contains('Theft')), 'OFFENSE_NAME'] = 'Theft'
+  df_new2.loc[(df_new2['OFFENSE_NAME'].str.contains('Robbery')), 'OFFENSE_NAME'] = 'Robbery'
+  df_new2.loc[(df_new2['OFFENSE_NAME'].str.contains('Burglary')), 'OFFENSE_NAME'] = 'Burglary'
+  df_new2.loc[(df_new2['OFFENSE_NAME'].str.contains('Fraud')), 'OFFENSE_NAME'] = 'Fraud'
+  df_new2.loc[(df_new2['OFFENSE_NAME'].str.contains('Rape')), 'OFFENSE_NAME'] = 'Rape'
+  df_new2.loc[(df_new2['OFFENSE_NAME'].str.contains('Prostitution')), 'OFFENSE_NAME'] = 'Prostitution'
+  df_new2.loc[(df_new2['OFFENSE_NAME'].str.contains('Arson')), 'OFFENSE_NAME'] = 'Arson'
+  df_new2.loc[(df_new2['OFFENSE_NAME'].str.startswith('Kidnapping')), 'OFFENSE_NAME'] = 'Kidnapping'
+  df_new2.loc[(df_new2['OFFENSE_NAME'].str.contains('Extortion')), 'OFFENSE_NAME'] = 'Extortion'
+  df_new2.loc[(df_new2['OFFENSE_NAME'].str.contains('Shoplifting')), 'OFFENSE_NAME'] = 'Shoplifting'
+  df_new2.loc[(df_new2['OFFENSE_NAME'].str.contains('Purse-snatching')), 'OFFENSE_NAME'] = 'Shoplifting'
+  df_new2.loc[(df_new2['OFFENSE_NAME'].str.contains('Pocket-picking')), 'OFFENSE_NAME'] = 'Shoplifting' #약간 좀도둑 느낌이면 다 shoplifting 
+  df_new2.loc[(df_new2['OFFENSE_NAME'].str.contains('Fondling')), 'OFFENSE_NAME'] = 'Fondling'
+  df_new2.loc[(df_new2['OFFENSE_NAME'].str.contains('Simple Assault')), 'OFFENSE_NAME'] = 'Simple Assault'
 
 
-  # # crime place cleaning 1st
+  df_new2.loc[(df_new2['OFFENSE_NAME'].str.contains('All Other Larceny')), 'OFFENSE_NAME'] = 'All Other Larceny' #다 정리하고도 남으면 기타로 빼기.
 
-  # df_new2.loc[(df_new2['LOCATION_NAME'].str.contains('Highway/Road/Alley/Street/Sidewalk')), 'LOCATION_NAME'] = 'Highway/Road/Alley/Street/Sidewalk'
-  # df_new2.loc[(df_new2['LOCATION_NAME'].str.contains('Store')), 'LOCATION_NAME'] = 'Store'
-  # df_new2.loc[(df_new2['LOCATION_NAME'].str.contains('Facility')), 'LOCATION_NAME'] = 'Facility'
-  # df_new2.loc[(df_new2['LOCATION_NAME'].str.contains('School-Elementary/Secondary')), 'LOCATION_NAME'] = 'School-Elementary/Secondary'
-  # df_new2.loc[(df_new2['LOCATION_NAME'].str.contains('Auto Dealership New/Used')), 'LOCATION_NAME'] = 'Auto Dealership New/Used'
-  # df_new2.loc[(df_new2['LOCATION_NAME'].str.startswith('Hotel/Motel/Etc')), 'LOCATION_NAME'] = 'Hotel/Motel/Etc'
-  # df_new2.loc[(df_new2['LOCATION_NAME'].str.contains('Amusement Park')), 'LOCATION_NAME'] = 'Amusement Park' 
-  # df_new2.loc[(df_new2['LOCATION_NAME'].str.contains('Commercial/Office Building')), 'LOCATION_NAME'] = 'Commercial/Office Building'
-  # df_new2.loc[(df_new2['LOCATION_NAME'].str.contains('ATM Separate from Bank')), 'LOCATION_NAME'] = 'ATM Separate from Bank'
-  # df_new2.loc[(df_new2['LOCATION_NAME'].str.startswith('Grocery/Supermarket')), 'LOCATION_NAME'] = 'Grocery/Supermarket'  
+  # crime type cleaning (2nd)
+  df_new2.loc[df_new2['OFFENSE_NAME'] == 'Intimidation', 'OFFENSE_NAME'] = 1
+  df_new2.loc[df_new2['OFFENSE_NAME'] == 'Counterfeiting/Forgery', 'OFFENSE_NAME'] = 1
+  df_new2.loc[df_new2['OFFENSE_NAME'] == 'Drug Violations', 'OFFENSE_NAME'] = 1
+  df_new2.loc[df_new2['OFFENSE_NAME'] == 'Weapon Law Violations', 'OFFENSE_NAME'] = 1 
+  df_new2.loc[df_new2['OFFENSE_NAME'] == 'Embezzlement', 'OFFENSE_NAME'] = 1 
+  df_new2.loc[df_new2['OFFENSE_NAME'] == 'Sodomy', 'OFFENSE_NAME'] = 1
+  df_new2.loc[df_new2['OFFENSE_NAME'] == 'Extortion', 'OFFENSE_NAME'] = 1
+  df_new2.loc[df_new2['OFFENSE_NAME'] == 'Fondling', 'OFFENSE_NAME'] = 1
+  df_new2.loc[df_new2['OFFENSE_NAME'] == 'Pornography/Obscene Material', 'OFFENSE_NAME'] = 1
+  df_new2.loc[df_new2['OFFENSE_NAME'] == 'Shoplifting', 'OFFENSE_NAME'] = 1
+  df_new2.loc[df_new2['OFFENSE_NAME'] == 'Impersonation', 'OFFENSE_NAME'] = 1
+  df_new2.loc[df_new2['OFFENSE_NAME'] == 'Fraud', 'OFFENSE_NAME'] = 1 #사기까지
+  df_new2.loc[df_new2['OFFENSE_NAME'] == 'False Pretenses/Swindle/Confidence Game', 'OFFENSE_NAME'] = 1
+  df_new2.loc[df_new2['OFFENSE_NAME'] == 'Stolen Property Offenses', 'OFFENSE_NAME'] = 1
+  df_new2.loc[df_new2['OFFENSE_NAME'] == 'Animal Cruelty', 'OFFENSE_NAME'] = 1
 
-  # df_new2.loc[(df_new2['LOCATION_NAME'].str.startswith('Other/Unknown')), 'LOCATION_NAME'] = 'Other/Unknown' #기타 
+  df_new2.loc[df_new2['OFFENSE_NAME'] == 'All Other Larceny', 'OFFENSE_NAME'] = 2
+  df_new2.loc[df_new2['OFFENSE_NAME'] == 'Theft', 'OFFENSE_NAME'] = 2 #여기서부터는 절도 등등
+  df_new2.loc[df_new2['OFFENSE_NAME'] == 'Destruction/Damage/Vandalism of Property', 'OFFENSE_NAME'] = 2
+  df_new2.loc[df_new2['OFFENSE_NAME'] == 'Prostitution', 'OFFENSE_NAME'] = 2 
+  df_new2.loc[df_new2['OFFENSE_NAME'] == 'Human Trafficking, Commercial Sex Acts', 'OFFENSE_NAME'] = 2
 
-  # # crime place cleaning 2nd
-  # df_new2.loc[df_new2['LOCATION_NAME'] == 'Residence/Home', 'LOCATION_NAME'] = 1
-  # df_new2.loc[df_new2['LOCATION_NAME'] == 'Hotel/Motel/Etc', 'LOCATION_NAME'] = 1
+  df_new2.loc[df_new2['OFFENSE_NAME'] == 'Arson', 'OFFENSE_NAME'] = 3 #방화는 3으로 빼는 것은 어떨지? 
+  df_new2.loc[df_new2['OFFENSE_NAME'] == 'Robbery', 'OFFENSE_NAME'] = 3
+  df_new2.loc[df_new2['OFFENSE_NAME'] == 'Burglary', 'OFFENSE_NAME'] = 3
+  df_new2.loc[df_new2['OFFENSE_NAME'] == 'Simple Assault', 'OFFENSE_NAME'] = 3
+  df_new2.loc[df_new2['OFFENSE_NAME'] == 'Aggravated Assault', 'OFFENSE_NAME'] = 3 #가중 폭행
+  df_new2.loc[df_new2['OFFENSE_NAME'] == 'Sexual Assault With An Object', 'OFFENSE_NAME'] = 3
+  df_new2.loc[df_new2['OFFENSE_NAME'] == 'Negligent Manslaughter', 'OFFENSE_NAME'] = 3
 
+  df_new2.loc[df_new2['OFFENSE_NAME'] == 'Kidnapping', 'OFFENSE_NAME'] = 4 #유괴 3? 4?
+  df_new2.loc[df_new2['OFFENSE_NAME'] == 'Rape', 'OFFENSE_NAME'] = 4
+  df_new2.loc[df_new2['OFFENSE_NAME'] == 'Murder and Nonnegligent Manslaughter', 'OFFENSE_NAME'] = 4
 
-  # df_new2.loc[df_new2['LOCATION_NAME'] == 'ATM Separate from Bank', 'LOCATION_NAME'] = 2 
-  # df_new2.loc[df_new2['LOCATION_NAME'] == 'Auto Dealership New/Used', 'LOCATION_NAME'] = 2
-  # df_new2.loc[df_new2['LOCATION_NAME'] == 'Abandoned/Condemned Structure', 'LOCATION_NAME'] = 2
-  # df_new2.loc[df_new2['LOCATION_NAME'] == 'Military Installation', 'LOCATION_NAME'] = 2 #얘도 3으로 빼는 것은 어떨지?
-
-
-  # df_new2.loc[df_new2['LOCATION_NAME'] == 'Construction Site', 'LOCATION_NAME'] = 3
-  # df_new2.loc[df_new2['LOCATION_NAME'] == 'Industrial Site', 'LOCATION_NAME'] = 3
-  # df_new2.loc[df_new2['LOCATION_NAME'] == 'Field/Woods', 'LOCATION_NAME'] = 3
-  # df_new2.loc[df_new2['LOCATION_NAME'] == 'Camp/Campground', 'LOCATION_NAME'] = 3
-  # df_new2.loc[df_new2['LOCATION_NAME'] == 'Arena/Stadium/Fairgrounds/Coliseum', 'LOCATION_NAME'] = 3
-  # df_new2.loc[df_new2['LOCATION_NAME'] == 'Tribal Lands', 'LOCATION_NAME'] = 3
-  # df_new2.loc[df_new2['LOCATION_NAME'] == 'Service/Gas Station', 'LOCATION_NAME'] = 3
-  # df_new2.loc[df_new2['LOCATION_NAME'] == 'Lake/Waterway/Beach', 'LOCATION_NAME'] = 3
-  # df_new2.loc[df_new2['LOCATION_NAME'] == 'Parking/Drop Lot/Garage', 'LOCATION_NAME'] = 3
-
-  # df_new2.loc[df_new2['LOCATION_NAME'] == 'Store', 'LOCATION_NAME'] = 4
-  # df_new2.loc[df_new2['LOCATION_NAME'] == 'Facility', 'LOCATION_NAME'] = 4
-  # df_new2.loc[df_new2['LOCATION_NAME'] == 'Shopping Mall', 'LOCATION_NAME'] = 4
-  # df_new2.loc[df_new2['LOCATION_NAME'] == 'Grocery/Supermarket', 'LOCATION_NAME'] = 4
-  # df_new2.loc[df_new2['LOCATION_NAME'] == 'Air/Bus/Train Terminal', 'LOCATION_NAME'] = 4
-  # df_new2.loc[df_new2['LOCATION_NAME'] == 'Dock/Wharf/Freight/Modal Terminal', 'LOCATION_NAME'] = 4
-  # df_new2.loc[df_new2['LOCATION_NAME'] == 'Commercial/Office Building', 'LOCATION_NAME'] = 4
-  # df_new2.loc[df_new2['LOCATION_NAME'] == 'Bar/Nightclub', 'LOCATION_NAME'] = 4
-  # df_new2.loc[df_new2['LOCATION_NAME'] == 'Restaurant', 'LOCATION_NAME'] = 4
-
-  # df_new2.loc[df_new2['LOCATION_NAME'] == 'School-College/University', 'LOCATION_NAME'] = 5
-  # df_new2.loc[df_new2['LOCATION_NAME'] == 'School-Elementary/Secondary', 'LOCATION_NAME'] = 5
-  # df_new2.loc[df_new2['LOCATION_NAME'] == 'School/College', 'LOCATION_NAME'] = 5
-  # df_new2.loc[df_new2['LOCATION_NAME'] == 'Community Center', 'LOCATION_NAME'] = 5
-  # df_new2.loc[df_new2['LOCATION_NAME'] == 'Shelter-Mission/Homeless', 'LOCATION_NAME'] = 5
-  # df_new2.loc[df_new2['LOCATION_NAME'] == 'Bank/Savings and Loan', 'LOCATION_NAME'] = 5
-  # df_new2.loc[df_new2['LOCATION_NAME'] == 'Church/Synagogue/Temple/Mosque', 'LOCATION_NAME'] = 5
-  # df_new2.loc[df_new2['LOCATION_NAME'] == 'Government/Public Building', 'LOCATION_NAME'] = 5
-  # df_new2.loc[df_new2['LOCATION_NAME'] == "Drug Store/Doctor's Office/Hospital", 'LOCATION_NAME'] = 5 
+  df_new2.loc[df_new2['OFFENSE_NAME'] == 'Not Specified', 'OFFENSE_NAME'] = 5
+  df_new2.loc[df_new2['OFFENSE_NAME'] == 'Hacking/Computer Invasion', 'OFFENSE_NAME'] = 5 #1로 보내는 것은 어떨지? 
 
 
-  # df_new2.loc[df_new2['LOCATION_NAME'] == 'Amusement Park', 'LOCATION_NAME'] = 4
-  # df_new2.loc[df_new2['LOCATION_NAME'] == 'Park/Playground', 'LOCATION_NAME'] = 4
-  # df_new2.loc[df_new2['LOCATION_NAME'] == 'Highway/Road/Alley/Street/Sidewalk', 'LOCATION_NAME'] = 4
-  # df_new2.loc[df_new2['LOCATION_NAME'] == 'Rest Area', 'LOCATION_NAME'] = 4
+  # crime place cleaning 1st
+
+  df_new2.loc[(df_new2['LOCATION_NAME'].str.contains('Highway/Road/Alley/Street/Sidewalk')), 'LOCATION_NAME'] = 'Highway/Road/Alley/Street/Sidewalk'
+  df_new2.loc[(df_new2['LOCATION_NAME'].str.contains('Store')), 'LOCATION_NAME'] = 'Store'
+  df_new2.loc[(df_new2['LOCATION_NAME'].str.contains('Facility')), 'LOCATION_NAME'] = 'Facility'
+  df_new2.loc[(df_new2['LOCATION_NAME'].str.contains('School-Elementary/Secondary')), 'LOCATION_NAME'] = 'School-Elementary/Secondary'
+  df_new2.loc[(df_new2['LOCATION_NAME'].str.contains('Auto Dealership New/Used')), 'LOCATION_NAME'] = 'Auto Dealership New/Used'
+  df_new2.loc[(df_new2['LOCATION_NAME'].str.startswith('Hotel/Motel/Etc')), 'LOCATION_NAME'] = 'Hotel/Motel/Etc'
+  df_new2.loc[(df_new2['LOCATION_NAME'].str.contains('Amusement Park')), 'LOCATION_NAME'] = 'Amusement Park' 
+  df_new2.loc[(df_new2['LOCATION_NAME'].str.contains('Commercial/Office Building')), 'LOCATION_NAME'] = 'Commercial/Office Building'
+  df_new2.loc[(df_new2['LOCATION_NAME'].str.contains('ATM Separate from Bank')), 'LOCATION_NAME'] = 'ATM Separate from Bank'
+  df_new2.loc[(df_new2['LOCATION_NAME'].str.startswith('Grocery/Supermarket')), 'LOCATION_NAME'] = 'Grocery/Supermarket'  
+
+  df_new2.loc[(df_new2['LOCATION_NAME'].str.startswith('Other/Unknown')), 'LOCATION_NAME'] = 'Other/Unknown' #기타 
+
+  # crime place cleaning 2nd
+  df_new2.loc[df_new2['LOCATION_NAME'] == 'Residence/Home', 'LOCATION_NAME'] = 1
+  df_new2.loc[df_new2['LOCATION_NAME'] == 'Hotel/Motel/Etc', 'LOCATION_NAME'] = 1
 
 
-  # df_new2.loc[df_new2['LOCATION_NAME'] == 'Cyberspace', 'LOCATION_NAME'] = 6
-  # df_new2.loc[df_new2['LOCATION_NAME'] == 'Other/Unknown', 'LOCATION_NAME'] = 6
+  df_new2.loc[df_new2['LOCATION_NAME'] == 'ATM Separate from Bank', 'LOCATION_NAME'] = 2 
+  df_new2.loc[df_new2['LOCATION_NAME'] == 'Auto Dealership New/Used', 'LOCATION_NAME'] = 2
+  df_new2.loc[df_new2['LOCATION_NAME'] == 'Abandoned/Condemned Structure', 'LOCATION_NAME'] = 2
+  df_new2.loc[df_new2['LOCATION_NAME'] == 'Military Installation', 'LOCATION_NAME'] = 2 #얘도 3으로 빼는 것은 어떨지?
 
 
-  # #############death로 다시#############
-  # #death_top10_names,  death_bottom10_names에 있는 주들의 값을 바꾼 후, df에 해당 컬럼들만 남김: 상위 10개 : TOP_10_COVID_deathS, BOTTOM_10_COVID_deathS
-  # for item in death_top10_names:
-  #     df_new2.loc[df_new2['STATE_NAME'] == item, 'STATE_NAME'] = 'TOP_10_COVID_DEATHS'
-  # for item in death_bottom10_names:
-  #     df_new2.loc[df_new2['STATE_NAME'] == item, 'STATE_NAME'] = 'BOTTOM_10_COVID_DEATHS'
-  # df_deaths_state = df_new2.loc[(df_new2['STATE_NAME'] == 'TOP_10_COVID_DEATHS') | (df_new2['STATE_NAME'] == 'BOTTOM_10_COVID_DEATHS')]
-  # #df_deaths_state
+  df_new2.loc[df_new2['LOCATION_NAME'] == 'Construction Site', 'LOCATION_NAME'] = 3
+  df_new2.loc[df_new2['LOCATION_NAME'] == 'Industrial Site', 'LOCATION_NAME'] = 3
+  df_new2.loc[df_new2['LOCATION_NAME'] == 'Field/Woods', 'LOCATION_NAME'] = 3
+  df_new2.loc[df_new2['LOCATION_NAME'] == 'Camp/Campground', 'LOCATION_NAME'] = 3
+  df_new2.loc[df_new2['LOCATION_NAME'] == 'Arena/Stadium/Fairgrounds/Coliseum', 'LOCATION_NAME'] = 3
+  df_new2.loc[df_new2['LOCATION_NAME'] == 'Tribal Lands', 'LOCATION_NAME'] = 3
+  df_new2.loc[df_new2['LOCATION_NAME'] == 'Service/Gas Station', 'LOCATION_NAME'] = 3
+  df_new2.loc[df_new2['LOCATION_NAME'] == 'Lake/Waterway/Beach', 'LOCATION_NAME'] = 3
+  df_new2.loc[df_new2['LOCATION_NAME'] == 'Parking/Drop Lot/Garage', 'LOCATION_NAME'] = 3
+
+  df_new2.loc[df_new2['LOCATION_NAME'] == 'Store', 'LOCATION_NAME'] = 4
+  df_new2.loc[df_new2['LOCATION_NAME'] == 'Facility', 'LOCATION_NAME'] = 4
+  df_new2.loc[df_new2['LOCATION_NAME'] == 'Shopping Mall', 'LOCATION_NAME'] = 4
+  df_new2.loc[df_new2['LOCATION_NAME'] == 'Grocery/Supermarket', 'LOCATION_NAME'] = 4
+  df_new2.loc[df_new2['LOCATION_NAME'] == 'Air/Bus/Train Terminal', 'LOCATION_NAME'] = 4
+  df_new2.loc[df_new2['LOCATION_NAME'] == 'Dock/Wharf/Freight/Modal Terminal', 'LOCATION_NAME'] = 4
+  df_new2.loc[df_new2['LOCATION_NAME'] == 'Commercial/Office Building', 'LOCATION_NAME'] = 4
+  df_new2.loc[df_new2['LOCATION_NAME'] == 'Bar/Nightclub', 'LOCATION_NAME'] = 4
+  df_new2.loc[df_new2['LOCATION_NAME'] == 'Restaurant', 'LOCATION_NAME'] = 4
+
+  df_new2.loc[df_new2['LOCATION_NAME'] == 'School-College/University', 'LOCATION_NAME'] = 5
+  df_new2.loc[df_new2['LOCATION_NAME'] == 'School-Elementary/Secondary', 'LOCATION_NAME'] = 5
+  df_new2.loc[df_new2['LOCATION_NAME'] == 'School/College', 'LOCATION_NAME'] = 5
+  df_new2.loc[df_new2['LOCATION_NAME'] == 'Community Center', 'LOCATION_NAME'] = 5
+  df_new2.loc[df_new2['LOCATION_NAME'] == 'Shelter-Mission/Homeless', 'LOCATION_NAME'] = 5
+  df_new2.loc[df_new2['LOCATION_NAME'] == 'Bank/Savings and Loan', 'LOCATION_NAME'] = 5
+  df_new2.loc[df_new2['LOCATION_NAME'] == 'Church/Synagogue/Temple/Mosque', 'LOCATION_NAME'] = 5
+  df_new2.loc[df_new2['LOCATION_NAME'] == 'Government/Public Building', 'LOCATION_NAME'] = 5
+  df_new2.loc[df_new2['LOCATION_NAME'] == "Drug Store/Doctor's Office/Hospital", 'LOCATION_NAME'] = 5 
+
+
+  df_new2.loc[df_new2['LOCATION_NAME'] == 'Amusement Park', 'LOCATION_NAME'] = 4
+  df_new2.loc[df_new2['LOCATION_NAME'] == 'Park/Playground', 'LOCATION_NAME'] = 4
+  df_new2.loc[df_new2['LOCATION_NAME'] == 'Highway/Road/Alley/Street/Sidewalk', 'LOCATION_NAME'] = 4
+  df_new2.loc[df_new2['LOCATION_NAME'] == 'Rest Area', 'LOCATION_NAME'] = 4
+
+
+  df_new2.loc[df_new2['LOCATION_NAME'] == 'Cyberspace', 'LOCATION_NAME'] = 6
+  df_new2.loc[df_new2['LOCATION_NAME'] == 'Other/Unknown', 'LOCATION_NAME'] = 6
+
+
+  #############death로 다시#############
+  #death_top10_names,  death_bottom10_names에 있는 주들의 값을 바꾼 후, df에 해당 컬럼들만 남김: 상위 10개 : TOP_10_COVID_deathS, BOTTOM_10_COVID_deathS
+  for item in death_top10_names:
+      df_new2.loc[df_new2['STATE_NAME'] == item, 'STATE_NAME'] = 'TOP_10_COVID_DEATHS'
+  for item in death_bottom10_names:
+      df_new2.loc[df_new2['STATE_NAME'] == item, 'STATE_NAME'] = 'BOTTOM_10_COVID_DEATHS'
+  df_deaths_state = df_new2.loc[(df_new2['STATE_NAME'] == 'TOP_10_COVID_DEATHS') | (df_new2['STATE_NAME'] == 'BOTTOM_10_COVID_DEATHS')]
+  #df_deaths_state
 
 
   # ################아시아인 대상 혐오범죄만, 사망자수 기준으로 다시.##################
-  # df_state_asian = df_deaths_state[df_deaths_state['BIAS_DESC'].str.contains('Anti-Asian', na = False)] 
-  # offense_list_asian = list(df_state_asian['OFFENSE_NAME'].unique())
-  # offense_list_asian.sort()
-  # #print(offense_list)
+  df_state_asian = df_deaths_state[df_deaths_state['BIAS_DESC'].str.contains('Anti-Asian', na = False)] 
+  offense_list_asian2 = list(df_state_asian['LOCATION_NAME'].unique())
+  offense_list_asian2.sort()
 
-  # top10_asian_df = df_state_asian[df_state_asian['STATE_NAME'] == 'TOP_10_COVID_DEATHS']
-  # top10_asian_2019 = top10_asian_df[top10_asian_df['DATA_YEAR'] == 2019]
-  # top10_asian_2020 = top10_asian_df[top10_asian_df['DATA_YEAR'] == 2020]
+  top10_asian_df = df_state_asian[df_state_asian['STATE_NAME'] == 'TOP_10_COVID_DEATHS']
+  top10_location = pd.crosstab(index = top10_asian_df.LOCATION_NAME, columns = top10_asian_df.DATA_YEAR)
 
-  # bottom10_asiandf = df_state_asian[df_state_asian['STATE_NAME'] == 'BOTTOM_10_COVID_DEATHS']
-  # bottom10_asian2019 = bottom10_asiandf[bottom10_asiandf['DATA_YEAR'] == 2019]
-  # bottom10_asian2020 = bottom10_asian2020 = bottom10_asiandf[bottom10_asiandf['DATA_YEAR'] == 2020]
+  #top10_location.index = [0, 1, 2, 3, 4, 5]
+  top10_location.index.name = 'LOCATION_NAME'
 
+  from pandas import Series, DataFrame
+  
+  raw_data = {'year': [2019, 2019, 2019, 2019, 2019, 2020, 2020, 2020, 2020, 2020],
+              'offense_name': [0, 1, 2, 3, 4, 0, 1, 2, 3, 4],
+              'offense_number': [0, 37, 7, 19, 2, 1, 60, 19, 37, 0]}
 
-  # offense_death_list_asian_top_2019 = []
-  # offense_death_list_asian_bottom_2019 = []
-  # offense_death_list_asian_top_2020 = []
-  # offense_death_list_asian_bottom_2020 = []
+  offense_name2 = DataFrame(raw_data)
+  #print(offense_name2)
 
-  # for item in offense_list_asian:
-  #     offense_death_list_asian_top_2019.append(len(top10_asian_2019[top10_asian_2019['OFFENSE_NAME'] == item]))
-  #     offense_death_list_asian_top_2020.append(len(top10_asian_2020[top10_asian_2020['OFFENSE_NAME'] == item]))
-  #     offense_death_list_asian_bottom_2019.append(len(bottom10_asian2019[bottom10_asian2019['OFFENSE_NAME'] == item]))
-  #     offense_death_list_asian_bottom_2020.append(len(bottom10_asian2020[bottom10_asian2020['OFFENSE_NAME'] == item]))
+  
+  fig_off_asian = px.scatter(offense_name2, x="offense_number", y="offense_name",    color="year", color_continuous_scale='Bluered_r')
+  # iterate on each region
+  for i in offense_name2["offense_name"].unique():
+      # filter by region
+      df_sub = offense_name2[offense_name2["offense_name"] == i]
 
+      fig.add_shape(
+          type="line",
+          layer="below",
+          # connect the two markers
+          ## e.g., y0='Robredo', x0=43.53
+          y0=df_sub.offense_name.values[0], x0=df_sub.offense_number.values[0],
+          ## e.g., y1='Marcos', x1=26.60
+          y1=df_sub.offense_name.values[1], x1=df_sub.offense_number.values[1], 
+      )
+  #fig.show()
 
-  # location_list_asian = list(df_state_asian['LOCATION_NAME'].unique())
-  # location_list_asian.sort()
-  # # print(location_list_asian)
+  raw_data2 = {'year': [2019, 2019, 2019, 2019, 2019, 2019, 2020, 2020, 2020, 2020, 2020, 2020],
+              'location_name': [0, 1, 2, 3, 4, 5, 0, 1, 2, 3, 4, 5],
+              'location_number': [11, 9, 1, 5, 21, 18, 44, 22, 0, 4, 38, 9]}
 
-  # location_death_list_asian_top_2019 = []
-  # location_death_list_asian_bottom_2019 = []
-  # location_death_list_asian_top_2020 = []
-  # location_death_list_asian_bottom_2020 = []
+  location_names = DataFrame(raw_data2)
+  #print(location_names)
 
-  # for item in location_list_asian:
-  #     location_death_list_asian_top_2019.append(len(top10_asian_2019[top10_asian_2019['LOCATION_NAME'] == item]))
-  #     location_death_list_asian_top_2020.append(len(top10_asian_2020[top10_asian_2020['LOCATION_NAME'] == item]))
-  #     location_death_list_asian_bottom_2019.append(len(bottom10_asian2019[bottom10_asian2019['LOCATION_NAME'] == item]))
-  #     location_death_list_asian_bottom_2020.append(len(bottom10_asian2020[bottom10_asian2020['LOCATION_NAME'] == item]))
+  #import plotly.express as px
+  fig_loc_asian = px.scatter(location_names, x="location_number", y="location_name", color="year", color_continuous_scale='Bluered_r')
+  # iterate on each region
+  for i in location_names["location_name"].unique():
+      # filter by region
+      df_sub = location_names[location_names["location_name"] == i]
 
-  # #표 세트: 사망자 수 상위/하위 10개 주 기준 아시아인 대상 혐오 범죄 유형 과격성/장소 공개성 비교
-  # @st.cache(allow_output_mutation=True)
-  # def fig_states_asian_death(off_or_loc, death_list_2019, death_list_2020):
-  #     fig_states = go.Figure()
-  #     fig_states.add_trace(go.Bar(
-  #     x = off_or_loc,
-  #     y = death_list_2019,
-  #     name = "2019",
-  #     ))
+      fig.add_shape(
+          type="line",
+          layer="below",
+          # connect the two markers
+          ## e.g., y0='Robredo', x0=43.53
+          y0=df_sub.location_name.values[0], x0=df_sub.location_number.values[0],
+          ## e.g., y1='Marcos', x1=26.60
+          y1=df_sub.location_name.values[1], x1=df_sub.location_number.values[1], 
+      )
+  #fig.show()
 
-  #     fig_states.add_trace(go.Bar(
-  #     x = off_or_loc,
-  #     y = death_list_2020,
-  #     name = "2020",
-  #     ))
-
-  #     return fig_states
-
-
-  # fig_asian_offensetype_death_top10 = fig_states_asian_death(offense_list_asian, offense_death_list_asian_top_2019, offense_death_list_asian_top_2020)
-  # fig_asian_offensetype_death_top10.update_layout(title_text="코로나19 사망자 수가 가장 많은 10개 주: 아시아인 대상 혐오 범죄 유형 과격성 변화")
-  # #fig_asian_offensetype_death_top10.show()
-
-  # #유형 과격성 - 하위10개
-  # fig_asian_offensetype_death_bottom10 = fig_states_asian_death(offense_list_asian, offense_death_list_asian_bottom_2019, offense_death_list_asian_bottom_2020)
-  # fig_asian_offensetype_death_bottom10.update_layout(title_text="코로나19 사망자 수가 가장 적은 10개 주: 아시아인 대상 혐오 범죄 유형 과격성 변화")
-  # #fig_asian_offensetype_death_bottom10.show()
-
-  # #장소 공개성 - 상위10개
-  # fig_asian_locationtype_death_top10 = fig_states_asian_death(location_list_asian, location_death_list_asian_top_2019, location_death_list_asian_top_2020)
-  # fig_asian_locationtype_death_top10.update_layout(title_text="코로나19 사망자 수가 가장 많은 10개 주: 아시아인 대상 혐오 범죄 장소의 공개성 변화")
-  # #fig_asian_locationtype_death_top10.show()
-
-  # #장소 공개성 - 하위10개
-  # fig_asian_locationtype_death_bottom10 = fig_states_asian_death(location_list_asian, location_death_list_asian_bottom_2019, location_death_list_asian_bottom_2020)
-  # fig_asian_locationtype_death_bottom10.update_layout(title_text="코로나19 사망자 수가 가장 적은 10개 주: 아시아인 대상 혐오 범죄 장소의 공개성 변화")
-  # #fig_asian_locationtype_death_bottom10.show()
-
-  # st.markdown("""
-  # ### 아시아인 혐오 범죄 유형의 과격성과 심각성 - 상위, 하위 10개주별 비교
-  # * 그렇다면 아시아인 대상 혐오범죄만 사망자 수 기준으로 상위 10개 주, 하위 10개 주별로 비교한 결과는 어떨까요?
-  # """)
-
-  # st.markdown("""
-  # #### 1. 범죄 유형의 과격성
-  # """)
-  # st.plotly_chart(fig_asian_offensetype_death_top10)
-  # st.plotly_chart(fig_asian_offensetype_death_bottom10)
-
-  # st.markdown("""
-  # ##### 분석
-  # * 코로나19 사망자 기준 상위 10개 주에서는 아시아인을 대상으로 한 과격성 1~2의 경범죄, 과격성 3의 중범죄가 모두 증가했습니다.
-  # * 반면 코로나 19 사망자가 적었던 10개 주에서는 과격성 3인 혐오 범죄가 줄어들었고, 1~2의 경범죄에서만 유의미한 증가세가 보였습니다. 
-  # """)
-
-  # st.markdown("""
-  # #### 2. 범죄 장소의 공개성
-  # """)
-  # st.plotly_chart(fig_asian_locationtype_death_top10)
-  # st.plotly_chart(fig_asian_locationtype_death_bottom10)
+  
 
   # st.markdown("""
   # ##### 분석
