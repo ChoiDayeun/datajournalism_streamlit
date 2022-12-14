@@ -6,7 +6,6 @@ import matplotlib.pyplot as plt
 import plotly.express as px #일단 이거 이용해 기본 그래프 그림
 import nltk 
 import random
-import PIL
 import plotly.graph_objects as go 
 import urllib.request
 
