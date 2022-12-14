@@ -451,7 +451,7 @@ offense_place_bar = pd.crosstab(df1.LOCATION_NAME, columns = df1.DATA_YEAR)
 offense_place_line_plt = px.line(offense_place_line, title = "Graph by type of places")
 offense_place_bar_plt = px.bar(offense_place_bar, title = " ", barmode = "group")
 
-offense_place_bar_plt.update_layout(xaxis = dict({"title" : "Crime Location"}), yaxis = dict({"title" : "Counted Cases"}))
+offense_place_line_plt.update_layout(xaxis = dict({"title" : "Crime Location"}), yaxis = dict({"title" : "Counted Cases"}))
 offense_place_bar_plt.update_layout(xaxis = dict({"title" : "Crime Location"}), yaxis = dict({"title" : "Counted Cases"}))
 
 col1, col2 = st.columns(2)
