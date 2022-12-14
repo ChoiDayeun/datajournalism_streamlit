@@ -75,7 +75,7 @@ st.subheader("점점 증가하는 혐오 범죄 발생 건수")
 
 # section1-1: 전체혐오/아시아인 대상 혐오 범죄
 
-fbi =  pd.read_csv("/Users/ohsoyeong/Downloads/fbi_data_edited.csv", low_memory=False)
+fbi =  pd.read_csv("fbi_data_edited.csv", low_memory=False)
 df = pd.DataFrame(fbi, columns=['DATA_YEAR', 'BIAS_DESC'])
 
 #Anti Asian 증가만 보여주는 그래프
