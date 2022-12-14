@@ -362,12 +362,15 @@ offense_type_tab_c = pd.crosstab(df1.DATA_YEAR, df1.OFFENSE_NAME)
 offense_type_line = pd.crosstab(df1.OFFENSE_NAME, columns= df1.DATA_YEAR)
 offense_type_bar = pd.crosstab(df1.OFFENSE_NAME, columns= df1.DATA_YEAR, normalize=True)
 offense_type_line_plt = px.line(offense_type_line, title = "Graph by type of crimes", markers=True, )
+offense_type_line_plt.update_layout(xaxis = dict({"title" : "Crime Type"}), yaxis = dict({"title" : "Counted Cases"}))
 offense_type_bar_plt = px.bar(offense_type_bar, title = " ", barmode = "group")
+offense_type_bar_plt.update_layout(xaxis = dict({"title" : "Crime Type"}), yaxis = dict({"title" : "Counted Cases"}))
 
 col1, col2 = st.columns(2)
 
 with col1:
     st.plotly_chart(offense_type_line_plt, use_container_width = True)
+    
 with col2:
     st.plotly_chart(offense_type_bar_plt, use_container_width = True)
 
@@ -447,6 +450,9 @@ offense_place_bar = pd.crosstab(df1.LOCATION_NAME, columns = df1.DATA_YEAR)
 
 offense_place_line_plt = px.line(offense_place_line, title = "Graph by type of places")
 offense_place_bar_plt = px.bar(offense_place_bar, title = " ", barmode = "group")
+
+offense_place_bar_plt.update_layout(xaxis = dict({"title" : "Crime Location"}), yaxis = dict({"title" : "Counted Cases"}))
+offense_place_bar_plt.update_layout(xaxis = dict({"title" : "Crime Location"}), yaxis = dict({"title" : "Counted Cases"}))
 
 col1, col2 = st.columns(2)
 
