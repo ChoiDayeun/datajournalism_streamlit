@@ -888,7 +888,7 @@ elif add_radio == "🔍아시아인 혐오 범죄, 지역으로 좁혀 보자!":
 
     location_names4 = DataFrame(raw_data4)
 
-    fig_loc_asian_bottom = px.scatter(location_names4, x="location_number", y="location_name", color="year", color_continuous_scale='Bluered_r',  '범죄 장소의 공개성-코로나19 사망자 위 10개 주 기준')
+    fig_loc_asian_bottom = px.scatter(location_names4, x="location_number", y="location_name", color="year", color_continuous_scale='Bluered_r',  '범죄 장소의 공개성-코로나19 사망자 하위 10개 주 기준')
     # iterate on each region
     for i in location_names4["location_name"].unique():
         # filter by region
@@ -905,8 +905,7 @@ elif add_radio == "🔍아시아인 혐오 범죄, 지역으로 좁혀 보자!":
         )
         fig_loc_asian_bottom.update_layout((xaxis = dict({"title" : "2019-2020 Cases"}), yaxis = dict({"title" : "Crime Locations"}))
                                            
-    st.write("코로나19 사망자 상위 10개 주")
-                                           
+                          
     st.write("코로나19 사망자 상위-하위 10개 주, 아시아인 혐오 범죄 과격성 비교하기")
     st.plotly_chart(fig_off_asian)
     st.plotly_chart(fig_off_asian_bottom)
@@ -916,8 +915,9 @@ elif add_radio == "🔍아시아인 혐오 범죄, 지역으로 좁혀 보자!":
     * 중범죄, 상위 10개주에서만 증가: 과격성 3, 4인 중범죄는 사망자 수가 많았던 상위 10개 주에서는 증가한 반면 하위 10개 주에서는 감소했어요. 하위 10개주에서 과격성 4의 범죄는 아예 일어나지 않았다는 것도 주목해주세요!
     * 경범죄도 더 높은 비율로 증가: 과격성 2인 범죄의 경우 하위 10개 주에서도 두 배 증가했지만, 상위 10개 주에서는 전년도 대비 171% 증가했네요. 코로나19가 심했던 지역에서는 과격성이 낮은 범죄와 높은 범죄가 고루 아시아인을 대상으로 행해졌다는 것을 알 수 있어요.
     ''')
-    
-
+                                           
+    st.write("그렇다면, 아시아인 혐오 범죄가 일어난 장소의 공개성은?")
+    st.plotly_chart(fig_loc_asian)
     st.write(fig_loc_asian_bottom)
     
     #범죄 장소 공개성 비교
@@ -948,17 +948,12 @@ elif add_radio == "📈 트럼프 등장! 혐오 범죄도 상승?":
 
 
   st.warning('''
-  * 트럼프 집권 시기, 바이든 집권 시기 국정 연설(State of the Union Speech) 키워드 분석을 해봤어요.
-  * 1년에 한 번 있는 국정연설은 대통령이 직접 국가 상황과 정책 기조를 설명하는 가장 중요한 담화에요.
+  * 트럼프 집권 시기, 바이든 집권 시기 국정 연설(State of the Union Speech) 키워드 분석을 해봤어요. 
+  * 1년에 한 번 있는 국정 연설은 대통령이 직접 국가 상황과 정책 기조를 설명하는 담화인 만큼, 해당 담화에서 나타난 키워드들은 당시의 사회적 상황을 설명하는 데 있어 매우 중요해요.
   * 보라색 트리맵은 자주 등장한 키워드를 빈도수대로 그린 것이고, 아래의 트리맵은 그중에서도 혐오 범죄 관련 단어들을 모아놓은 것이에요! 
   ''')
 
-
-  ##st.error("""
-  ##hate_words_list = ['isis', 'islamic', 'terrorist', 'asian', 'border', 'race', 'racism', 'african-american', 'immigration', 'china', 'threat']
-  ##"""
-  ##)
-
+                                           
   #*stopwords 업데이트
   #words filtered
   from nltk.corpus import stopwords
