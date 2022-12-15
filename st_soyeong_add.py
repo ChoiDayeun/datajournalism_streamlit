@@ -478,8 +478,8 @@ elif add_radio == "🔍아시아인 혐오 범죄, 지역으로 좁혀 보자!":
     st.markdown('''
     ## 🔍아시아인 혐오 범죄, 지역으로 좁혀 보자!
                 ''')
-    st.markdown("""
-    ### 코로나19 피해가 심한 주일수록 혐오 범죄도 많았을까?
+    st.subheader("코로나19 피해가 심한 주일수록 혐오 범죄도 많았을까?")
+    st.success("""
     📌 미국 주별 아시아인 인구\n
     📌 2020년 기준, 미국 주별 인구 천 명당 코로나19로 인한 사망자 수\n
     📌 2019년과 2020년, 미국 주별 아시아인 혐오 범죄 건수\n
@@ -648,13 +648,16 @@ elif add_radio == "🔍아시아인 혐오 범죄, 지역으로 좁혀 보자!":
               ''')
 
     
-    st.subheader("그렇다면, 코로나19 피해가 심각했던 주들과 비교적 덜 심각했던 주들 간에 아시아인 혐오 범죄의 심각성에는 차이가 없을까?")
+    st.subheader("코로나19 피해 정도와 아시아인 혐오 범죄의 심각성 간에 관계가 있을까?")
     st.success('''
    2020년에 미국 내 코로나19로 인해 인구 천 명당 사망자 순으로 정렬한 결과는 다음과 같아요📇
    * 가장 사망자가 많았던 상위 10개 주는😢\n: New Jersey, New York, Massachusetts, South Dakota, North Dakota, Connecticut, Rhode Island, Mississippi, Louisiana, Illinois
    * 비교적 사망자가 적었던 하위 10개 주는🥲\n: Hawaii, Vermont, Maine, Alaska, Oregon, Utah, Washington, Puerto Rico, New Hampshire, Virginia
    ''')
-    
+    st.markdown(
+              #
+  #
+              )
 
     ####주별 정리 다시: 10개###
     #1000명당 사망자수별로 정렬: 상위 10개, 하위 10개 주 추출
@@ -922,9 +925,7 @@ elif add_radio == "🔍아시아인 혐오 범죄, 지역으로 좁혀 보자!":
         )
                                            
                           
-    st.markdown("""
-    ##### 코로나19 사망자 상위-하위 10개 주, 아시아인 혐오 범죄 과격성 비교하기🔍
-    """)
+    st.subheader("코로나19 사망자 상위-하위 10개 주, 아시아인 혐오 범죄 과격성 비교하기👊")
     st.plotly_chart(fig_off_asian)
     st.plotly_chart(fig_off_asian_bottom)
     
@@ -933,10 +934,11 @@ elif add_radio == "🔍아시아인 혐오 범죄, 지역으로 좁혀 보자!":
     * 중범죄, 상위 10개주에서만 증가: 과격성 3, 4인 중범죄는 사망자 수가 많았던 상위 10개 주에서는 증가한 반면 하위 10개 주에서는 감소했어요. 하위 10개주에서 과격성 4의 범죄는 아예 일어나지 않았다는 것도 주목해주세요!
     * 경범죄도 더 높은 비율로 증가: 과격성 2인 범죄의 경우 하위 10개 주에서도 두 배 증가했지만, 상위 10개 주에서는 전년도 대비 171% 증가했네요. 코로나19가 심했던 지역에서는 과격성이 낮은 범죄와 높은 범죄가 고루 아시아인을 대상으로 행해졌다는 것을 알 수 있어요.
     ''')
-    
-    st.markdown("""
-    ##### 그렇다면, 아시아인 혐오 범죄가 일어난 장소의 공개성은?
-    """)
+    st.markdown(
+              #
+              )
+      
+    st.subheader("그렇다면 아시아인 혐오 범죄가 일어난 장소의 공개성은?🏙️")
                                            
     st.plotly_chart(fig_loc_asian)
     st.write(fig_loc_asian_bottom)
