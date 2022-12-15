@@ -869,9 +869,58 @@ elif add_radio == "🔍아시아인 혐오 범죄, 지역으로 좁혀 보자!":
             y1=df_sub.location_name.values[1], x1=df_sub.location_number.values[1], 
         )
     #fig.show()
+    
+    raw_data_3 = {'year': [2019, 2019, 2019, 2020, 2020, 2020],
+                'offense_name': [1, 2, 3, 1, 2, 3],
+                'offense_number': [18, 5, 20, 19, 10, 18]}
 
+    offense_name3 = DataFrame(raw_data)
+
+
+    fig_off_asian_bottom = px.scatter(offense_name3, x="offense_number", y="offense_name",    color="year", color_continuous_scale='Bluered_r')
+    # iterate on each region
+    for i in offense_name3["offense_name"].unique():
+        # filter by region
+        df_sub = offense_name3[offense_name3["offense_name"] == i]
+
+        fig_off_asian_bottom.add_shape(
+            type="line",
+            layer="below",
+            y0=df_sub.offense_name.values[0], x0=df_sub.offense_number.values[0],
+            ## e.g., y1='Marcos', x1=26.60
+            y1=df_sub.offense_name.values[1], x1=df_sub.offense_number.values[1], 
+        )
+
+
+    raw_data4 = {'year': [2019, 2019, 2019, 2019, 2020, 2020, 2020, 2020],
+                'location_name': [1, 3, 4, 5, 1, 3, 4, 5],
+                'location_number': [7, 3, 23, 10, 13, 3, 27, 4]}
+
+    location_names4 = DataFrame(raw_data4)
+    #print(location_names)
+
+    #import plotly.express as px
+    fig_loc_asian_bottom = px.scatter(location_names4, x="location_number", y="location_name", color="year", color_continuous_scale='Bluered_r')
+    # iterate on each region
+    for i in location_names4["location_name"].unique():
+        # filter by region
+        df_sub = location_names4[location_names4["location_name"] == i]
+
+        fig_loc_asian_bottom.add_shape(
+            type="line",
+            layer="below",
+            # connect the two markers
+            ## e.g., y0='Robredo', x0=43.53
+            y0=df_sub.location_name.values[0], x0=df_sub.location_number.values[0],
+            ## e.g., y1='Marcos', x1=26.60
+            y1=df_sub.location_name.values[1], x1=df_sub.location_number.values[1], 
+        )
+    st.write("코로나19 사망자 상위 10개 주")
     st.write(fig_off_asian)
     st.write(fig_loc_asian)
+    st.write("코로나19 사망자 하 10개 주")
+    st.write(fig_off_asian_bottom)
+    st.write(fig_loc_asian_bottom)
 
     st.info('''
     * 코로나19 심한 지역이 범죄 장소의 공개성 더 높아: 우선 공개성이 5인 장소에서 발생한 아시아인 혐오 범죄는 사망자수가 가장 많은 10개주에서 증가한 반면, 사망자수가 가장 적은 10개주에서는 오히려 감소했어요. 공개성 4인 장소에서 일어난 혐오 범죄의 증가율은 상위 10개 주에서는 전년도 대비 80%, 하위 10개 주에서는 16%였고요. 코로나19 사망자가 많은 주에서 더 공개성 높은 혐오 범죄가 이전에 비해 많이 발생했음을 알 수 있어요🧑‍⚖️
