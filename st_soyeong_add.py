@@ -835,7 +835,6 @@ elif add_radio == "🔍아시아인 혐오 범죄, 지역으로 좁혀 보자!":
             y0=df_sub.offense_name.values[0], x0=df_sub.offense_number.values[0],
             y1=df_sub.offense_name.values[1], x1=df_sub.offense_number.values[1], 
         )
-        fig_off_asian.update_layout((xaxis = dict({"title" : "2019-2020 Cases"}), yaxis = dict({"title" : "Crime Types"}))
     
 
     #범죄 장소의 공개성
@@ -857,7 +856,6 @@ elif add_radio == "🔍아시아인 혐오 범죄, 지역으로 좁혀 보자!":
             y0=df_sub.location_name.values[0], x0=df_sub.location_number.values[0],
             y1=df_sub.location_name.values[1], x1=df_sub.location_number.values[1], 
         )
-        fig_off_asian.update_layout((xaxis = dict({"title" : "2019-2020 Cases"}), yaxis = dict({"title" : "Crime Locations"}))
     
     
    #사망자 수 하위 10개 주의 경우
@@ -879,7 +877,6 @@ elif add_radio == "🔍아시아인 혐오 범죄, 지역으로 좁혀 보자!":
             y0=df_sub.offense_name.values[0], x0=df_sub.offense_number.values[0],
             y1=df_sub.offense_name.values[1], x1=df_sub.offense_number.values[1], 
         )
-        fig_off_asian.update_layout((xaxis = dict({"title" : "2019-2020 Cases"}), yaxis = dict({"title" : "Crime Types"}))
 
 
     raw_data4 = {'year': [2019, 2019, 2019, 2019, 2020, 2020, 2020, 2020],
@@ -903,7 +900,6 @@ elif add_radio == "🔍아시아인 혐오 범죄, 지역으로 좁혀 보자!":
             ## e.g., y1='Marcos', x1=26.60
             y1=df_sub.location_name.values[1], x1=df_sub.location_number.values[1], 
         )
-        fig_loc_asian_bottom.update_layout((xaxis = dict({"title" : "2019-2020 Cases"}), yaxis = dict({"title" : "Crime Locations"}))
                                            
                           
     st.write("코로나19 사망자 상위-하위 10개 주, 아시아인 혐오 범죄 과격성 비교하기")
