@@ -874,7 +874,7 @@ elif add_radio == "🔍아시아인 혐오 범죄, 지역으로 좁혀 보자!":
                 'offense_name': [1, 2, 3, 1, 2, 3],
                 'offense_number': [18, 5, 20, 19, 10, 18]}
 
-    offense_name3 = DataFrame(raw_data)
+    offense_name3 = DataFrame(raw_data_3)
 
 
     fig_off_asian_bottom = px.scatter(offense_name3, x="offense_number", y="offense_name",    color="year", color_continuous_scale='Bluered_r')
