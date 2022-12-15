@@ -654,10 +654,10 @@ elif add_radio == "🔍아시아인 혐오 범죄, 지역으로 좁혀 보자!":
    * 가장 사망자가 많았던 상위 10개 주는😢\n: New Jersey, New York, Massachusetts, South Dakota, North Dakota, Connecticut, Rhode Island, Mississippi, Louisiana, Illinois
    * 비교적 사망자가 적었던 하위 10개 주는🥲\n: Hawaii, Vermont, Maine, Alaska, Oregon, Utah, Washington, Puerto Rico, New Hampshire, Virginia
    ''')
-    st.markdown(
+    st.markdown("""
               #
   #
-              )
+            """ )
 
     ####주별 정리 다시: 10개###
     #1000명당 사망자수별로 정렬: 상위 10개, 하위 10개 주 추출
