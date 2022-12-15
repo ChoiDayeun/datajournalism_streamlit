@@ -918,7 +918,7 @@ elif add_radio == "🔍아시아인 혐오 범죄, 지역으로 좁혀 보자!":
     st.write("코로나19 사망자 상위 10개 주")
     st.write(fig_off_asian)
     st.write(fig_loc_asian)
-    st.write("코로나19 사망자 하 10개 주")
+    st.write("코로나19 사망자 하위 10개 주")
     st.write(fig_off_asian_bottom)
     st.write(fig_loc_asian_bottom)
 
