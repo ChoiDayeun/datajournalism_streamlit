@@ -478,7 +478,13 @@ elif add_radio == "🔍아시아인 혐오 범죄, 지역으로 좁혀 보자!":
     st.markdown('''
     ## 🔍아시아인 혐오 범죄, 지역으로 좁혀 보자!
                 ''')
-    st.subheader("코로나19 피해가 심한 주일수록 혐오 범죄 건수도 많았을까?")
+    st.markdown("""
+    ### 코로나19 피해가 심한 주일수록 혐오 범죄도 많았을까?
+    📌 미국 주별 아시아인 인구
+    📌 2020년 기준, 미국 주별 인구 천 명당 코로나19로 인한 사망자 수
+    📌 2019년과 2020년, 미국 주별 아시아인 혐오 범죄 건수
+    세 가지를 각각 시각화한 지도들과  살펴보아요! 
+    """)
 
 
 
@@ -645,10 +651,8 @@ elif add_radio == "🔍아시아인 혐오 범죄, 지역으로 좁혀 보자!":
     st.subheader("그렇다면, 코로나19 피해가 심각했던 주들과 비교적 덜 심각했던 주들 간에 아시아인 혐오 범죄의 심각성에는 차이가 없을까?")
     st.success('''
    2020년에 미국 내 코로나19로 인해 인구 천 명당 사망자 순으로 정렬한 결과는 다음과 같아요📇
-   가장 사망자가 많았던 상위 10개 주는😢
-   : New Jersey, New York, Massachusetts, South Dakota, North Dakota, Connecticut, Rhode Island, Mississippi, Louisiana, Illinois
-   비교적 사망자가 적었던 하위 10개 주는🥲
-   : Hawaii, Vermont, Maine, Alaska, Oregon, Utah, Washington, Puerto Rico, New Hampshire, Virginia
+   * 가장 사망자가 많았던 상위 10개 주는😢\n: New Jersey, New York, Massachusetts, South Dakota, North Dakota, Connecticut, Rhode Island, Mississippi, Louisiana, Illinois
+   * 비교적 사망자가 적었던 하위 10개 주는🥲\n: Hawaii, Vermont, Maine, Alaska, Oregon, Utah, Washington, Puerto Rico, New Hampshire, Virginia
    ''')
     
 
