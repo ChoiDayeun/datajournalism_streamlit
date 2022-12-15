@@ -802,11 +802,11 @@ elif add_radio == "🔍아시아인 혐오 범죄, 지역으로 좁혀 보자!":
     top10_asian_df = df_state_asian[df_state_asian['STATE_NAME'] == 'TOP_10_COVID_DEATHS']
     bottom10_asian_df = df_state_asian[df_state_asian['STATE_NAME'] == 'BOTTOM_10_COVID_DEATHS']
     
-    #상위 10개 주
+    #상위 10개 주 종류별 정리
     pd_top10 = pd.crosstab(top10_asian_df['OFFENSE_NAME'], top10_asian_df['DATA_YEAR'])
     pd_top10_loc = pd.crosstab(top10_asian_df['LOCATION_NAME'],top10_asian_df['DATA_YEAR'])
     
-    #하위 10개 주
+    #하위 10개 주 종류별 정리
     pd_bottom10 = pd.crosstab(bottom10_asian_df['OFFENSE_NAME'], bottom10_asian_df['DATA_YEAR'])
     pd_bottom10_loc = pd.crosstab(bottom10_asian_df['LOCATION_NAME'], bottom10_asian_df['DATA_YEAR'])
     
@@ -1126,7 +1126,7 @@ elif add_radio == "📈 트럼프 등장! 혐오 범죄도 상승?":
   st.info('''
   * 2016년부터 2022년, 국정 연설 비교해보니: 빈도수를 비교해보니, 트럼프 시기에는 race, islamic, isis, African-American과 같은 직접적인 인종 및 민족 언급이 많았던 반면 바이든 시기에는 그런 키워드가 등장하지 않고 immigration, threat 등의 단어만 공통적으로 연설에 사용됐어요. 
   * 이슬람 관련 언급이 특히 많아: 트럼프 시기 국정연설에는 다른 것보다도 terrorist라는 단어와 이슬람 관련 단어인 ISIS, Islamic이 자주 함께 등장했어요. 2020년까지 무슬림 혐오 범죄가 꾸준히 비중을 차지했던 것과 무관하지 않아보입니다. 
-  바이든 시기에도 terrorist라는 단어는 국정 연설에 사용됐지만, 특정 인종과 민족을 콕 집어 언급하지는 않았다는 차이점이 있어요.
+  * 바이든 시기에도 terrorist라는 단어는 국정 연설에 사용됐지만, 특정 인종과 민족을 콕 집어 언급하지는 않았다는 차이점이 있어요.
   ''')
 
 
@@ -1138,7 +1138,7 @@ elif add_radio == "📈 트럼프 등장! 혐오 범죄도 상승?":
   즉 트럼프의 등장과 전반적인 혐오 범죄의 증가가 나름의 상관관계를 지니고 있다고 정리해볼 수 있겠어요!
 
   📍 코로나19가 창궐한 이후, 미국 내 아시아인 혐오 범죄의 심각성은 그전과 비교해 심화됐습니다. 
-  특히 코로나19가 상륙한 시기 아시아인 혐오 범죄 수는 극에 달했고, 과격성은 물론 공개적인 장소에서 벌어지는 범죄도 유의미하게 증가했어요⬆️
+  특히 코로나19가 상륙한 시기 아시아인 혐오 범죄 건수는 극에 달했고, 과격성은 물론 공개적인 장소에서 벌어지는 범죄도 유의미하게 증가했어요⬆️
 
   📍 코로나19와 아시아인 혐오 범죄의 관계는 코로나19 사망자가 많았던 10개 주와 사망자가 적었던 10개 주의 비교를 통해 가장 분명히 볼 수 있었어요. 
   사망자 수가 많은 지역일수록 아시아인 혐오 범죄 수, 범죄의 과격성, 공격성이 2020년 더 높은 비율로 증가했고,
