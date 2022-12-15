@@ -885,7 +885,7 @@ elif add_radio == "🔍아시아인 혐오 범죄, 지역으로 좁혀 보자!":
 
     location_names4 = DataFrame(raw_data4)
 
-    fig_loc_asian_bottom = px.scatter(location_names4, x="location_number", y="location_name", color="year", color_continuous_scale='Bluered_r',  '범죄 장소의 공개성-코로나19 사망자 하위 10개 주 기준')
+    fig_loc_asian_bottom = px.scatter(location_names4, x="location_number", y="location_name", color="year", color_continuous_scale='Bluered_r',  title = '범죄 장소의 공개성-코로나19 사망자 하위 10개 주 기준')
     # iterate on each region
     for i in location_names4["location_name"].unique():
         # filter by region
