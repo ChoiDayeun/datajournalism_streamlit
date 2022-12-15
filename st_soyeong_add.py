@@ -648,7 +648,6 @@ elif add_radio == "🔍아시아인 혐오 범죄, 지역으로 좁혀 보자!":
     for item in death_top10_df['State']:
         death_top10_names.append(item)
 
-
     for item in death_bottom10_df['State']:
         death_bottom10_names.append(item)
 
@@ -797,79 +796,78 @@ elif add_radio == "🔍아시아인 혐오 범죄, 지역으로 좁혀 보자!":
 
     ##아시아인 대상 혐오범죄만, 사망자수 기준으로 추출
     df_state_asian = df_deaths_state[df_deaths_state['BIAS_DESC'].str.contains('Anti-Asian', na = False)] 
-    offense_list_asian2 = list(df_state_asian['LOCATION_NAME'].unique())
-    offense_list_asian2.sort()
-
+    df_state_asian = df_deaths_state[df_deaths_state['BIAS_DESC'].str.contains('Anti-Asian', na = False)] 
+    
+    #사망자 수 상위 10개/하위 10개 주 데이터프레임
     top10_asian_df = df_state_asian[df_state_asian['STATE_NAME'] == 'TOP_10_COVID_DEATHS']
-    #여기부터: offense_name_top10 = list(top10_asian_df['OFFENSE_NAME'].unique())
+    bottom10_asian_df = df_state_asian[df_state_asian['STATE_NAME'] == 'BOTTOM_10_COVID_DEATHS']
+    
+    #상위 10개 주
+    pd_top10 = pd.crosstab(top10_asian_df['OFFENSE_NAME'], top10_asian_df['DATA_YEAR'])
+    pd_top10_loc = pd.crosstab(top10_asian_df['LOCATION_NAME'],top10_asian_df['DATA_YEAR'])
+    
+    #하위 10개 주
+    pd_bottom10 = pd.crosstab(bottom10_asian_df['OFFENSE_NAME'], bottom10_asian_df['DATA_YEAR'])
+    pd_bottom10_loc = pd.crosstab(bottom10_asian_df['LOCATION_NAME'], bottom10_asian_df['DATA_YEAR'])
     
     
-    
-
-    #from pandas import Series, DataFrame
     
     #사망자수 가장 많은 상위 10개 주 기준
-    #범죄의 과격성
     
+    #범죄의 과격성
     raw_data = {'year': [2019, 2019, 2019, 2019, 2019, 2020, 2020, 2020, 2020, 2020],
-                'offense_name': [0, 1, 2, 3, 4, 0, 1, 2, 3, 4],
-                'offense_number': [0, 37, 7, 19, 2, 1, 60, 19, 37, 0]}
+                'offense_name': list(pd_top10.index) * 2,
+                'offense_number': list(pd_top10[2019]) + list(pd_top10[2020])}
 
-    offense_name2 = DataFrame(raw_data)
-    #print(offense_name2)
+    offense_name = pd.DataFrame(raw_data)
 
 
-    fig_off_asian = px.scatter(offense_name2, x="offense_number", y="offense_name",    color="year", color_continuous_scale='Bluered_r')
+    fig_off_asian = px.scatter(offense_name, x="offense_number", y="offense_name",  color="year", color_continuous_scale='Bluered_r',  title = '범죄 양상의 과격성-코로나19 사망자 상위 10개 주 기준')
     # iterate on each region
-    for i in offense_name2["offense_name"].unique():
+    for i in offense_name["offense_name"].unique():
         # filter by region
-        df_sub = offense_name2[offense_name2["offense_name"] == i]
+        df_sub = offense_name[offense_name["offense_name"] == i]
 
         fig_off_asian.add_shape(
             type="line",
             layer="below",
             # connect the two markers
-            ## e.g., y0='Robredo', x0=43.53
             y0=df_sub.offense_name.values[0], x0=df_sub.offense_number.values[0],
-            ## e.g., y1='Marcos', x1=26.60
             y1=df_sub.offense_name.values[1], x1=df_sub.offense_number.values[1], 
         )
+        fig_off_asian.update_layout((xaxis = dict({"title" : "2019-2020 Cases"}), yaxis = dict({"title" : "Crime Types"}))
     
 
     #범죄 장소의 공개성
     raw_data2 = {'year': [2019, 2019, 2019, 2019, 2019, 2019, 2020, 2020, 2020, 2020, 2020, 2020],
-                'location_name': [0, 1, 2, 3, 4, 5, 0, 1, 2, 3, 4, 5],
-                'location_number': [11, 9, 1, 5, 21, 18, 44, 22, 0, 4, 38, 9]}
+                'location_name': list(pd_top10_loc.index) * 2,
+                'location_number': list(pd_top10_loc[2019]) + list(pd_top10_loc[2020])}
 
-    location_names = DataFrame(raw_data2)
-    #print(location_names)
+    location_names = pd.DataFrame(raw_data2)
 
-    #import plotly.express as px
-    fig_loc_asian = px.scatter(location_names, x="location_number", y="location_name", color="year", color_continuous_scale='Bluered_r')
+    fig_loc_asian = px.scatter(location_names, x="location_number", y="location_name", color="year", color_continuous_scale='Bluered_r', title = '범죄 장소의 공개성-코로나19 사망자 상위 10개 주 기준')
     # iterate on each region
     for i in location_names["location_name"].unique():
-        # filter by region
         df_sub = location_names[location_names["location_name"] == i]
 
         fig_loc_asian.add_shape(
             type="line",
             layer="below",
             # connect the two markers
-            ## e.g., y0='Robredo', x0=43.53
             y0=df_sub.location_name.values[0], x0=df_sub.location_number.values[0],
-            ## e.g., y1='Marcos', x1=26.60
             y1=df_sub.location_name.values[1], x1=df_sub.location_number.values[1], 
         )
-    #fig.show()
+        fig_off_asian.update_layout((xaxis = dict({"title" : "2019-2020 Cases"}), yaxis = dict({"title" : "Crime Locations"}))
     
+    
+   #사망자 수 하위 10개 주의 경우
     raw_data_3 = {'year': [2019, 2019, 2019, 2020, 2020, 2020],
-                'offense_name': [1, 2, 3, 1, 2, 3],
-                'offense_number': [18, 5, 20, 19, 10, 18]}
+                'offense_name': list(pd_bottom10.index) * 2,
+                'offense_number': list(pd_bottom10[2019]) + list(pd_bottom10[2020])}
 
-    offense_name3 = DataFrame(raw_data_3)
+    offense_name3 = pd.DataFrame(raw_data_3)
 
-
-    fig_off_asian_bottom = px.scatter(offense_name3, x="offense_number", y="offense_name",    color="year", color_continuous_scale='Bluered_r')
+    fig_off_asian_bottom = px.scatter(offense_name3, x="offense_number", y="offense_name",    color="year", color_continuous_scale='Bluered_r',  title = '범죄 양상의 과격성-코로나19 사망자 하위 10개 주 기준')
     # iterate on each region
     for i in offense_name3["offense_name"].unique():
         # filter by region
@@ -879,18 +877,18 @@ elif add_radio == "🔍아시아인 혐오 범죄, 지역으로 좁혀 보자!":
             type="line",
             layer="below",
             y0=df_sub.offense_name.values[0], x0=df_sub.offense_number.values[0],
-            ## e.g., y1='Marcos', x1=26.60
             y1=df_sub.offense_name.values[1], x1=df_sub.offense_number.values[1], 
         )
+        fig_off_asian.update_layout((xaxis = dict({"title" : "2019-2020 Cases"}), yaxis = dict({"title" : "Crime Types"}))
 
 
     raw_data4 = {'year': [2019, 2019, 2019, 2019, 2020, 2020, 2020, 2020],
-                'location_name': [1, 3, 4, 5, 1, 3, 4, 5],
-                'location_number': [7, 3, 23, 10, 13, 3, 27, 4]}
+                'location_name': list(pd_bottom10_loc.index) * 2,
+                'location_number': list(pd_bottom10_loc[2019]) + list(pd_bottom10_loc[2020])}
 
     location_names4 = DataFrame(raw_data4)
 
-    fig_loc_asian_bottom = px.scatter(location_names4, x="location_number", y="location_name", color="year", color_continuous_scale='Bluered_r')
+    fig_loc_asian_bottom = px.scatter(location_names4, x="location_number", y="location_name", color="year", color_continuous_scale='Bluered_r',  '범죄 장소의 공개성-코로나19 사망자 위 10개 주 기준')
     # iterate on each region
     for i in location_names4["location_name"].unique():
         # filter by region
@@ -905,9 +903,13 @@ elif add_radio == "🔍아시아인 혐오 범죄, 지역으로 좁혀 보자!":
             ## e.g., y1='Marcos', x1=26.60
             y1=df_sub.location_name.values[1], x1=df_sub.location_number.values[1], 
         )
+        fig_loc_asian_bottom.update_layout((xaxis = dict({"title" : "2019-2020 Cases"}), yaxis = dict({"title" : "Crime Locations"}))
+                                           
     st.write("코로나19 사망자 상위 10개 주")
-    st.write(fig_off_asian)
-    st.write(fig_loc_asian)
+                                           
+    st.write("코로나19 사망자 상위-하위 10개 주, 아시아인 혐오 범죄 과격성 비교하기")
+    st.plotly_chart(fig_off_asian)
+    st.plotly_chart(fig_off_asian_bottom)
     
     #범죄 과격성 비교
     st.info('''
@@ -915,8 +917,7 @@ elif add_radio == "🔍아시아인 혐오 범죄, 지역으로 좁혀 보자!":
     * 경범죄도 더 높은 비율로 증가: 과격성 2인 범죄의 경우 하위 10개 주에서도 두 배 증가했지만, 상위 10개 주에서는 전년도 대비 171% 증가했네요. 코로나19가 심했던 지역에서는 과격성이 낮은 범죄와 높은 범죄가 고루 아시아인을 대상으로 행해졌다는 것을 알 수 있어요.
     ''')
     
-    st.write("코로나19 사망자 하위 10개 주")
-    st.write(fig_off_asian_bottom)
+
     st.write(fig_loc_asian_bottom)
     
     #범죄 장소 공개성 비교
