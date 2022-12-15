@@ -351,8 +351,8 @@ elif add_radio == "🚫아시아인 혐오 범죄, 좀 더 자세히 알아볼�
   df1.loc[df1['OFFENSE_NAME'] == 'Rape', 'OFFENSE_NAME'] = 4
   df1.loc[df1['OFFENSE_NAME'] == 'Murder and Nonnegligent Manslaughter', 'OFFENSE_NAME'] = 4
 
-  df1.loc[df1['OFFENSE_NAME'] == 'Not Specified', 'OFFENSE_NAME'] = 5
-  df1.loc[df1['OFFENSE_NAME'] == 'Hacking/Computer Invasion', 'OFFENSE_NAME'] = 5
+  df1.loc[df1['OFFENSE_NAME'] == 'Not Specified', 'OFFENSE_NAME'] = 0
+  df1.loc[df1['OFFENSE_NAME'] == 'Hacking/Computer Invasion', 'OFFENSE_NAME'] = 0 #기타 구별 불가한 범죄는 0
 
   # crime type table (numeric order)
   offense_type_tab_c = pd.crosstab(df1.DATA_YEAR, df1.OFFENSE_NAME)
@@ -440,8 +440,8 @@ elif add_radio == "🚫아시아인 혐오 범죄, 좀 더 자세히 알아볼�
   df1.loc[df1['LOCATION_NAME'] == "Drug Store/Doctor's Office/Hospital", 'LOCATION_NAME'] = 5
 
 
-  df1.loc[df1['LOCATION_NAME'] == 'Cyberspace', 'LOCATION_NAME'] = 6
-  df1.loc[df1['LOCATION_NAME'] == 'Other/Unknown', 'LOCATION_NAME'] = 6
+  df1.loc[df1['LOCATION_NAME'] == 'Cyberspace', 'LOCATION_NAME'] = 0
+  df1.loc[df1['LOCATION_NAME'] == 'Other/Unknown', 'LOCATION_NAME'] = 0
 
   # Line and Bar plot for publicity of place
   offense_place_tab_c = pd.crosstab(df1.LOCATION_NAME, df1.DATA_YEAR)
