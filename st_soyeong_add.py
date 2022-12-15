@@ -738,8 +738,8 @@ elif add_radio == "🔍아시아인 혐오 범죄, 지역으로 좁혀 보자!":
     df_new2.loc[df_new2['OFFENSE_NAME'] == 'Rape', 'OFFENSE_NAME'] = 4
     df_new2.loc[df_new2['OFFENSE_NAME'] == 'Murder and Nonnegligent Manslaughter', 'OFFENSE_NAME'] = 4
 
-    df_new2.loc[df_new2['OFFENSE_NAME'] == 'Not Specified', 'OFFENSE_NAME'] = 5
-    df_new2.loc[df_new2['OFFENSE_NAME'] == 'Hacking/Computer Invasion', 'OFFENSE_NAME'] = 5 #1로 보내는 것은 어떨지? 
+    df_new2.loc[df_new2['OFFENSE_NAME'] == 'Not Specified', 'OFFENSE_NAME'] = 0
+    df_new2.loc[df_new2['OFFENSE_NAME'] == 'Hacking/Computer Invasion', 'OFFENSE_NAME'] = 0 #앞선 표와 달리 세부 범죄 내용 중 추가/제외된 것들 있어 다시 처리
 
 
     # crime place cleaning 1st
@@ -805,8 +805,8 @@ elif add_radio == "🔍아시아인 혐오 범죄, 지역으로 좁혀 보자!":
     df_new2.loc[df_new2['LOCATION_NAME'] == 'Rest Area', 'LOCATION_NAME'] = 4
 
 
-    df_new2.loc[df_new2['LOCATION_NAME'] == 'Cyberspace', 'LOCATION_NAME'] = 6
-    df_new2.loc[df_new2['LOCATION_NAME'] == 'Other/Unknown', 'LOCATION_NAME'] = 6
+    df_new2.loc[df_new2['LOCATION_NAME'] == 'Cyberspace', 'LOCATION_NAME'] = 0
+    df_new2.loc[df_new2['LOCATION_NAME'] == 'Other/Unknown', 'LOCATION_NAME'] = 0
 
 
     #death_top10_names,  death_bottom10_names에 있는 주들의 값을 바꾼 후, df에 해당 컬럼들만 남김: 상위 10개 : TOP_10_COVID_deathS, BOTTOM_10_COVID_deathS
@@ -925,7 +925,7 @@ elif add_radio == "🔍아시아인 혐오 범죄, 지역으로 좁혀 보자!":
         )
                                            
                           
-    st.subheader("코로나19 사망자 상위-하위 10개 주,아시아인 혐오 범죄 과격성 비교👊")
+    st.subheader("코로나19의 심각성에 따른 아시아인 혐오 범죄 과격성 비교👊")
     st.plotly_chart(fig_off_asian)
     st.plotly_chart(fig_off_asian_bottom)
     
