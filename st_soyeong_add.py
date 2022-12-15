@@ -44,7 +44,7 @@ st.error('''
 
    ✅코로나19 확진자/사망자 수 상위 10개 주와 하위 10개 주 범죄 양상 들여다 보기
 
-❓트럼프의 등장이 혐오 범죄 양상에 각져온 변화는?
+❓트럼프의 등장이 혐오 범죄 양상에 가져온 변화는?
 
    ✅미국 국정연설 키워드 분석하기
            ''')   
@@ -164,7 +164,7 @@ if add_radio == "📅 미국의 혐오 범죄, 2015년부터 2020년까지":
 
   tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(["2015", "2016", "2017", "2018", "2019", "2020"])
 
-  @st.cache #함수가 있어야 캐시설정이 되는 듯해 아래 다 함수로 바꿈.
+  @st.cache
   def crime_pie_chart(filename):
       crime_data_count = pd.read_csv(filename)
       crime_data_count['number'].astype(int)
@@ -428,7 +428,7 @@ elif add_radio == "🚫아시아인 혐오 범죄, 좀 더 자세히 알아볼�
   df1.loc[df1['LOCATION_NAME'] == 'Highway/Road/Alley/Street/Sidewalk;Residence/Home', 'LOCATION_NAME'] = 4
 
 
-  #감옥 애매해서 뺌
+  
   df1.loc[df1['LOCATION_NAME'] == 'School-College/University', 'LOCATION_NAME'] = 5
   df1.loc[df1['LOCATION_NAME'] == 'School-Elementary/Secondary', 'LOCATION_NAME'] = 5
   df1.loc[df1['LOCATION_NAME'] == 'School/College', 'LOCATION_NAME'] = 5
@@ -539,8 +539,7 @@ elif add_radio == "🔍아시아인 혐오 범죄, 지역으로 좁혀 보자!":
                         featureidkey='properties.State',
                         scope="usa",
                         labels={'deaths_per_1k':'deaths per 1k'},
-                        title = 'US COVID-19 Deaths per 1k by States', 
-
+                        title = 'US COVID-19 Deaths per 1k by States'
                         )
     fig_death_population.update_layout(margin={"r":0,"t":60,"l":0,"b":0})
     #fig_death_population.show()
@@ -635,15 +634,13 @@ elif add_radio == "🔍아시아인 혐오 범죄, 지역으로 좁혀 보자!":
     * 코로나19 피해 심했던 주, 혐오 범죄도 많았다: 코로나19 사망자수와 아시아인 혐오 범죄 발생 수를 주별로 그린 지도랑, 아시아인 인구 분포도를 보여줄게요. 사망자가 많은 주에서 혐오 범죄 수도 많이 발생하는 경향이 보이네요.
     ''')
 
-    # ###주별 정리 다시: 10개###
+    ####주별 정리 다시: 10개###
 
 
-    # #1000명당 사망 건수별로 정렬: 상위 10개, 하위 10개 주 추출
-    # #상위 10개, 하위 10개
+    #1000명당 사망자수별로 정렬: 상위 10개, 하위 10개 주 추출
+    #상위 10개, 하위 10개
     death_top10_df = us_death_population_final.sort_values('deaths_per_1k', ascending = False)[:10]
     death_bottom10_df = us_death_population_final.sort_values('deaths_per_1k')[:10]
-
-    #death_top10_df['State']
 
     #해당 주 이름들 추출
     death_top10_names = []
@@ -656,7 +653,7 @@ elif add_radio == "🔍아시아인 혐오 범죄, 지역으로 좁혀 보자!":
         death_bottom10_names.append(item)
 
 
-    # ################사망자수 기준##################
+    #################사망자수 기준 ##################
 
     df_new2 = pd.DataFrame(fbi, columns=['DATA_YEAR', 'STATE_NAME', 'OFFENSE_NAME', 'BIAS_DESC', 'LOCATION_NAME'])
     df_new2 = df_new2[(df_new2['DATA_YEAR'] >= 2019)]
@@ -790,29 +787,30 @@ elif add_radio == "🔍아시아인 혐오 범죄, 지역으로 좁혀 보자!":
     df_new2.loc[df_new2['LOCATION_NAME'] == 'Other/Unknown', 'LOCATION_NAME'] = 6
 
 
-    #############death로 다시#############
     #death_top10_names,  death_bottom10_names에 있는 주들의 값을 바꾼 후, df에 해당 컬럼들만 남김: 상위 10개 : TOP_10_COVID_deathS, BOTTOM_10_COVID_deathS
     for item in death_top10_names:
         df_new2.loc[df_new2['STATE_NAME'] == item, 'STATE_NAME'] = 'TOP_10_COVID_DEATHS'
     for item in death_bottom10_names:
         df_new2.loc[df_new2['STATE_NAME'] == item, 'STATE_NAME'] = 'BOTTOM_10_COVID_DEATHS'
     df_deaths_state = df_new2.loc[(df_new2['STATE_NAME'] == 'TOP_10_COVID_DEATHS') | (df_new2['STATE_NAME'] == 'BOTTOM_10_COVID_DEATHS')]
-    #df_deaths_state
 
 
-    # ################아시아인 대상 혐오범죄만, 사망자수 기준으로 다시.##################
+    ##아시아인 대상 혐오범죄만, 사망자수 기준으로 추출
     df_state_asian = df_deaths_state[df_deaths_state['BIAS_DESC'].str.contains('Anti-Asian', na = False)] 
     offense_list_asian2 = list(df_state_asian['LOCATION_NAME'].unique())
     offense_list_asian2.sort()
 
     top10_asian_df = df_state_asian[df_state_asian['STATE_NAME'] == 'TOP_10_COVID_DEATHS']
-    top10_location = pd.crosstab(index = top10_asian_df.LOCATION_NAME, columns = top10_asian_df.DATA_YEAR)
+    #여기부터: offense_name_top10 = list(top10_asian_df['OFFENSE_NAME'].unique())
+    
+    
+    
 
-    #top10_location.index = [0, 1, 2, 3, 4, 5]
-    top10_location.index.name = 'LOCATION_NAME'
-
-    from pandas import Series, DataFrame
-
+    #from pandas import Series, DataFrame
+    
+    #사망자수 가장 많은 상위 10개 주 기준
+    #범죄의 과격성
+    
     raw_data = {'year': [2019, 2019, 2019, 2019, 2019, 2020, 2020, 2020, 2020, 2020],
                 'offense_name': [0, 1, 2, 3, 4, 0, 1, 2, 3, 4],
                 'offense_number': [0, 37, 7, 19, 2, 1, 60, 19, 37, 0]}
@@ -836,15 +834,9 @@ elif add_radio == "🔍아시아인 혐오 범죄, 지역으로 좁혀 보자!":
             ## e.g., y1='Marcos', x1=26.60
             y1=df_sub.offense_name.values[1], x1=df_sub.offense_number.values[1], 
         )
-    #fig.show()
+    
 
-
-    st.info('''
-    * 중범죄, 상위 10개주에서만 증가: 과격성 3, 4인 중범죄는 사망자 수가 많았던 상위 10개 주에서는 증가한 반면 하위 10개 주에서는 감소했어요. 하위 10개주에서 과격성 4의 범죄는 아예 일어나지 않았다는 것도 주목해주세요!
-    * 경범죄도 더 높은 비율로 증가: 과격성 2인 범죄의 경우 하위 10개 주에서도 두 배 증가했지만, 상위 10개 주에서는 전년도 대비 171% 증가했네요. 코로나19가 심했던 지역에서는 과격성이 낮은 범죄와 높은 범죄가 고루 아시아인을 대상으로 행해졌다는 것을 알 수 있어요.
-    ''')
-
-
+    #범죄 장소의 공개성
     raw_data2 = {'year': [2019, 2019, 2019, 2019, 2019, 2019, 2020, 2020, 2020, 2020, 2020, 2020],
                 'location_name': [0, 1, 2, 3, 4, 5, 0, 1, 2, 3, 4, 5],
                 'location_number': [11, 9, 1, 5, 21, 18, 44, 22, 0, 4, 38, 9]}
@@ -897,9 +889,7 @@ elif add_radio == "🔍아시아인 혐오 범죄, 지역으로 좁혀 보자!":
                 'location_number': [7, 3, 23, 10, 13, 3, 27, 4]}
 
     location_names4 = DataFrame(raw_data4)
-    #print(location_names)
 
-    #import plotly.express as px
     fig_loc_asian_bottom = px.scatter(location_names4, x="location_number", y="location_name", color="year", color_continuous_scale='Bluered_r')
     # iterate on each region
     for i in location_names4["location_name"].unique():
@@ -918,10 +908,18 @@ elif add_radio == "🔍아시아인 혐오 범죄, 지역으로 좁혀 보자!":
     st.write("코로나19 사망자 상위 10개 주")
     st.write(fig_off_asian)
     st.write(fig_loc_asian)
+    
+    #범죄 과격성 비교
+    st.info('''
+    * 중범죄, 상위 10개주에서만 증가: 과격성 3, 4인 중범죄는 사망자 수가 많았던 상위 10개 주에서는 증가한 반면 하위 10개 주에서는 감소했어요. 하위 10개주에서 과격성 4의 범죄는 아예 일어나지 않았다는 것도 주목해주세요!
+    * 경범죄도 더 높은 비율로 증가: 과격성 2인 범죄의 경우 하위 10개 주에서도 두 배 증가했지만, 상위 10개 주에서는 전년도 대비 171% 증가했네요. 코로나19가 심했던 지역에서는 과격성이 낮은 범죄와 높은 범죄가 고루 아시아인을 대상으로 행해졌다는 것을 알 수 있어요.
+    ''')
+    
     st.write("코로나19 사망자 하위 10개 주")
     st.write(fig_off_asian_bottom)
     st.write(fig_loc_asian_bottom)
-
+    
+    #범죄 장소 공개성 비교
     st.info('''
     * 코로나19 심한 지역이 범죄 장소의 공개성 더 높아: 우선 공개성이 5인 장소에서 발생한 아시아인 혐오 범죄는 사망자수가 가장 많은 10개주에서 증가한 반면, 사망자수가 가장 적은 10개주에서는 오히려 감소했어요. 공개성 4인 장소에서 일어난 혐오 범죄의 증가율은 상위 10개 주에서는 전년도 대비 80%, 하위 10개 주에서는 16%였고요. 코로나19 사망자가 많은 주에서 더 공개성 높은 혐오 범죄가 이전에 비해 많이 발생했음을 알 수 있어요🧑‍⚖️
     ''')
